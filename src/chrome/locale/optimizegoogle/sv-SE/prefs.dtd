@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "Inställningar">
+<!ENTITY label.prefs.long "Inställningar Sticky Google">
+<!ENTITY prefs.desc "Valda inställningar görs automatiskt när du besöker Google. Ej valda inställningar kan ändras på google.com/preferences. Inställningarna kommer endast att sparas om kakor är aktiverade i din webbläsare.">
+<!ENTITY prefs.interface "Språk">
+<!ENTITY prefs.interface.desc "Visa Googles tips och meddelanden på:">
+<!ENTITY prefs.search "Sök språk">
+<!ENTITY prefs.search.any "Sök efter sidor på alla språk">
+<!ENTITY prefs.search.selected "Sök efter sidor på endast dessa språk:">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Använd strikt filtrering (filtrera både uttrycklig text och uttryckliga bilder)">
+<!ENTITY prefs.safe.moderate "Använd medelfiltrering (filtrera endast extrema bilder - standard)">
+<!ENTITY prefs.safe.off "Filtrera inte mina sökresultat">
+<!ENTITY prefs.resultsperpage "Antal resultat per sida">
+<!ENTITY prefs.resultswindow "Resultatfönster">
+<!ENTITY prefs.resultswindow.desc "Öppna sökresultat i ett nytt webbläsarfönster">
+<!ENTITY gmail-hidechat "Göm rutan med snabbkontakter">
+<!ENTITY gmail-hideinvite "Göm rutan med Gmail-invitationer">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google Inställningar">
+<!ENTITY label.web "Webben">
+<!ENTITY label.images "Bilder">
+<!ENTITY label.groups "Grupper">
+<!ENTITY label.news "Nyheter">
+<!ENTITY label.froogle "Produkter">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Print">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Kartor">
+<!ENTITY label.privacy "Sekretess">
+<!ENTITY label.filter "Filter">
+<!ENTITY label.about "Om">
+<!ENTITY label.code "Kod">
+<!ENTITY label.web.long "Google Webbsökning">
+<!ENTITY label.images.long "Google Bildsök">
+<!ENTITY label.groups.long "Google Grupper">
+<!ENTITY label.news.long "Google Nyheter">
+<!ENTITY label.froogle.long "Google Produktsökning">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Print">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Kartor">
+<!ENTITY label.privacy.long "Sekretess">
+<!ENTITY label.filter.long "Filtrera webbplatser">
+<!ENTITY label.code.long "Google Code">
+<!ENTITY label.about.long "Om OptimizeGoogle">
+<!ENTITY web-remove-ads "Ta bort annonser">
+<!ENTITY web-add-search-links "Lägg till länkar till andra söksidor">
+<!ENTITY web-add-news-links "I nyhetsresultat, lägg till länkar till webbplatser med nyheter">
+<!ENTITY web-add-movie-links "I filmresultat, lägg till länkar till webbplatser med filmrecensioner">
+<!ENTITY web-add-weather-links "I väderresultat, lägg till länkar till webbplatser med väder">
+<!ENTITY web-add-product-links "I produktresultat, lägg till länkar till webbplatser med produktsökning">
+<!ENTITY web-use-googlesuggest "Använd Google Suggest (föreslå ord när du skriver)">
+<!ENTITY web-searchfocus "Flytta markören till sökrutan">
+<!ENTITY web-add-counter "Lägg till en positionsräknare">
+<!ENTITY web-filter "Aktivera filter (se fliken 'Filter')">
+<!ENTITY web-history "Lägg till länkar till WayBackMachine (historik)">
+<!ENTITY web-save "Lägg till länkar för att bokmärka/spara en webbsida">
+<!ENTITY web-remove-url-click-track "Ta bort klickspårning">
+<!ENTITY images-add-image-links "Lägg till länkar till webbplatser för bild/foto/konst">
+<!ENTITY images-rewrite-links "Gör om länkarna så att de pekar direkt på bilderna">
+<!ENTITY groups-remove-ads "Ta bort annonser">
+<!ENTITY news-add-news-links "Lägg till länkar till webbplatser med nyhetssökning">
+<!ENTITY froogle-remove-ads "Ta bort annonser">
+<!ENTITY froogle-add-product-links "Lägg till länkar till webbplatser med produktsökning">
+<!ENTITY answers-remove-ads "Ta bort annonser">
+<!ENTITY print-remove-ads "Ta bort annonser">
+<!ENTITY print-restore-menu "Återskapa högerklicksmenyn">
+<!ENTITY print-add-book-links "Lägg till länkar till webbplatser med bokrecensioner">
+<!ENTITY gmail-remove-ads "Ta bort annonser och relaterade sidor">
+<!ENTITY gmail-hidespam "Dölj skräpposträknaren">
+<!ENTITY gmail-monospace "Använd en fast font för e-postens innehåll">
+<!ENTITY label.calendar "Kalender">
+<!ENTITY label.calendar.long "Google Kalender">
+<!ENTITY local-remove-ads "Ta bort annonser">
+<!ENTITY misc-analytics "Skicka inte några kakor till Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (även känd som Urchin) är en tjänst från Google som hjälper webbplatser att analysera hur besökare använder deras sidor. Information om hur du använder en viss webbplats (inklusive din IP adress) kan automatiskt skickas till Google med hjälp av kakor.">
+<!ENTITY misc-anonymize "Anonymisera ditt UID som finns i Google-kakan">
+<!ENTITY misc-anonymize.desc "Undvik möjligheten att Google bygger upp en profil om dig. Detta blockerar inte åtkomsten till dina eventuella Google-konton, t ex GMail. Vissa tjänster kan bli påverkade, till exempel blir listan i Google Grupper över dina nyligen besökta grupper tom.">
+<!ENTITY label.filter.desc "Lista alla webbplatser som du vill filtrera från ditt sökresultat:">
+<!ENTITY examples "Exempel">
+<!ENTITY examples.1.filter "http://*.exempel.se/*">
+<!ENTITY examples.1.desc "blockera alla subdomäner">
+<!ENTITY examples.2.filter "http://sport.exempel.se/prylar/*">
+<!ENTITY examples.2.desc "blockera en specifik katalog">
+<!ENTITY examples.3.filter "http://sport.exempel.se/index.html">
+<!ENTITY examples.3.desc "blockera en specifik sida">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.exempel\.(se|org)\//i">
+<!ENTITY examples.4.desc "avancerat: blockera med ett reguljärt uttryck">
+<!ENTITY options-import "Importera">
+<!ENTITY options-export "Exportera">
+<!ENTITY about.desc "OptimizeGoogle är ett Firefox-tillägg som förbättrar Googles sökresultat genom att lägga till extra information (som länkar till Yahoo, Ask, MSN mm) och ta bort oönskad information (som annonser och spam). Alla finesser är valfria.">
+<!ENTITY donate.short "Stöd OptimizeGoogle">
+<!ENTITY donate.long "Bidra med en donation via PayPal. Tack på förhand!">
+<!ENTITY linktext.paypal "PayPal donation">
+<!ENTITY about.links "Frågor? Support?">
+<!ENTITY about.website "Webbplats">
+<!ENTITY about.group "Diskussionsgrupp">
+<!ENTITY about.reportabug "Felrapporter">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Avbryt">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Videosök">
+<!ENTITY web-add-video-links "I videoresultat, lägg till länkar till webbplatser med videosökning">
+<!ENTITY web-autopager "Strömmande sökresultat">
+<!ENTITY secure-text "Säkra (växla till https)">
+<!ENTITY images-autopager "Strömmande sökresultat">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "Historik">
+<!ENTITY label.history.long "Google Historik">
+<!ENTITY web-favicons "Visa ikoner för webbsidor">
+<!ENTITY label.cache "Buffert">
+<!ENTITY label.cache.long "Google buffert">
+<!ENTITY cache-continue "Skriv om länkar till att peka på Googles buffert">
+<!ENTITY label.blogs "Bloggar">
+<!ENTITY label.blogs.long "Google Bloggsök">
+<!ENTITY blogs-add-blog-links "Lägg till länkar till andra Bloggsöksidor">
+<!ENTITY blogs-remove-url-click-track "Rensa klickspårning">
+<!ENTITY prefs.suggest "Föreslå sökord">
+<!ENTITY prefs.suggest.desc "Visa förslag på sökord i sökrutan">
+<!ENTITY youtube-remove-ads "Ta bort reklam och inaktivera auto-play">
+<!ENTITY images-remove-ads "Ta bort reklam">
+<!ENTITY web-disable-searchwiki "Inaktivera SearchWiki">
+<!ENTITY label.all "Alla tjänster">
+<!ENTITY all-label-long "Alla Google-tjänster">
+<!ENTITY all-always-ssl "Använd SSL när det är möjligt">
+<!ENTITY all-never-ads "Ta bort annonser på alla Googles tjänster">
+<!ENTITY all-always-links "Visa länkar till andra webbplatser när tillämpligt">
+<!ENTITY all-always-rewrite "Ta alltid bort klickspårning">
+<!ENTITY all-always-filters "Aktivera alltid filter">
+<!ENTITY all-enable-multi-accounts "Visa skriptet för att växla användarkonto">

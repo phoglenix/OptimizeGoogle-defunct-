@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	
+	<Description about="urn:mozilla:install-manifest">
+	<em:name>OptimizeGoogle</em:name>
+	<em:id>optimizegoogle@optimizegoogle.com</em:id>
+	<em:version>0.79</em:version>
+	<em:description>Enhance Google search results and remove ads and spam</em:description>
+	<em:creator>info@optimizegoogle.com</em:creator>
+	<em:homepageURL>http://www.optimizegoogle.com/</em:homepageURL>
+	
+	<em:contributor>Daniel, Creator of CustomizeGoogle</em:contributor>
+	<em:contributor>Babelzilla.org for translations</em:contributor>
+	
+	<em:translator>GroupTT.com, Miga (ar)</em:translator>
+	<em:translator>DRKA (be-BY)</em:translator>
+	<em:translator>Arris(bg-BG)</em:translator>
+	<em:translator>Xavi Ivars (ca-AD)</em:translator>
+	<em:translator>funTomas (cs)</em:translator>
+	<em:translator>Anders Jorsal, AlleyKat (da)</em:translator>
+	<em:translator>Wawuschel, Team erweiterungen.de (de)</em:translator>
+	<em:translator>Sonickydon (el)</em:translator>
+	<em:translator>chuzo (es-AR)</em:translator>
+	<em:translator>Francisco (es-CL)</em:translator>
+	<em:translator>RigoNet (es-ES)</em:translator>
+	<em:translator>Piarres Beobide (eu-ES)</em:translator>
+	<em:translator>Pedram Veisi (fa-IR)</em:translator>
+	<em:translator>Diftraku (fi-FI)</em:translator>
+	<em:translator>Denis Devedjian, Mathieu, Julien Prangère (fr)</em:translator>
+	<em:translator>moZes (fy-NL)</em:translator>
+	<em:translator>SiiiE (he-IL)</em:translator>
+	<em:translator>Krcko (hr-HR)</em:translator>
+	<em:translator>Codemonkey (hu-HU)</em:translator>
+	<em:translator>edo248 (hy-AM)</em:translator>
+	<em:translator>Agung Harjanto (id-ID)</em:translator>
+	<em:translator>Luca Pedrazzi, Roccobot (it)</em:translator>
+	<em:translator>shirayuki (ja)</em:translator>
+	<em:translator>Kita (ko-KR)</em:translator>
+	<em:translator>Fredrik Rodland (nb-NO)</em:translator>
+	<em:translator>markh (nl)</em:translator>
+	<em:translator>teo (pl)</em:translator>
+	<em:translator>gutierrez (pt-BR)</em:translator>
+	<em:translator>lloco (pt-PT)</em:translator>
+	<em:translator>ultravioletu (ro-RO)</em:translator>
+	<em:translator>﻿Белый Владимир (ru)</em:translator>
+	<em:translator>wladow (sk-SK)</em:translator>
+	<em:translator>Besmir Godole (sq-AL)</em:translator>
+	<em:translator>DakSrbija (sr)</em:translator>
+	<em:translator>CeciliaB (sv-SE)</em:translator>
+	<em:translator>akenarong999 (th)</em:translator>
+	<em:translator>Shaman Miller (tr)</em:translator>
+	<em:translator>Sergey Khoruzhin (uk-UA)</em:translator>
+	<em:translator>longnh (vi)</em:translator>
+	<em:translator>Loviny (zh-CN)</em:translator>
+	<em:translator>justin9711 (zh-TW)</em:translator>
+	<em:translator>bzoomer16 (Songbird Compatibility)</em:translator>
+	
+	<!-- em:updateURL>https://ssl-account.com/optimizegoogle.com/downloads/update.en-US.rdf</em:updateURL -->
+	<em:optionsURL>chrome://optimizegoogle/content/options.xul</em:optionsURL>
+	<em:iconURL>chrome://optimizegoogle/skin/32x32.png</em:iconURL>
+	
+	<!-- Firefox -->
+	<em:targetApplication>
+		<Description>
+		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+		<em:minVersion>1.0</em:minVersion>
+		<em:maxVersion>10.0a1</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	
+	<!-- Flock -->
+	<em:targetApplication>
+		<Description>
+			<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+			<em:minVersion>0.4</em:minVersion>
+			<em:maxVersion>2.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	
+	<!-- Songbird -->
+	<em:targetApplication>
+		<Description>
+			<em:id>songbird@songbirdnest.com</em:id>
+			<em:minVersion>0.4</em:minVersion>
+			<em:maxVersion>1.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	
+	<!-- SeaMonkey -->
+	<em:targetApplication>
+		<Description>
+			<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+			<em:minVersion>2.0</em:minVersion>
+			<em:maxVersion>2.7a1</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	
+	<!-- eMusic Remote -->
+	<em:targetApplication>
+		<Description>
+			<em:id>dlm@emusic.com</em:id>
+			<em:minVersion>1.0</em:minVersion>
+			<em:maxVersion>1.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	
+	<em:file>
+		<Description about="urn:mozilla:extension:file:optimizegoogle.jar">
+			<em:package>content/optimizegoogle/</em:package>
+			<em:skin>skin/optimizegoogle/</em:skin>
+			<em:locale>locale/optimizegoogle/en-US/</em:locale>
+			<em:locale>locale/optimizegoogle/ar/</em:locale>
+			<em:locale>locale/optimizegoogle/be-BY/</em:locale>
+			<em:locale>locale/optimizegoogle/bg-BG/</em:locale>
+			<em:locale>locale/optimizegoogle/ca-AD/</em:locale>
+			<em:locale>locale/optimizegoogle/cs/</em:locale>
+			<em:locale>locale/optimizegoogle/da/</em:locale>
+			<em:locale>locale/optimizegoogle/de/</em:locale>
+			<em:locale>locale/optimizegoogle/el/</em:locale>
+			<em:locale>locale/optimizegoogle/en-GB/</em:locale>
+			<em:locale>locale/optimizegoogle/es-AR/</em:locale>
+			<em:locale>locale/optimizegoogle/es-CL/</em:locale>
+			<em:locale>locale/optimizegoogle/es-ES/</em:locale>
+			<em:locale>locale/optimizegoogle/eu-ES/</em:locale>
+			<em:locale>locale/optimizegoogle/fa-IR/</em:locale>
+			<em:locale>locale/optimizegoogle/fi-FI/</em:locale>
+			<em:locale>locale/optimizegoogle/fr/</em:locale>
+			<em:locale>locale/optimizegoogle/fy-NL/</em:locale>
+			<em:locale>locale/optimizegoogle/he-IL/</em:locale>
+			<em:locale>locale/optimizegoogle/hr-HR/</em:locale>
+			<em:locale>locale/optimizegoogle/hu-HU/</em:locale>
+			<em:locale>locale/optimizegoogle/hy-AM/</em:locale>
+			<em:locale>locale/optimizegoogle/id-ID/</em:locale>
+			<em:locale>locale/optimizegoogle/it/</em:locale>
+			<em:locale>locale/optimizegoogle/ja/</em:locale>
+			<em:locale>locale/optimizegoogle/ko-KR/</em:locale>
+			<em:locale>locale/optimizegoogle/nb-NO/</em:locale>
+			<em:locale>locale/optimizegoogle/nl/</em:locale>
+			<em:locale>locale/optimizegoogle/pl/</em:locale>
+			<em:locale>locale/optimizegoogle/pt-BR/</em:locale>
+			<em:locale>locale/optimizegoogle/pt-PT/</em:locale>
+			<em:locale>locale/optimizegoogle/ro-RO/</em:locale>
+			<em:locale>locale/optimizegoogle/ru/</em:locale>
+			<em:locale>locale/optimizegoogle/sk-SK/</em:locale>
+			<em:locale>locale/optimizegoogle/sq-AL/</em:locale>
+			<em:locale>locale/optimizegoogle/sr/</em:locale>
+			<em:locale>locale/optimizegoogle/sv-SE/</em:locale>
+			<em:locale>locale/optimizegoogle/th/</em:locale>
+			<em:locale>locale/optimizegoogle/tr/</em:locale>
+			<em:locale>locale/optimizegoogle/uk-UA/</em:locale>
+			<em:locale>locale/optimizegoogle/vi/</em:locale>
+			<em:locale>locale/optimizegoogle/zh-CN/</em:locale>
+			<em:locale>locale/optimizegoogle/zh-TW/</em:locale>
+		</Description>
+	</em:file>
+</Description>
+</RDF>

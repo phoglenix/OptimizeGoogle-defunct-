@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "Подешавања">
+<!ENTITY label.prefs.long "Лепљива подешавања Гугла">
+<!ENTITY prefs.desc "Одабрана подешавања ће аутоматски бити постављена чим приступите Гуглу. Накнадно можете да им приступите преко google.com/preferences. Подешавања неће радити ако искључите колачиће у вашем прегледачу.">
+<!ENTITY prefs.interface "Језик сучеља">
+<!ENTITY prefs.interface.desc "Савете и трикове са Гугла приказуј у:">
+<!ENTITY prefs.search "Језик претраге">
+<!ENTITY prefs.search.any "Тражи странице написане на било ком језику">
+<!ENTITY prefs.search.selected "Тражи само странице написане на неком од ових језика:">
+<!ENTITY prefs.safe "Сигурно претраживање">
+<!ENTITY prefs.safe.strict "Користи строго филтрирање (филтрирај и одређен текст и одређене слике)">
+<!ENTITY prefs.safe.moderate "Користи умерено филтрирање (филтрирај само одређене слике - подразумевано понашање)">
+<!ENTITY prefs.safe.off "Не филтрирај резултате моје претраге.">
+<!ENTITY prefs.resultsperpage "Број резултата по страници">
+<!ENTITY prefs.resultswindow "Прозор са резултатима">
+<!ENTITY prefs.resultswindow.desc "Резултате претраге отварај у новом прозору прегледача">
+<!ENTITY gmail-hidechat "Сакриј оквир са брзим контактима">
+<!ENTITY gmail-hideinvite "Сакриј оквир за позивање">
+<!ENTITY label.docs "Документи">
+<!ENTITY label.docs.long "Гуглови документи и табеле">
+<!ENTITY dialog.cgtitle "Гуглове оције">
+<!ENTITY label.web "Интернет">
+<!ENTITY label.images "Слике">
+<!ENTITY label.groups "Групе">
+<!ENTITY label.news "Вести">
+<!ENTITY label.froogle "Куповина">
+<!ENTITY label.answers "Одговори">
+<!ENTITY label.print "Штампа">
+<!ENTITY label.gmail "Пошта">
+<!ENTITY label.local "Мапе">
+<!ENTITY label.privacy "Приватност">
+<!ENTITY label.filter "Филтер">
+<!ENTITY label.about "О додатку">
+<!ENTITY label.code "Кôд">
+<!ENTITY label.web.long "Гуглова претрага Интернета">
+<!ENTITY label.images.long "Гуглова претрага слика">
+<!ENTITY label.groups.long "Гуглове групе">
+<!ENTITY label.news.long "Гуглове вести">
+<!ENTITY label.froogle.long "Гуглова куповина">
+<!ENTITY label.answers.long "Гуглови одговори">
+<!ENTITY label.print.long "Гуглова штампа">
+<!ENTITY label.gmail.long "Гуглова пошта">
+<!ENTITY label.local.long "Гуглове мапе">
+<!ENTITY label.privacy.long "Приватност">
+<!ENTITY label.filter.long "Филтер мрежних места">
+<!ENTITY label.code.long "Google кôд">
+<!ENTITY label.about.long "О додатку OptimizeGoogle">
+<!ENTITY web-remove-ads "Уклони огласе">
+<!ENTITY web-add-search-links "Додај везе до других места претраживача Интернета">
+<!ENTITY web-add-news-links "У исходима вести, додај везе до других места претраживача вести">
+<!ENTITY web-add-movie-links "У резултатима филмова, додај везе до других критика филмова">
+<!ENTITY web-add-weather-links "У резултатима времена, додај везе до других временских прогноза">
+<!ENTITY web-add-product-links "У резултатима претраге производа, додај везе до других претраживача производа">
+<!ENTITY web-use-googlesuggest "Користи Гуглове препоруке (предлаже речи док их уносите)">
+<!ENTITY web-searchfocus "Постави претрагу у средиште">
+<!ENTITY web-add-counter "Додај бројач положаја">
+<!ENTITY web-filter "Омогући филтере (види језичак „Филтер”)">
+<!ENTITY web-history "Додај везе до историјата интернета (WayBackMachine)">
+<!ENTITY web-save "Додај везу за бележење/чување интернетске странице">
+<!ENTITY web-remove-url-click-track "Уклони праћење кликања">
+<!ENTITY images-add-image-links "Додај везе до других места претраживача слика/фотографија/уметнина">
+<!ENTITY images-rewrite-links "Преправи везе како би указивале право на слике">
+<!ENTITY groups-remove-ads "Уклони огласе">
+<!ENTITY news-add-news-links "Додај везе до других места претраживача вести">
+<!ENTITY froogle-remove-ads "Уклони огласе">
+<!ENTITY froogle-add-product-links "Додај везе до других претраживача производа">
+<!ENTITY answers-remove-ads "Уклони огласе">
+<!ENTITY print-remove-ads "Уклони огласе">
+<!ENTITY print-restore-menu "Врати садржајни мени десног клика">
+<!ENTITY print-add-book-links "Додај везе до страница са критикама књига">
+<!ENTITY gmail-remove-ads "Уклони огласе и сродне странице">
+<!ENTITY gmail-hidespam "Сакриј бројач нежељене поште">
+<!ENTITY gmail-monospace "Користи фиксан фонт за тела порука">
+<!ENTITY label.calendar "Календар">
+<!ENTITY label.calendar.long "Гуглов календар">
+<!ENTITY local-remove-ads "Уклони огласе">
+<!ENTITY misc-analytics "Не шаљи колачиће Гугловој аналитици">
+<!ENTITY misc-analytics.desc "Гуглова аналитика (позната и као Urchin) је услуга коју омогућава Гугл како би помогао дизајнерима страница да их анализирају. Информације о вашем коришћењу страница (укључујући и IP адресе) могу аутоматски да се преносе и чувају у Гугловим колачићима.">
+<!ENTITY misc-anonymize "Избриши колачић Гуглове идентификације корисника (UID)">
+<!ENTITY misc-anonymize.desc "Избегни могућност да Гугл изгради збирни профил о вама. Ово не зауставља ваш приступ до Гуглових услуга са налозима, као што је GMail. Неке услуге могу бити погођене. На пример, у Гугловим групама списак недавно посећених група постаје празан.">
+<!ENTITY label.filter.desc "Списак свих места које не желите у вашим резултатима претраге:">
+<!ENTITY examples "Примери">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "заустави кроз све поддомене">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "заустави одређени директоријум">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "заустави одређену страницу">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "напредно: заустави коришћењем исправних израза">
+<!ENTITY options-import "Увези">
+<!ENTITY options-export "Извези">
+<!ENTITY about.desc "OptimizeGoogle је додатак који унапређује Гуглове резултате претраге, додавањем додатних информација (као што су Yahoo, Ask, MSN итд.) и уклањањем непожељних информација (као што су рекламе). Све погодности су призвољне. Додатак је наставио тамо где је програмер Данијел стао, што значи да сада прати измене Гуглових страница.">
+<!ENTITY donate.short "Подржите OptimizeGoogle">
+<!ENTITY donate.long "Помози донирањем преко PayPal-а. Хвала унапред!">
+<!ENTITY linktext.paypal "PayPal донирањем">
+<!ENTITY about.links "Питања? Подршка?">
+<!ENTITY about.website "Матична страница">
+<!ENTITY about.group "Група за расправљање">
+<!ENTITY about.reportabug "Пријава грешака">
+<!ENTITY okButtonlabel "У реду">
+<!ENTITY cancelButtonlabel "Откажи">
+<!ENTITY label.video "Видео">
+<!ENTITY label.video.long "Гуглова претрага видеа">
+<!ENTITY web-add-video-links "У резултатима видеа, додај везе ка другим резултатима">
+<!ENTITY web-autopager "Странице са резултатима претраге преноса">
+<!ENTITY secure-text "Безбедно (пређи на https)">
+<!ENTITY images-autopager "Странице са резултатима претраге преноса">
+<!ENTITY label.reader "Читач">
+<!ENTITY label.reader.long "Гуглов читач">
+<!ENTITY label.history "Историјат">
+<!ENTITY label.history.long "Гуглов историјат мреже">
+<!ENTITY web-favicons "Прикажи иконе интернетских страница">
+<!ENTITY label.cache "Кеш">
+<!ENTITY label.cache.long "Гуглов кеш">
+<!ENTITY cache-continue "Поново испиши везе које указују на Гуглов кеш">
+<!ENTITY label.blogs "Блогови">
+<!ENTITY label.blogs.long "Гуглова претрага блогова">
+<!ENTITY blogs-add-blog-links "Додај везе ка другим страницама за претраживање блогова">
+<!ENTITY blogs-remove-url-click-track "Уклони праћење кликова">
+<!ENTITY prefs.suggest "Предлажи док куцам">
+<!ENTITY prefs.suggest.desc "Предлажи док куцам у пољу за претрагу.">
+<!ENTITY youtube-remove-ads "Уклони рекламе">
+<!ENTITY images-remove-ads "Уклони рекламе">
+<!ENTITY web-disable-searchwiki "Искључи SearchWiki">
+<!ENTITY label.all "Све услуге">
+<!ENTITY all-label-long "Све Гуглове услуге">
+<!ENTITY all-always-ssl "Користи SSL кад је могуће">
+<!ENTITY all-never-ads "Блокирај рекламе на свим Гугловим услугама">
+<!ENTITY all-always-links "Кад је могуће, приказуј везе ка другим страницама">
+<!ENTITY all-always-rewrite "Увек уклони праћење кликова">
+<!ENTITY all-always-filters "Увек укључи филтере">
+<!ENTITY all-enable-multi-accounts "Прикажи скрипту за пребацивање корисничких налога">

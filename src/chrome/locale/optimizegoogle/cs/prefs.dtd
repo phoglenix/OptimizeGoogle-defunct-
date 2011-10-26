@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Nastavení">
+<!ENTITY label.prefs.long "Trvalá nastavení Googlu">
+<!ENTITY prefs.desc "Zvolená nastavení budou automaticky použita při návštěvě Googlu. Nezvolená nastavení mohou být změněna na google.com/preferences. Nastavení nebudou funkční, pokud jste ve svém prohlížeči zakázali cookies.">
+<!ENTITY prefs.interface "Jazyk rozhraní">
+<!ENTITY prefs.interface.desc "Zobrazovat tipy a zprávy Googlu:">
+<!ENTITY prefs.search "Jazyk hledání">
+<!ENTITY prefs.search.any "Hledat na stránkách napsaných v libovolném jazyce">
+<!ENTITY prefs.search.selected "Hledat pouze na stránkách napsaných v těchto jazycích:">
+<!ENTITY prefs.safe "Bezpečné vyhledávání">
+<!ENTITY prefs.safe.strict "Použít striktní filtrování (odstranit jak nevhodný text tak nevhodné obrázky)">
+<!ENTITY prefs.safe.moderate "Použít umírněné filtrování (odstranit pouze nevhodné obrázky - výchozí nastavení)">
+<!ENTITY prefs.safe.off "Nefiltrovat mé výsledky vyhledávání.">
+<!ENTITY prefs.resultsperpage "Počet výsledků na stránku">
+<!ENTITY prefs.resultswindow "Okno s výsledky">
+<!ENTITY prefs.resultswindow.desc "Otevřít výsledky hledání v novém okně">
+<!ENTITY gmail-hidechat "Skrýt Rychlé kontakty">
+<!ENTITY gmail-hideinvite "Skrýt pozvánky">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Dokumenty &amp; tabulky">
+<!ENTITY dialog.cgtitle "Nastavení Googlu">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Obrázky">
+<!ENTITY label.groups "Skupiny">
+<!ENTITY label.news "Zprávy">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Tisk">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Místní">
+<!ENTITY label.privacy "Soukromí">
+<!ENTITY label.filter "Filtry">
+<!ENTITY label.about "O aplikaci">
+<!ENTITY label.web.long "Prohledávání webu">
+<!ENTITY label.images.long "Vyhledávání obrázků">
+<!ENTITY label.groups.long "Diskusní skupiny Googlu">
+<!ENTITY label.news.long "Zprávy na Googlu">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Tisk Googlu">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Místní Google">
+<!ENTITY label.privacy.long "Soukromí">
+<!ENTITY label.filter.long "Filtrujte webové servery">
+<!ENTITY label.about.long "O rozšíření OptimizeGoogle">
+<!ENTITY web-remove-ads "Odstranit reklamy">
+<!ENTITY web-add-search-links "Přidat odkazy na jiné webové vyhledávače">
+<!ENTITY web-add-news-links "Přidat odkazy na jiné vyhledávače zpráv k výsledkům hledání">
+<!ENTITY web-add-movie-links "Přidat odkazy na jiné weby s přehledy filmů k výsledkům hledání">
+<!ENTITY web-add-weather-links "Přidat odkazy na jiné servery s počasím k výsledkům hledání">
+<!ENTITY web-add-product-links "Přidat odkazy na jiné vyhledávače výrobků k výsledkům hledání">
+<!ENTITY web-use-googlesuggest "Použít nápovědu Googlu (navrhuje slova během psaní)">
+<!ENTITY web-searchfocus "Nastavit kurzor do vyhledávacího pole">
+<!ENTITY web-add-counter "Přidat pořadí">
+<!ENTITY web-filter "Umožnit filtry (viz panel &apos;Filtry&apos;)">
+<!ENTITY web-history "Přidat odkazy na &apos;WayBackMachine&apos; (historie webových stránek)">
+<!ENTITY web-save "Přidat odkazy k záložkám/uložit stránku">
+<!ENTITY web-remove-url-click-track "Odstranit sledování myši">
+<!ENTITY images-add-image-links "Přidat odkazy na jiné vyhledávače obrázků/fotografií/výtvorů">
+<!ENTITY images-rewrite-links "Přepsat odkazy tak, aby odkazovaly přímo na obrázky">
+<!ENTITY groups-remove-ads "Odstranit reklamu">
+<!ENTITY news-add-news-links "Přidat odkazy na jiné vyhledávače zpráv">
+<!ENTITY froogle-remove-ads "Odstranit reklamu">
+<!ENTITY froogle-add-product-links "Přidat odkazy na jiné vyhledávače výrobků">
+<!ENTITY answers-remove-ads "Odstranit reklamu">
+<!ENTITY print-remove-ads "Odstranit reklamu">
+<!ENTITY print-restore-menu "Obnovit místní nabídku pravého tlačítka">
+<!ENTITY print-add-book-links "Přidat odkazy na stránky s recenzemi knih">
+<!ENTITY gmail-remove-ads "Odstranit reklamu a související stránky">
+<!ENTITY gmail-hidespam "Skrýt počitadlo nevyžádaných zpráv">
+<!ENTITY gmail-monospace "Používat pevný font (bez stylů) pro obsah zpráv">
+<!ENTITY label.calendar "Kalednář">
+<!ENTITY label.calendar.long "Kalendář Google">
+<!ENTITY local-remove-ads "Odstranit reklamu">
+<!ENTITY misc-analytics "Nezasílat žádné cookies serveru Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (známý také jako Urchin) je služba od Googlu, která pomáhá mejitelům webových stránek analyzovat, jak uživatelé používají jejich stránky. Informace o vašem použití určité stránky (včetně vaší IP adresy) mohou být automaticky zaslány Googlu a jím také uchovávány pomocí cookies.">
+<!ENTITY misc-anonymize "Schovat identitu v cookie Googlu">
+<!ENTITY misc-anonymize.desc "Zabraňte Googlu, aby si o vás budoval ucelený registr informací. To vám nebude blokovat přístup k službám vašeho účtu Googlu, jako je GMail. Některé služby mohou být ovlivněny. Například v diskusních skupinách Googlu se seznam skupin &apos;Naposledy navštívené&apos; vyprázdní.">
+<!ENTITY label.filter.desc "Uveďte seznam všech adres, které chcete vyfiltrovat z výsledků hledání:">
+<!ENTITY examples "Příklady">
+<!ENTITY examples.1.filter "http://*.priklad.cz/*">
+<!ENTITY examples.1.desc "blokuje všechny poddomény">
+<!ENTITY examples.2.filter "http://sporty.priklad.cz/pomucky/*">
+<!ENTITY examples.2.desc "blokuje určitou složku">
+<!ENTITY examples.3.filter "http://sporty.priklad.cz/index.html">
+<!ENTITY examples.3.desc "blokuje určitou stránku">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.priklad\.(cz|org)\//i">
+<!ENTITY examples.4.desc "pro experty: blokuje s použitím reg. výrazů">
+<!ENTITY options-import "Importovat">
+<!ENTITY options-export "Exportovat">
+<!ENTITY about.desc "OptimizeGoogle je rozšíření pro Firefox, které vylepšuje výsledky hledání na Googlu přidáním dalších informací (jako odkazy na Yahoo, Ask, MSN, apod.) a odstraněním nechtěných informací (jako reklamy a spamu). Všechny tyto funkce jsou volitelné.">
+<!ENTITY donate.short "Podpořte OptimizeGoogle">
+<!ENTITY donate.long "Přispějte darováním pomocí PayPalu. Předem děkujeme!">
+<!ENTITY linktext.paypal "Dary PayPalem">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Zrušit">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "Přidávat k výsledkům hledání videa odkazy na jiné vyhledávače">
+<!ENTITY web-autopager "Postupně připojovat další výsledky hledání  [BETA]">
+<!ENTITY secure-text "Zabezpečit (přepínat na https)">
+<!ENTITY images-autopager "Nestránkovat výsledky hledání">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Zobrazit favicony webových stránek">
+<!ENTITY label.cache "Vyrovnávací paměť">
+<!ENTITY label.cache.long "Vyrovnávací paměť Google Cache">
+<!ENTITY cache-continue "Odkazovat do vyrovnávací paměti Googlu">
+<!ENTITY label.blogs "Blogy">
+<!ENTITY label.blogs.long "Google Hledání v blozích">
+<!ENTITY blogs-add-blog-links "Přidat odkazy na jiné prohledávače blogů">
+<!ENTITY blogs-remove-url-click-track "Odstranit sledování myši">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

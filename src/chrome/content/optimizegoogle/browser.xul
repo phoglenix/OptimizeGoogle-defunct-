@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://optimizegoogle/locale/browser.dtd">
+
+<overlay id="optimizegoogle-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<stringbundleset id="stringbundleset">
+	<stringbundle id="web_texts" src="chrome://optimizegoogle/locale/web_texts.properties"/>
+</stringbundleset>
+
+<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+
+<script type="application/x-javascript"><![CDATA[
+
+function do_optimizegoogle(e) {
+	var doc = e.originalTarget;
+	
+	// Fixed Bug: sometimes fires for docs that have already been replaced in the dom
+	// the window already references a new doc and doc.location is null
+	// a click on google cache link is such a case
+	if (!doc.location || !doc.defaultView || doc.defaultView.document !== doc) return;
+	
+	var promptService = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
+
+	var useSSL = cg_getPref("bool","extensions.optimizegoogle.all.sslWhenAble",false);
+	var noAds = cg_getPref("bool","extensions.optimizegoogle.all.noAds",false);
+	var linkOut = cg_getPref("bool","extensions.optimizegoogle.all.otherLinks",false);
+	var rewrite = cg_getPref("bool","extensions.optimizegoogle.all.rewrite",false);
+	var filter = cg_getPref("bool","extensions.optimizegoogle.all.filters",false);
+	//promptService.alert(window, "ssl, noAds, linkout, rewrite, filter",""+useSSL+noAds+linkOut+rewrite+filter);
+
+	var href = doc.location.href;
+	var text = "";
+
+	// Google
+	if (!(/\.(js|css|xml|rss|pdf)$/.test(href)) && !(/complete\/search/.test(href)) && ( /^https?:\/\/.*?\.(google|googleproxy|youtube)\.[a-z\.]+\//.test(href) || (/^https?:\/\/(64\.233\.161\.99|64\.233\.161\.104|64\.233\.161\.105|64\.233\.161\.147|64\.233\.167\.99|64\.233\.167\.104|64\.233\.167\.147|64\.233\.171\.99|64\.233\.171\.104|64\.233\.171\.105|64\.233\.171\.147|64\.233\.179\.99|64\.233\.179\.99|64\.233\.183\.99|64\.233\.183\.104|64\.233\.185\.99|64\.233\.185\.104|64\.233\.187\.99|64\.233\.187\.104|64\.233\.189\.104|66\.102\.7\.104|66\.102\.7\.105|66\.102\.7\.147|66\.102\.9\.104|66\.102\.11\.104|216\.239\.37\.104|216\.239\.37\.105|216\.239\.37\.147|216\.239\.39\.104|216\.239\.53\.104|216\.239\.57\.98|216\.239\.57\.104|216\.239\.57\.105|216\.239\.57\.147|216\.239\.59\.104|216\.239\.59\.105|216\.239\.63\.104|66\.249\.81\.99)\//.test(href)) )) {
+
+		// Load texts
+		var stringbundle = document.getElementById("web_texts");
+		// bad solution - but stringbundle.strings was introduced in Mozilla 1.8!
+		var textarr = new Object();
+		textarr["try_search"] = stringbundle.getString("try_search");
+		textarr["find_reviews"] = stringbundle.getString("find_reviews");
+		textarr["find_news"] = stringbundle.getString("find_news");
+		textarr["find_forecasts"] = stringbundle.getString("find_forecasts");
+		textarr["find_products"] = stringbundle.getString("find_products");
+		textarr["filter"] = stringbundle.getString("filter");
+		textarr["filter_match"] = stringbundle.getString("filter_match");
+		textarr["origin_image"] = stringbundle.getString("origin_image");
+		textarr["origin_page"] = stringbundle.getString("origin_page");
+		textarr["history"] = stringbundle.getString("history");
+		textarr["save"] = stringbundle.getString("save");
+
+		//var enum = stringbundle.strings;
+		//while (enum.hasMoreElements()) {
+			//var prop = enum.getNext();
+			//prop = prop.QueryInterface(Components.interfaces.nsIPropertyElement);
+			//textarr[prop.key] = prop.value;
+		//}
+
+		// Load filters
+		var filterlist = cg_getPref("string","extensions.optimizegoogle.misc.filterlist","");
+		filterlist = filterlist.replace(/\s/g, " ");
+		filterlist = filterlist.replace(/'/g, "\\'");
+		//var filterlist = '';
+
+		//Used when streaming new results - script not needed for those pages.
+		var disable = href.match(/#disable-userscript$/);
+
+		text += "var textarr = new Object("+textarr.toSource()+");";
+
+		text += "OptimizeGoogle.showAdPreviews();\n";
+
+
+		// Google home page
+		// This needs a separate (non-default) option because the secure home page removes links and iGoogle features.
+		// if (href.match(/^https?:\/\/(www\.)?google\.com/)) {
+		//	if (cg_getPref("bool","extensions.optimizegoogle.web.secure-home",false)) {//note secure-home doesn't exist yet
+		//		text += "OptimizeGoogle.secureGoogle();\n";
+		//	}
+		// }
+
+		// Google web search
+		if ( href.match(/^https?:\/\/[^\/]+\/(search|#hl|cse|webhp|custom|unclesam|linux|bsd|mac|microsoft|intl)/)) {
+			if (useSSL || cg_getPref("bool","extensions.optimizegoogle.web.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+
+			// only if necessarry
+			if (!disable) {
+				if (noAds || cg_getPref("bool","extensions.optimizegoogle.web.remove-ads",false)) {
+					text += "OptimizeGoogle.removeSponsoredLinksById(new Array('tpa1','tpa2','tpa3','spa1','mbEnd','tads'));\n";
+					text += "OptimizeGoogle.removeSponsoredLinksRight();\n";
+					text += "OptimizeGoogle.removeInternalAds();\n";
+				}
+				if (linkOut || cg_getPref("bool","extensions.optimizegoogle.web.search-links",true)) {
+					text += "OptimizeGoogle.addOtherWebSearches('"+cg_createUrls('websearch')+"');\n";
+				}
+			}
+			if (rewrite || cg_getPref("bool","extensions.optimizegoogle.web.removeclicktrack",false)) {
+				//promptService.alert(window,"removetrack","Still on");
+				text += "OptimizeGoogle.removeUrlClickTrack();\n";
+			}
+			if (filter || cg_getPref("bool","extensions.optimizegoogle.web.filter",true)) {
+				text += "OptimizeGoogle.filterWebsitesFromSearch('"+filterlist+"','"+cg_getPref("string","extensions.optimizegoogle.misc.filtercolor", "#aaaaaa")+"');\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.web.save",false)) {
+				text += "OptimizeGoogle.addBookmarks('"+cg_getPref("string","extensions.optimizegoogle.web.save-handler", "bookmark")+"');\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.web.counter",false)) {
+				text += "OptimizeGoogle.addCountSearchResults();\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.web.history",false)) {
+				text += "OptimizeGoogle.addWayBackMachine();\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.web.favicons",false)) {
+				text += "OptimizeGoogle.addFavicons();\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.web.searchwiki",false)) {
+				text += "OptimizeGoogle.removeSearchWiki();\n";
+			}
+			if ("en-US" == 'zh-CN') {
+				text += "OptimizeGoogle.bypassChineseFirewall();\n";
+			}
+		}
+		// only if necessarry
+		if (!disable) {
+			// Google web search
+			if (href.match(/^https?:\/\/[^\/]+\/(search|#hl)/)) {
+				if (cg_getPref("bool","extensions.optimizegoogle.web.auto-page",false)) {
+					text += "OptimizeGoogle.addAutoPager();\n";
+				}
+			}
+			if ((href.match(/^https?:\/\/[^\/]+\/$/) || href.match(/^https?:\/\/[^\/]+\/(search|#hl|custom|firefox|webhp|unclesam|linux|bsd|mac|microsoft|ig)/))) {
+				if (cg_getPref("bool","extensions.optimizegoogle.web.focus",false)) {
+					text += "OptimizeGoogle.addSearchFieldFocus();\n";
+				}
+				if (cg_getPref("bool","extensions.optimizegoogle.web.suggest",true)) {
+					text += "OptimizeGoogle.addGoogleSuggest();\n";
+				}
+			}
+		}
+
+		// Google image search
+		if (href.match(/^https?:\/\/[^\/]+\/images/)) {
+			// only if necessarry
+			if (!disable) {
+				if (linkOut || cg_getPref("bool","extensions.optimizegoogle.images.image-links",true)) {
+					text += "OptimizeGoogle.addOtherImageSearches('"+cg_createUrls('imagesearch')+"');\n";
+				}
+				if (cg_getPref("bool","extensions.optimizegoogle.images.auto-page",false)) {
+					text += "OptimizeGoogle.addAutoPager();\n";
+				}
+				if (noAds || cg_getPref("bool","extensions.optimizegoogle.images.remove-ads",false)) {
+					text += "OptimizeGoogle.removeSponsoredLinksImages();\n";
+				}
+			}
+			if (rewrite || cg_getPref("bool","extensions.optimizegoogle.images.rewrite-links",true)) {
+				text += "OptimizeGoogle.pointLinksToImages();\n";
+			}
+		}
+
+		// Google Blog search
+		if (href.match(/^https?:\/\/[^\/]+\/blogsearch/)) {
+			if (linkOut || cg_getPref("bool","extensions.optimizegoogle.blogs.blog-links",true)) {
+				text += "OptimizeGoogle.addOtherBlogSearches('"+cg_createUrls('blogsearch')+"');\n";
+			}
+			if (rewrite || cg_getPref("bool","extensions.optimizegoogle.blogs.removeclicktrack",false)) {
+				text += "OptimizeGoogle.removeUrlClickTrack();\n";
+			}
+		}
+
+		// Google Code
+		if (href.match(/^https?:\/\/code\.google\./)) {
+			if (useSSL || cg_getMyPref("bool","extensions.optimizegoogle.code.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// Google Groups
+		if (href.match(/^https?:\/\/groups\.google\./)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.groups.remove-ads",false)) {
+				text += "OptimizeGoogle.removeSponsoredLinksRight();\n";
+				text += "OptimizeGoogle.removeSponsoredLinksFrame();\n";
+			}
+			if (useSSL || cg_getMyPref("bool","extensions.optimizegoogle.groups.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// Google News
+		if (href.match(/^https?:\/\/[^\/]+\/news/)) {
+			if (linkOut || cg_getPref("bool","extensions.optimizegoogle.news.news-links",true)) {
+				text += "OptimizeGoogle.addOtherNewsSearches('"+cg_createUrls('newssearch')+"');\n";
+			}
+		}
+		if (href.match(/^https?:\/\/[^\/]+\/(news|nwshp)/) || href.match(/^https?:\/\/news\.google\./)) {
+			if (filter || cg_getPref("bool","extensions.optimizegoogle.news.filter",false)) {
+				text += "OptimizeGoogle.filterWebsitesFromNews('"+filterlist+"','"+cg_getPref("string","extensions.optimizegoogle.misc.filtercolor", "#aaaaaa")+"');\n";
+			}
+			if (rewrite || cg_getPref("bool","extensions.optimizegoogle.news.removeclicktrack",false)) {
+				text += "OptimizeGoogle.removeUrlClickTrack();\n";
+			}
+		}
+
+		// Google Shopping
+		if (href.match(/^https?:\/\/[^\/]+\/(froogle|products)/)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.froogle.remove-ads",false)) {
+				text += "OptimizeGoogle.removeSponsoredLinksProducts();\n";
+			}
+			if (linkOut || cg_getPref("bool","extensions.optimizegoogle.froogle.products-links",true)) {
+				text += "OptimizeGoogle.addOtherProductSearches('"+cg_createUrls('productsearch')+"');\n";
+			}
+		}
+
+		// Reader
+		if (href.match(/^https?:\/\/[^\/]+\/reader/) && !href.match(/^https?:\/\/[^\/]+\/reader\/(api|perf)/)) {
+			if (useSSL || cg_getPref("bool","extensions.optimizegoogle.reader.secure",false)) {
+				//promptService.alert(window,"reader","secure");
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// History
+		if (href.match(/^https?:\/\/[^\/]+\/(history|bookmarks)/)) {
+			if (useSSL || cg_getPref("bool","extensions.optimizegoogle.history.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// Google Answers
+		if (href.match(/^https?:\/\/[^\/]+\/answers/)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.answers.remove-ads",false)) {
+				text += "OptimizeGoogle.removeSponsoredLinksFrame();\n";
+			}
+		}
+
+		// Google Book Search
+		if (href.match(/^https?:\/\/[^\/]+\/(print|books)/)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.print.remove-ads",false)) {
+				text += "OptimizeGoogle.removeSponsoredLinksRight();\n";
+				text += "OptimizeGoogle.removeSponsoredLinksPrint();\n";
+				text += "OptimizeGoogle.removeSponsoredLinksById(new Array('buy','buy_content'));\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.print.restore-menu",true)) {
+				text += "OptimizeGoogle.restoreGooglePrint();\n";
+			}
+			if (linkOut || cg_getPref("bool","extensions.optimizegoogle.print.book-links",true)) {
+				text += "OptimizeGoogle.addOtherBookReviews('"+cg_createUrls('booksearch')+"');\n";
+			}
+		}
+
+		// Google Calendar
+		if (href.match(/^https?:\/\/[^\/]+\/calendar/)) {
+			if (useSSL ||cg_getPref("bool","extensions.optimizegoogle.calendar.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// Google Video Search
+		if (href.match(/^https?:\/\/[^\/]+\/videosearch/)) {
+			if (linkOut || cg_getPref("bool","extensions.optimizegoogle.video.video-links",true)) {
+				text += "OptimizeGoogle.addOtherVideoSearches('"+cg_createUrls('videosearch')+"');\n";
+			}
+		}
+
+		// Gmail
+		if (href.match(/^https?:\/\/g?mail\.google\.[a-z\.]+\/(g?mail|hosted|a\/)/)) {
+			if (useSSL || cg_getPref("bool","extensions.optimizegoogle.gmail.secure",true)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.gmail.remove-ads",false)) {
+				// Gmail 1.0
+				text += "OptimizeGoogle.removeSponsoredLinksByIdGmail(new Array('ra','rc','rp','rb'));\n";
+				// Gmail 2.0
+				text += "OptimizeGoogle.removeSponsoredLinksGmail();\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.gmail.hidespam",false)) {
+				text += "OptimizeGoogle.hideGmailSpam('"+stringbundle.getString("gmail-spam")+"');\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.gmail.monospace",false)) {
+				text += "OptimizeGoogle.useMonoSpaceFont();\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.gmail.hidechat",false)) {
+				// Gmail 1.0
+				text += "OptimizeGoogle.hideID('nb_2');\n";
+				// Gmail 2.0
+				text += "OptimizeGoogle.hideClass('a3hTGd');\n";
+			}
+			if (cg_getPref("bool","extensions.optimizegoogle.gmail.hideinvite",false)) {
+				text += "OptimizeGoogle.hideID('nb_1');\n";
+				text += "OptimizeGoogle.hideID('ip');\n";
+				// Gmail 2.0
+				text += "OptimizeGoogle.hideClass('I94Sdc');\n";
+			}
+		}
+
+		// Google Maps
+		if (href.match(/^https?:\/\/[^\/]+\/(local|maphp)/) || href.match(/^https?:\/\/(local|maps)\.google\.[a-z\.]+\//)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.local.remove-ads",false)) {
+				//promptService.alert(window,"maps","sponlink on");
+				text += "OptimizeGoogle.removeSponsoredLinksLocal();\n";
+			}
+		}
+
+		// Docs & Spreadsheets
+		if (href.match(/^https?:\/\/(docs|spreadsheets)\.google\.[a-z\.]+\//)) {
+			if (useSSL || cg_getPref("bool","extensions.optimizegoogle.docs.secure",false)) {
+				text += "OptimizeGoogle.secureGoogle();\n";
+			}
+		}
+
+		// Cookies
+		if (href.match(/^https?:\/\/[^\/]+\/(search|#hl)/)) {
+			if (cg_getPref("bool","extensions.optimizegoogle.misc.anonymizeUID",false)) {
+				text += "OptimizeGoogle.anonymizeGoogleUID();\n";
+			}
+		}
+		if (href.match(/google\.[a-z\.]+\//)) {
+			if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableDefaultPreferences",false)) {
+				text += "OptimizeGoogle.defaultPreferences(";
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableSafeSearch",false)) {
+					text += "'" + cg_getPref("string","extensions.optimizegoogle.cookies.SafeSearch","") + "',";
+				} else { text += "'',";	}
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableSearchLanguage",false)) {
+					if (cg_getPref("string","extensions.optimizegoogle.cookies.searchAnyOrSelected","any")=="any") {
+						text += "'empty',";
+					} else {
+						text += "'" + cg_getPref("string","extensions.optimizegoogle.cookies.searchLanguage","") + "',";
+					}
+				} else { text += "'',";	}
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableInterfaceLanguage",false)) {
+					text += "'" + cg_getPref("string","extensions.optimizegoogle.cookies.interfaceLanguage","") + "',";
+				} else { text += "'',";	}
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableResultsPerPage",false)) {
+					text += "'" + cg_getPref("string","extensions.optimizegoogle.cookies.ResultsPerPage","") + "',";
+				} else { text += "'',";	}
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableResultsWindow",false)) {
+					text += "'" + (cg_getPref("bool","extensions.optimizegoogle.cookies.OpenSearchResultsInNewWindow",false)?"1":"empty") + "',";
+				} else { text += "'',";	}
+				if (cg_getPref("bool","extensions.optimizegoogle.cookies.enableSuggest",false)) {
+					text += "'" + (cg_getPref("bool","extensions.optimizegoogle.cookies.suggest",false)?"1":"empty") + "'";
+				} else { text += "''";	}
+				text += ");\n";
+			}
+		}
+
+		// YouTube
+		if (href.match(/youtube\.[a-z\.]+\//)) {
+			if (noAds || cg_getPref("bool","extensions.optimizegoogle.youtube.remove-ads",false)) {
+				text += "OptimizeGoogle.removeSponsoredLinksYouTube();\n";
+			}
+		}
+	}
+	// Google Cache
+	if (href.match(/\/(search)\?q=cache:/)) {
+		if (cg_getPref("bool","extensions.optimizegoogle.cache.continue",false)) {
+			text += "OptimizeGoogle.cacheContinue();\n";
+		}
+	}
+	if (!(/\.(js|css|xml|rss|pdf)$/.test(href))) {
+		if (cg_getPref("bool","extensions.optimizegoogle.misc.removeGoogleAnalytics",false)) {
+			text += "OptimizeGoogle.anonymizeGoogleAnalytics();\n";
+		}
+	}
+
+	//Check that the originalTarget has content (ie. is not just a script page)
+	var hasContent = doc.evaluate("//div", doc, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue
+	//Use the old insertion if possible (doesn't work with AJAX pages).
+	if (text.length > 0 && doc.body && hasContent) {
+		var scriptElm = doc.createElement("script");
+		var insert = "(function() {\n";
+		insert += cg_getContents("chrome://optimizegoogle/content/javascript.js") + "\n";
+		insert += text;
+		insert += "\n})();\n";
+		scriptElm.appendChild(doc.createTextNode(insert));
+		doc.body.appendChild(scriptElm);
+		doc.body.removeChild(scriptElm);
+	//Try inserting based on window.content (may not be on current tab!!)
+	} else {
+		//Check that the window.content URL is actually a Google URL before inserting to window.content.document
+		var matchURL = /^https?:\/\/.*?\.(google|googleproxy|youtube)\.[a-z\.]+\//.test(window.content.location.href);
+		if (text.length > 0 && window.content.document.body && matchURL) {
+			var scriptElm = window.content.document.createElement("script");
+			var insert = "(function() {\n";
+			insert += cg_getContents("chrome://optimizegoogle/content/javascript.js") + "\n";
+			insert += text;
+			insert += "\n})();\n";
+			scriptElm.appendChild(window.content.document.createTextNode(insert));
+			window.content.document.body.appendChild(scriptElm);
+			window.content.document.body.removeChild(scriptElm);
+		}
+	}
+}
+function cg_handle_click(e) {
+	if (cg_getPref("bool","extensions.optimizegoogle.all.filters",false) || cg_getPref("bool","extensions.optimizegoogle.web.filter",true) || cg_getPref("bool","extensions.optimizegoogle.news.filter",true)) {
+		if (e.target.nodeName.toLowerCase() == "a" && e.target.getAttribute("cg_filter") != null && e.button == 0) {
+			window.openDialog('chrome://optimizegoogle/content/addfilter.xul','manager','resizable,centerscreen,modal', e.target.getAttribute("cg_filter"));
+		}
+	}
+	if (cg_getPref("bool","extensions.optimizegoogle.web.save",true)) {
+		if (e.target.nodeName.toLowerCase() == "a" && e.target.getAttribute("cg_url") != null && e.button == 0) {
+			PlacesCommandHook.bookmarkLink(PlacesUtils.bookmarksMenuFolderId, e.target.getAttribute("cg_url"), e.target.getAttribute("cg_title"));
+		}
+	}
+}
+function cg_getContents(aURL){
+	var ioService=Components.classes["@mozilla.org/network/io-service;1"]
+		.getService(Components.interfaces.nsIIOService);
+	var scriptableStream=Components
+		.classes["@mozilla.org/scriptableinputstream;1"]
+		.getService(Components.interfaces.nsIScriptableInputStream);
+	var channel=ioService.newChannel(aURL,null,null);
+	var input=channel.open();
+	scriptableStream.init(input);
+	var str=scriptableStream.read(input.available());
+	scriptableStream.close();
+	input.close();
+	return str;
+}
+function cg_openprefs() {
+	window.open("chrome://optimizegoogle/content/options.xul","optimizegooglemanager","chrome,dialog,centerscreen,alwaysRaised");
+}
+function cg_createUrls(type) {
+	var rdf = Components.classes["@mozilla.org/rdf/rdf-service;1"].getService(Components.interfaces.nsIRDFService);
+	var ds  = rdf.GetDataSourceBlocking("chrome://optimizegoogle/locale/urls.rdf");
+	ds  = ds.QueryInterface(Components.interfaces.nsIRDFDataSource);
+
+	var urls	= rdf.GetResource("http://www.optimizegoogle.com/" + type);
+	var url		= rdf.GetResource("http://www.optimizegoogle.com/rdf/url");
+	var name	= rdf.GetResource("http://www.optimizegoogle.com/rdf/name");
+	var s = '';
+	var targets = ds.ArcLabelsOut(urls);
+	while (targets.hasMoreElements()){
+		var predicate = targets.getNext();
+		if (predicate instanceof Components.interfaces.nsIRDFResource){
+			var target = ds.GetTarget(urls, predicate, true);
+			if (target instanceof Components.interfaces.nsIRDFResource){
+				var txt_url  = ds.GetTarget(target, url,  true);
+				var txt_name = ds.GetTarget(target, name, true);
+				if (txt_url instanceof Components.interfaces.nsIRDFLiteral && txt_name instanceof Components.interfaces.nsIRDFLiteral) {
+					var u = txt_url.Value;
+					s += '<a href="'+u+'">'+txt_name.Value+'</a>, ';
+				}
+			}
+		}
+	}
+	if (s.length > 0) {
+		s = s.substring(0,s.length-2);
+	}
+	return s;
+}
+
+window.addEventListener("load", function() {
+	var appcontent = window.document.getElementById("appcontent");
+	if (appcontent) {
+		if (!appcontent.googlecustomized) {
+			appcontent.googlecustomized = true;
+			appcontent.addEventListener("DOMContentLoaded", do_optimizegoogle, false);
+			appcontent.addEventListener("click", cg_handle_click, false);
+		}
+	}
+}, false);
+
+]]></script>
+
+<menupopup id="menu_ToolsPopup">
+	<menuitem id="optimizegoogle-options" insertafter="devToolsSeparator"/>
+</menupopup>
+
+<menupopup id="taskPopup">
+	<menuitem id="optimizegoogle-options" insertafter="seamonkeyfoobar"/>
+</menupopup>
+
+<menuitem id="optimizegoogle-options" accesskey="&cgtoolsOptions.accesskey;" label="&cgtoolsOptions.title;" oncommand="cg_openprefs();"/>
+
+</overlay>

@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.cookies.web" onload="cgprefs.onLoad('cg.cookies.web');" onunload="cgprefs.onOK('cg.cookies.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  
+  	<vbox flex="1" class="scroll">
+    <groupbox flex="1">
+		<caption><checkbox id="cookies-enable" label="&label.prefs.long;" prefstring="extensions.optimizegoogle.cookies.enableDefaultPreferences" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<description>&prefs.desc;</description>
+		
+		<groupbox>
+		<caption><checkbox id="cookies-interface" label="&prefs.interface;" prefstring="extensions.optimizegoogle.cookies.enableInterfaceLanguage" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<description>&prefs.interface.desc;</description>
+		<hbox>
+		<menulist id="cookies-interface-language" prefstring="extensions.optimizegoogle.cookies.interfaceLanguage" prefdefval="en">
+			<menupopup>
+				<menuitem value="af" label="Afrikaans"/>
+				<menuitem value="sq" label="Albanian"/>
+				<menuitem value="am" label="Amharic"/>
+				<menuitem value="ar" label="Arabic"/>
+				<menuitem value="hy" label="Armenian"/>
+				<menuitem value="az" label="Azerbaijani"/>
+				<menuitem value="eu" label="Basque"/>
+				<menuitem value="be" label="Belarusian"/>
+				<menuitem value="bn" label="Bengali"/>
+				<menuitem value="bh" label="Bihari"/>
+				<menuitem value="xx-bork" label="Bork, bork, bork!"/>
+				<menuitem value="bs" label="Bosnian"/>
+				<menuitem value="br" label="Breton"/>
+				<menuitem value="bg" label="Bulgarian"/>
+				<menuitem value="km" label="Cambodian"/>
+				<menuitem value="ca" label="Catalan"/>
+				<menuitem value="zh-CN" label="Chinese (Simplified)"/>
+				<menuitem value="zh-TW" label="Chinese (Traditional)"/>
+				<menuitem value="co" label="Corsican"/>
+				<menuitem value="hr" label="Croatian"/>
+				<menuitem value="cs" label="Czech"/>
+				<menuitem value="da" label="Danish"/>
+				<menuitem value="nl" label="Dutch"/>
+				<menuitem value="xx-elmer" label="Elmer Fudd"/>
+				<menuitem value="en" label="English"/>
+				<menuitem value="eo" label="Esperanto"/>
+				<menuitem value="et" label="Estonian"/>
+				<menuitem value="fo" label="Faroese"/>
+				<menuitem value="tl" label="Filipino"/>
+				<menuitem value="fi" label="Finnish"/>
+				<menuitem value="fr" label="French"/>
+				<menuitem value="fy" label="Frisian"/>
+				<menuitem value="gl" label="Galician"/>
+				<menuitem value="ka" label="Georgian"/>
+				<menuitem value="de" label="German"/>
+				<menuitem value="el" label="Greek"/>
+				<menuitem value="gn" label="Guarani"/>
+				<menuitem value="gu" label="Gujarati"/>
+				<menuitem value="xx-hacker" label="Hacker"/>
+				<menuitem value="iw" label="Hebrew"/>
+				<menuitem value="hi" label="Hindi"/>
+				<menuitem value="hu" label="Hungarian"/>
+				<menuitem value="is" label="Icelandic"/>
+				<menuitem value="id" label="Indonesian"/>
+				<menuitem value="ia" label="Interlingua"/>
+				<menuitem value="ga" label="Irish"/>
+				<menuitem value="it" label="Italian"/>
+				<menuitem value="ja" label="Japanese"/>
+				<menuitem value="jw" label="Javanese"/>
+				<menuitem value="kn" label="Kannada"/>
+				<menuitem value="kk" label="Kazakh"/>
+				<menuitem value="xx-klingon" label="Klingon"/>
+				<menuitem value="ko" label="Korean"/>
+				<menuitem value="ku" label="Kurdish"/>
+				<menuitem value="ky" label="Kyrgyz"/>
+				<menuitem value="lo" label="Laothian"/>
+				<menuitem value="la" label="Latin"/>
+				<menuitem value="lv" label="Latvian"/>
+				<menuitem value="ln" label="Lingala"/>
+				<menuitem value="lt" label="Lithuanian"/>
+				<menuitem value="mk" label="Macedonian"/>
+				<menuitem value="ms" label="Malay"/>
+				<menuitem value="ml" label="Malayalam"/>
+				<menuitem value="mt" label="Maltese"/>
+				<menuitem value="mr" label="Marathi"/>
+				<menuitem value="mo" label="Moldavian"/>
+				<menuitem value="mn" label="Mongolian"/>
+				<menuitem value="ne" label="Nepali"/>
+				<menuitem value="no" label="Norwegian"/>
+				<menuitem value="nn" label="Norwegian (Nynorsk)"/>
+				<menuitem value="oc" label="Occitan"/>
+				<menuitem value="or" label="Oriya"/>
+				<menuitem value="ps" label="Pashto"/>
+				<menuitem value="fa" label="Persian"/>
+				<menuitem value="xx-piglatin" label="Pig Latin"/>
+				<menuitem value="pl" label="Polish"/>
+				<menuitem value="pt-BR" label="Portuguese (Brazil)"/>
+				<menuitem value="pt-PT" label="Portuguese (Portugal)"/>
+				<menuitem value="pa" label="Punjabi"/>
+				<menuitem value="qu" label="Quechua"/>
+				<menuitem value="ro" label="Romanian"/>
+				<menuitem value="rm" label="Romansh"/>
+				<menuitem value="ru" label="Russian"/>
+				<menuitem value="gd" label="Scots Gaelic"/>
+				<menuitem value="sr" label="Serbian"/>
+				<menuitem value="sh" label="Serbo-Croatian"/>
+				<menuitem value="st" label="Sesotho"/>
+				<menuitem value="sn" label="Shona"/>
+				<menuitem value="sd" label="Sindhi"/>
+				<menuitem value="si" label="Sinhalese"/>
+				<menuitem value="sk" label="Slovak"/>
+				<menuitem value="sl" label="Slovenian"/>
+				<menuitem value="so" label="Somali"/>
+				<menuitem value="es" label="Spanish"/>
+				<menuitem value="su" label="Sundanese"/>
+				<menuitem value="sw" label="Swahili"/>
+				<menuitem value="sv" label="Swedish"/>
+				<menuitem value="tg" label="Tajik"/>
+				<menuitem value="ta" label="Tamil"/>
+				<menuitem value="tt" label="Tatar"/>
+				<menuitem value="te" label="Telugu"/>
+				<menuitem value="th" label="Thai"/>
+				<menuitem value="ti" label="Tigrinya"/>
+				<menuitem value="to" label="Tonga"/>
+				<menuitem value="tr" label="Turkish"/>
+				<menuitem value="tk" label="Turkmen"/>
+				<menuitem value="tw" label="Twi"/>
+				<menuitem value="ug" label="Uighur"/>
+				<menuitem value="uk" label="Ukrainian"/>
+				<menuitem value="ur" label="Urdu"/>
+				<menuitem value="uz" label="Uzbek"/>
+				<menuitem value="vi" label="Vietnamese"/>
+				<menuitem value="cy" label="Welsh"/>
+				<menuitem value="xh" label="Xhosa"/>
+				<menuitem value="yi" label="Yiddish"/>
+				<menuitem value="yo" label="Yoruba"/>
+				<menuitem value="zu" label="Zulu"/>
+			</menupopup>
+		</menulist>
+		</hbox>
+		</groupbox>
+		
+		<groupbox>
+		<caption><checkbox id="cookies-search" label="&prefs.search;" prefstring="extensions.optimizegoogle.cookies.enableSearchLanguage" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<radiogroup id="cookies-search-selection" prefstring="extensions.optimizegoogle.cookies.searchAnyOrSelected" prefdefval="all">
+			<radio value="any" label="&prefs.search.any;"/>
+			<radio value="selected" label="&prefs.search.selected;"/>
+		</radiogroup>
+		<hbox>
+		<listbox id="cookies-search-language" prefstring="extensions.optimizegoogle.cookies.searchLanguage" prefdefval="lang_en" rows="4" seltype="multiple">
+			<listitem value="lang_ar" label="Arabic"/>
+			<listitem value="lang_bg" label="Bulgarian"/>
+			<listitem value="lang_ca" label="Catalan"/>
+			<listitem value="lang_zh-CN" label="Chinese (Simplified)"/>
+			<listitem value="lang_zh-TW" label="Chinese (Traditional)"/>
+			<listitem value="lang_hr" label="Croatian"/>
+			<listitem value="lang_cs" label="Czech"/>
+			<listitem value="lang_da" label="Danish"/>
+			<listitem value="lang_nl" label="Dutch"/>
+			<listitem value="lang_en" label="English"/>
+			<listitem value="lang_et" label="Estonian"/>
+			<listitem value="lang_fi" label="Finnish"/>
+			<listitem value="lang_fr" label="French"/>
+			<listitem value="lang_de" label="German"/>
+			<listitem value="lang_el" label="Greek"/>
+			<listitem value="lang_iw" label="Hebrew"/>
+			<listitem value="lang_hu" label="Hungarian"/>
+			<listitem value="lang_is" label="Icelandic"/>
+			<listitem value="lang_id" label="Indonesian"/>
+			<listitem value="lang_it" label="Italian"/>
+			<listitem value="lang_ja" label="Japanese"/>
+			<listitem value="lang_ko" label="Korean"/>
+			<listitem value="lang_lv" label="Latvian"/>
+			<listitem value="lang_lt" label="Lithuanian"/>
+			<listitem value="lang_no" label="Norwegian"/>
+			<listitem value="lang_fa" label="Persian"/>
+			<listitem value="lang_pl" label="Polish"/>
+			<listitem value="lang_pt" label="Portuguese"/>
+			<listitem value="lang_ro" label="Romanian"/>
+			<listitem value="lang_ru" label="Russian"/>
+			<listitem value="lang_sr" label="Serbian"/>
+			<listitem value="lang_sk" label="Slovak"/>
+			<listitem value="lang_sl" label="Slovenian"/>
+			<listitem value="lang_es" label="Spanish"/>
+			<listitem value="lang_sv" label="Swedish"/>
+			<listitem value="lang_tr" label="Turkish"/>
+		</listbox>
+		</hbox>
+		</groupbox>
+
+		<groupbox>
+		<caption><checkbox id="cookies-safe" label="&prefs.safe;" prefstring="extensions.optimizegoogle.cookies.enableSafeSearch" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<radiogroup id="cookies-safesearch" prefstring="extensions.optimizegoogle.cookies.SafeSearch" prefdefval="empty">
+			<radio value="1" label="&prefs.safe.strict;"/>
+			<radio value="empty" label="&prefs.safe.moderate;"/>
+			<radio value="4" label="&prefs.safe.off;"/>
+		</radiogroup>
+		</groupbox>
+
+		<groupbox>
+		<caption><checkbox id="cookies-results-per-page" label="&prefs.resultsperpage;" prefstring="extensions.optimizegoogle.cookies.enableResultsPerPage" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<hbox>
+		<menulist id="cookies-results-per-page-number" prefstring="extensions.optimizegoogle.cookies.ResultsPerPage" prefdefval="10">
+			<menupopup>
+			<menuitem value="10" label="10"/>
+			<menuitem value="20" label="20"/>
+			<menuitem value="30" label="30"/>
+			<menuitem value="50" label="50"/>
+			<menuitem value="100" label="100"/>
+			</menupopup>
+		</menulist>
+		</hbox>
+		</groupbox>
+
+		<groupbox>
+		<caption><checkbox id="cookies-window" label="&prefs.resultswindow;" prefstring="extensions.optimizegoogle.cookies.enableResultsWindow" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<checkbox id="cookies-open-new-window" label="&prefs.resultswindow.desc;" prefstring="extensions.optimizegoogle.cookies.OpenSearchResultsInNewWindow" prefdefval="false"/>
+		</groupbox>
+
+		<groupbox>
+		<caption><checkbox id="cookies-suggest" label="&prefs.suggest;" prefstring="extensions.optimizegoogle.cookies.enableSuggest" oncommand="cgprefs.saveHandler();" prefdefval="false"/></caption>
+		<checkbox id="cookies-enable-suggest" label="&prefs.suggest.desc;" prefstring="extensions.optimizegoogle.cookies.suggest" prefdefval="false"/>
+		</groupbox>
+
+		<spacer flex="1"/>
+    </groupbox>
+	</vbox>
+</page>

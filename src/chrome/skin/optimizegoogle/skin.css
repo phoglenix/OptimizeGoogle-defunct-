@@ -1,0 +1,33 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#cgpref {
+    height: 40em !important;
+    width: 55em !important;
+}
+
+#cglist {
+    width: 10em !important;
+}
+
+.scroll {
+	overflow:auto!important;
+}
+
+.link {
+    color: #0000ff !important;
+    font-weight:bold!important;
+    cursor: pointer !important;
+    text-decoration: underline !important;
+    margin-bottom:1px!important;
+    margin-top:7px!important;
+    margin-left:5px!important;
+
+}
+.link:hover {
+    color: #ff0000 !important;
+    font-weight:bold!important;
+    margin-bottom:1px!important;
+    margin-top:7px!important;
+    margin-left:5px!important;
+}

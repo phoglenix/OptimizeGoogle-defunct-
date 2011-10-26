@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferències">
+<!ENTITY label.prefs.long "Preferències del Google">
+<!ENTITY prefs.desc "Les preferències seleccionades s&apos;establiran automàticament quan accediu a Google. Les preferències no seleccionades es podran continuar alterant utilitzant la pàgina google.com/preferences. Tot i això, no podreu establir les preferències si teniu deshabilitades les galetes al vostre navegador.">
+<!ENTITY prefs.interface "Idioma de la interfície">
+<!ENTITY prefs.interface.desc "Mostra els consells i missatges de Google en:">
+<!ENTITY prefs.search "Idioma de la cerca">
+<!ENTITY prefs.search.any "Cerca pàgines escrites en qualsevol idioma">
+<!ENTITY prefs.search.selected "Cerca només en l&apos;idioma o idiomes seleccionats:">
+<!ENTITY prefs.safe "Cerca segura">
+<!ENTITY prefs.safe.strict "Utilitza filtrat estricte (filtra tan el text explícit com les imatges explícites)">
+<!ENTITY prefs.safe.moderate "Utilitza el filtrat moderat (filtra només les imatges explícites - comportament predeterminat).">
+<!ENTITY prefs.safe.off "No filtres els meus resultats de la cerca.">
+<!ENTITY prefs.resultsperpage "Nombre de resultats per pàgina">
+<!ENTITY prefs.resultswindow "Finestra de resultats">
+<!ENTITY prefs.resultswindow.desc "Obre els resultats de la cerca en una nova finestra del navegador">
+<!ENTITY gmail-hidechat "Amaga el quadre de Contactes ràpids">
+<!ENTITY gmail-hideinvite "Amaga el quadre d&apos;invitació">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Opcions de Google">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Images">
+<!ENTITY label.groups "Groups">
+<!ENTITY label.news "News">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Respostes">
+<!ENTITY label.print "Print">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Maps">
+<!ENTITY label.privacy "Privadesa">
+<!ENTITY label.filter "Filtres">
+<!ENTITY label.about "Quant a">
+<!ENTITY label.web.long "Cerca de Google">
+<!ENTITY label.images.long "Cerca d&apos;imatges de Google">
+<!ENTITY label.groups.long "Google Groups">
+<!ENTITY label.news.long "Google News">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Print">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Maps">
+<!ENTITY label.privacy.long "Privadesa">
+<!ENTITY label.filter.long "Filtra els llocs web">
+<!ENTITY label.about.long "Quant a OptimizeGoogle">
+<!ENTITY web-remove-ads "Elimina la publicitat">
+<!ENTITY web-add-search-links "Afegeix enllaços a altres motors de cerca">
+<!ENTITY web-add-news-links "Als resultats de les notícies, afegeix enllaços a altres motors de cerca de notícies">
+<!ENTITY web-add-movie-links "Als resultats de les películes, afegeix enllaços a altres llocs de crítiques de películes">
+<!ENTITY web-add-weather-links "Als resultats de l&apos;oratge, afegeix enllaços a altres llocs d&apos;informació meteorològica">
+<!ENTITY web-add-product-links "Als resultats dels productes, afegeix enllaços a altres llocs de cerca de productes">
+<!ENTITY web-use-googlesuggest "Utilitza el Google Suggest (suggereix paraules a mesura que vaja escrivint)">
+<!ENTITY web-searchfocus "Enfoca la caixa de cerca">
+<!ENTITY web-add-counter "Afegeix un comptador de posició">
+<!ENTITY web-filter "Habilita els filtres (vegeu la pestanya &apos;Filtres&apos;)">
+<!ENTITY web-history "Afegeix els enllaços cap a WayBackMachine (història de les pàgines web)">
+<!ENTITY web-save "Add links to bookmark/save a webpage">
+<!ENTITY web-remove-url-click-track "Suprimeix el rastreig de clics">
+<!ENTITY images-add-image-links "Afegeix enllaços a altres llocs de cerca d&apos;imatges i fotografies">
+<!ENTITY images-rewrite-links "Reescriu els enllaços per a que apunten directament a les imatges">
+<!ENTITY groups-remove-ads "Elimina la publicitat">
+<!ENTITY news-add-news-links "Afegeix enllaços a altres llocs de cerca de notícies">
+<!ENTITY froogle-remove-ads "Elimina la publicitat">
+<!ENTITY froogle-add-product-links "Afegeix enllaços a altres llocs de cerca de productes">
+<!ENTITY answers-remove-ads "Elimina la publicitat">
+<!ENTITY print-remove-ads "Elimina la publicitat">
+<!ENTITY print-restore-menu "Restaura el menú contextual del clic dret">
+<!ENTITY print-add-book-links "Afegeix enllaços a llocs de crítica de llibres">
+<!ENTITY gmail-remove-ads "Elimina la publicitat i pàgines relacionades">
+<!ENTITY gmail-hidespam "Hide the spam-counter">
+<!ENTITY gmail-monospace "Use a fixed font for mail bodies">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Elimina la publicitat">
+<!ENTITY misc-analytics "No envies cap galeta a Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (també conegut com a Urchin) és un servei de Google que ajuda als propietaris de llocs web a analitzar com són utilitzats els seus llocs web. La informació sobre el vostre ús d&apos;una certa pàgina web (incloent la vostra adreça IP) pot ser transmés i desat per Google mitjançant l&apos;ús de galetes.">
+<!ENTITY misc-anonymize "Transforma la galeta de l&apos;UID de Google en anònima">
+<!ENTITY misc-anonymize.desc "Elimina la possibilitat que Google puga fer-vos un perfil cohesiu. Açò no bloca el vostre accés als serveis dels comptes de Google, com per exemple Gmail. Alguns serveis es poden veure afectats. Per exemple, als Grups de Google, la llista dels grups &apos;Recentment visitats&apos; apareixerà.">
+<!ENTITY label.filter.desc "Llisteu tots els llocs que voleu filtrar dels vostres resultats de cerca:">
+<!ENTITY examples "Exemples">
+<!ENTITY examples.1.filter "http://*.exemple.com/*">
+<!ENTITY examples.1.desc "Bloca tots els subdominis">
+<!ENTITY examples.2.filter "http://esports.exemple.com/seccio/*">
+<!ENTITY examples.2.desc "Bloca un directori específic">
+<!ENTITY examples.3.filter "http://esports.exemple.com/index.html">
+<!ENTITY examples.3.desc "Bloca una pàgina específica">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.exemple\.(com|org)\//i">
+<!ENTITY examples.4.desc "expert: bloca utilitzant una expressió regular">
+<!ENTITY options-import "Importa">
+<!ENTITY options-export "Exporta">
+<!ENTITY about.desc "OptimizeGoogle és una extensió del Firefox que augmenta els resultats de les cerques a Google afegint-hi informació extra (com enllaços a Yahoo, Ask, MSN, etc) i elimina aquella informació no dessitjada (com publicitat o brossa). Totes les característiques són opcionals.">
+<!ENTITY donate.short "Ajuda a OptimizeGoogle">
+<!ENTITY donate.long "Contribuïu-hi fent una donació amb Paypal. Gràcies anticipades!">
+<!ENTITY linktext.paypal "Donació de PayPal">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "D&apos;acord">
+<!ENTITY cancelButtonlabel "Cancel·la">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Cerca al Google Video">
+<!ENTITY web-add-video-links "En els resultats dels videos, afegeix enllaços a altres motors de cerca.">
+<!ENTITY web-autopager "Afegeix les pàgines de resultats següents de manera continuada [BETA]">
+<!ENTITY secure-text "Segur (canvia a https)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Mostra els favicons de les pàgines web">
+<!ENTITY label.cache "Memòria cau">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Reescriu els enllaços que senyalen la memòria cau de Google">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Afegeix enllaços a altres llocs de cerca de blogs">
+<!ENTITY blogs-remove-url-click-track "Elimina el registre de clics a les adreces">
+<!ENTITY prefs.suggest "Suggeriments de cerca">
+<!ENTITY prefs.suggest.desc "Proporciona suggeriments en la mateixa caixa de cerca.">
+<!ENTITY youtube-remove-ads "Elimina la publicitat i deté la reproducció automàtica.">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

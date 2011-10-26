@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Thiết đặt">
+<!ENTITY label.prefs.long "Làm nổi bật các thiết đặt Google">
+<!ENTITY prefs.desc "Các thiết đặt đã chọn sẽ được bật tự động khi bạn truy cập Google. Các thiết đặt chưa được chọn sẽ vẫn có thể được thay thế bằng cách sử dụng google.com/preferences. Các thiết đặt đã chọn sẽ không làm việc nếu như bạn đã tắt các cookies của trình duyệt.">
+<!ENTITY prefs.interface "Ngôn ngữ">
+<!ENTITY prefs.interface.desc "Hiển thị các mẹo và các tin nhắn của Google tại:">
+<!ENTITY prefs.search "Tìm kiếm ngôn ngữ">
+<!ENTITY prefs.search.any "Tìm kiếm các trang được viết bằng tiếng">
+<!ENTITY prefs.search.selected "Chỉ Tìm kiếm các trang được viết bằng tiếng:">
+<!ENTITY prefs.safe "Tìm kiếm an toàn">
+<!ENTITY prefs.safe.strict "Sử dụng bộ lọc hạn chế (Lọc cả văn bản và tranh ảnh rõ ràng)">
+<!ENTITY prefs.safe.moderate "Sử dụng chế độ ôn hòa (Chỉ lọc tranh ảnh - hành vi mặc định)">
+<!ENTITY prefs.safe.off "Không lọc kết quả tìm kiếm của tôi">
+<!ENTITY prefs.resultsperpage "Số kết quả trên mỗi trang">
+<!ENTITY prefs.resultswindow "Cửa sổ hiện kết quả">
+<!ENTITY prefs.resultswindow.desc "Mở các kết quả tìm kiếm trên một cửa sổ trình duyệt mới">
+<!ENTITY gmail-hidechat "Ẩn hộp tìm danh các danh sách liên lạc">
+<!ENTITY gmail-hideinvite "Ẩn hộp thư mời">
+<!ENTITY label.docs "Các văn bản">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Các tùy chọn Google">
+<!ENTITY label.web "Trang web">
+<!ENTITY label.images "Tranh ảnh">
+<!ENTITY label.groups "Nhóm">
+<!ENTITY label.news "Tin tức">
+<!ENTITY label.froogle "Sản phẩm">
+<!ENTITY label.answers "Trả lời">
+<!ENTITY label.print "Sách">
+<!ENTITY label.gmail "Gmail">
+<!ENTITY label.local "Bản đồ">
+<!ENTITY label.privacy "Riêng tư">
+<!ENTITY label.filter "Bộ lọc">
+<!ENTITY label.about "Giới thiệu">
+<!ENTITY label.web.long "Tìm kiếm trên mạng">
+<!ENTITY label.images.long "Tìm kiếm tranh ảnh">
+<!ENTITY label.groups.long "Google Groups">
+<!ENTITY label.news.long "Google News">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Book Search">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Maps">
+<!ENTITY label.privacy.long "Privacy">
+<!ENTITY label.filter.long "Filter websites">
+<!ENTITY label.about.long "About OptimizeGoogle">
+<!ENTITY web-remove-ads "Remove ads">
+<!ENTITY web-add-search-links "Add links to other web search sites">
+<!ENTITY web-add-news-links "In news results, add links to other news search sites">
+<!ENTITY web-add-movie-links "In movie results, add links to other movie review sites">
+<!ENTITY web-add-weather-links "In weather results, add links to other weather sites">
+<!ENTITY web-add-product-links "In product results, add links to other product search sites">
+<!ENTITY web-use-googlesuggest "Use Google Suggest (suggest words while you're typing).">
+<!ENTITY web-searchfocus "Give the search box focus">
+<!ENTITY web-add-counter "Add position counter">
+<!ENTITY web-filter "Enable filters (see 'Filter' tab)">
+<!ENTITY web-history "Add links to WayBackMachine (webpage history)">
+<!ENTITY web-save "Add links to bookmark/save a webpage">
+<!ENTITY web-remove-url-click-track "Remove click tracking">
+<!ENTITY images-add-image-links "Add links to other image/photo/art search sites">
+<!ENTITY images-rewrite-links "Rewrite links to point straight to the images">
+<!ENTITY groups-remove-ads "Remove ads">
+<!ENTITY news-add-news-links "Add links to other news search sites">
+<!ENTITY froogle-remove-ads "Remove ads">
+<!ENTITY froogle-add-product-links "Add links to other product search sites">
+<!ENTITY answers-remove-ads "Remove ads">
+<!ENTITY print-remove-ads "Remove ads">
+<!ENTITY print-restore-menu "Restore right-click context menu">
+<!ENTITY print-add-book-links "Add links to book review sites">
+<!ENTITY gmail-remove-ads "Remove ads and related pages">
+<!ENTITY gmail-hidespam "Hide the spam-counter">
+<!ENTITY gmail-monospace "Use a fixed font for mail bodies">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Remove Ads">
+<!ENTITY misc-analytics "Don't send any cookies to Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (also known as Urchin) is a service from Google that helps website owners analyze how users use their sites. Information about your use of a certain website (including your IP address) can automatically be transmitted to and stored by Google using cookies.">
+<!ENTITY misc-anonymize "Anonymize the Google cookie UID">
+<!ENTITY misc-anonymize.desc "Avoid the possibility of Google building up a cohesive profile about you. This does not block your access to Google Account services, such as GMail. Some services may be affected. For example, in Google Groups the list of 'Recently visited' groups becomes empty.">
+<!ENTITY label.filter.desc "List all of the sites you want to filter from your search results:">
+<!ENTITY examples "Examples">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "block across all subdomains">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "block a specific directory">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "block a specific page">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "expert: block using a regexp">
+<!ENTITY options-import "Import">
+<!ENTITY options-export "Export">
+<!ENTITY about.desc "OptimizeGoogle is a Firefox extension that enhances Google search results by adding extra information (like links to Yahoo, Ask, MSN etc) and removing unwanted information (like ads and spam). All features are optional. This extension was created to maintain and improve the OptimizeGoogle extension developed by Daniel, which seems to have been abandoned, falling behind the changes which Google has been making to their pages.">
+<!ENTITY donate.short "Support OptimizeGoogle">
+<!ENTITY donate.long "Support the development of OptimizeGoogle by donating via PayPal:">
+<!ENTITY linktext.paypal "PayPal donation">
+<!ENTITY about.links "Bạn có câu hỏi? Bạn cần trợ giúp?">
+<!ENTITY about.website "Trang chủ">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Báo cáo lỗi">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Cancel">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "In video results, add links to other video search sites">
+<!ENTITY web-autopager "Stream search result pages">
+<!ENTITY secure-text "Bảo mật (chuyển sang https)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Remove click tracking">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Tất cả các dịch vụ">
+<!ENTITY all-label-long "Tất cả các dịch vụ của Google">
+<!ENTITY all-always-ssl "Sử dụng SSL khi có thể">
+<!ENTITY all-never-ads "Khóa quảng cáo trên tất cả các dịch vụ của Google">
+<!ENTITY all-always-links "Hiển thị các liên kết tới các trang khác khi có thể">
+<!ENTITY all-always-rewrite "Luôn xóa bỏ dấu vết đã xem">
+<!ENTITY all-always-filters "Luôn cho phép bộ lọc hoạt động">
+<!ENTITY all-enable-multi-accounts "Hiển thị mã chuyển đổi giữa các tài khoản">

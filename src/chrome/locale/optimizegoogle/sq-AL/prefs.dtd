@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Parapëlqime">
+<!ENTITY label.prefs.long "Parapëlqime të Pavendosura të Google">
+<!ENTITY prefs.desc "Parapëlqimet e zgjedhura do të vendosen automatikisht kur të hapni Google. Të pazgjedhurat mundet ende të ndërrohen duke përdorur google.com/preferences. Vendosja e parapëlqimeve nuk do të veprojë nëse keni çaktivizuar biskotat në shfletuesin tuaj.">
+<!ENTITY prefs.interface "Gjuhë e Ndërfaqes">
+<!ENTITY prefs.interface.desc "Shfaq këshillat dhe mesazhet e Google në:">
+<!ENTITY prefs.search "Kërko Gjuhë:">
+<!ENTITY prefs.search.any "Kërko për faqe të shkruara në çdo gjuhë">
+<!ENTITY prefs.search.selected "Kërko vetëm për faqe të shkruara në këto gjuhë:">
+<!ENTITY prefs.safe "Kërkim i Sigurt">
+<!ENTITY prefs.safe.strict "Përdor filtrim strikt (Filtro si figurat, edhe tekstin e turpshëm)">
+<!ENTITY prefs.safe.moderate "Përdor filtrim të zbutur (Filtro vetëm figurat e turpshme - sjellje tipike)">
+<!ENTITY prefs.safe.off "Mos i filtro rezultatet e kërkimit tim.">
+<!ENTITY prefs.resultsperpage "Numri i rezultateve për faqe">
+<!ENTITY prefs.resultswindow "Dritare e Rezultateve">
+<!ENTITY prefs.resultswindow.desc "Hapi rezultatet e kërkimeve në një dritare të re në shfletues">
+<!ENTITY gmail-hidechat "Fshehe kutinë Kontakte të Shpejta">
+<!ENTITY gmail-hideinvite "Fshehe kutinë e ftesës">
+<!ENTITY label.docs "Dokumente">
+<!ENTITY label.docs.long "Dokumente &amp; Faqe të Gjera në Google">
+<!ENTITY dialog.cgtitle "Mundësi në Google">
+<!ENTITY label.web "Rrjet">
+<!ENTITY label.images "Figura">
+<!ENTITY label.groups "Grupe">
+<!ENTITY label.news "Lajme">
+<!ENTITY label.froogle "Produkte">
+<!ENTITY label.answers "Përgjigje">
+<!ENTITY label.print "Libra">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Harta">
+<!ENTITY label.privacy "Privatësi">
+<!ENTITY label.filter "Filtër">
+<!ENTITY label.about "Info">
+<!ENTITY label.web.long "Kërkimi në Rrjetin Google">
+<!ENTITY label.images.long "Kërkimi i Figurave në Google">
+<!ENTITY label.groups.long "Grupet e Google">
+<!ENTITY label.news.long "Lajme në Google">
+<!ENTITY label.froogle.long "Kërkimi i Produkteve në Google">
+<!ENTITY label.answers.long "Përgjigjet e Google">
+<!ENTITY label.print.long "Kërkimi i Librave në Google">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Hartat e Google">
+<!ENTITY label.privacy.long "Privatësi">
+<!ENTITY label.filter.long "Filtrimi i uebsiteve">
+<!ENTITY label.about.long "Info mbi OptimizeGoogle">
+<!ENTITY web-remove-ads "Mënjanoji reklamat">
+<!ENTITY web-add-search-links "Shtoji linket edhe tek site të tjera kërkuese në rrjet">
+<!ENTITY web-add-news-links "Në rezultatet e lajmeve, shto linke edhe tek site të tjera kërkuese për lajme">
+<!ENTITY web-add-movie-links "Në rezultatet e filmave, shto linke edhe tek site të tjera pasqyruese për filma">
+<!ENTITY web-add-weather-links "Në rezultatet e motit, shto linke edhe tek site të tjera për motin">
+<!ENTITY web-add-product-links "Në rezultatet e produkteve, shto linke edhe tek site të tjera për produkte">
+<!ENTITY web-use-googlesuggest "Përdor Google Suggest (sugjeron fjalë ndërsa ju po shkruani)">
+<!ENTITY web-searchfocus "Fokusoje kutinë e kërkimit">
+<!ENTITY web-add-counter "Shtoje njehsuesin e pozicionit">
+<!ENTITY web-filter "Lejoji filtrat (shih tabelën &apos;Filtër&apos;)">
+<!ENTITY web-history "Shto linke tek WayBackMachine (histori e faqes së rrjetit)">
+<!ENTITY web-save "Shto linke në librezë/ruaje faqen e rrjetit">
+<!ENTITY web-remove-url-click-track "Mënjanoje kapjen e klikimeve">
+<!ENTITY images-add-image-links "Shto linke edhe tek site të tjera kërkuese për figura/foto/art">
+<!ENTITY images-rewrite-links "Rishkruaji linket për t&apos;i treguar figurat menjëherë">
+<!ENTITY groups-remove-ads "Mënjanoji reklamat">
+<!ENTITY news-add-news-links "Shto linke edhe tek site të tjera kërkuese për lajme">
+<!ENTITY froogle-remove-ads "Mënjanoji reklamat">
+<!ENTITY froogle-add-product-links "Shto linke edhe tek site të tjera kërkuese për produkte">
+<!ENTITY answers-remove-ads "Mënjanoji reklamat">
+<!ENTITY print-remove-ads "Mënjanoji reklamat">
+<!ENTITY print-restore-menu "Rivendose menynë e kontekstit për klikimet me të djathtë">
+<!ENTITY print-add-book-links "Shto linke edhe tek sitet pasqyruese për libra">
+<!ENTITY gmail-remove-ads "Mënjanoji reklamat dhe faqet që kanë të bëjnë me to">
+<!ENTITY gmail-hidespam "Fshehi njehsuesit e spameve">
+<!ENTITY gmail-monospace "Përdor një font të ngulitur për formën e mesazhit">
+<!ENTITY label.calendar "Kalendar">
+<!ENTITY label.calendar.long "Kalendari i Google">
+<!ENTITY local-remove-ads "Mënjanoji reklamat">
+<!ENTITY misc-analytics "Mos dërgo asnjë biskotë në Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (që njihet edhe si Urchin) është një shërbim i ofruar nga Google i cili ndihmon zotëruesit e uebsiteve të analizojnë shfytëzimin e siteve të tyre nga përdoruesit. Informacioni se si ju e përdorni një uebsit të caktuar (përfshirë edhe adresën tuaj të IP-së) mund të transmetohen dhe të depozitohen automatikisht nga Google me anën e biskotave.">
+<!ENTITY misc-anonymize "Jepi anonimitet biskotës së Google, UID">
+<!ENTITY misc-anonymize.desc "Shmangeni mundësinë që Google të ndërtojë një profil të mbledhur rreth jush. Kjo nuk do t&apos;ju bllokojë të hyni në shërbimet e Google Account, siç është GMail, ndonëse disa shërbime edhe mund të preken. Për shembull, në Google Groups, lista e grupeve &apos;Recently visited&apos; do të boshatiset">
+<!ENTITY label.filter.desc "Listoni gjithë sitet që doni të filtroni nga rezultatet tuaja të kërkimit:">
+<!ENTITY examples "Shembuj">
+<!ENTITY examples.1.filter "http://*.shembull.com/*">
+<!ENTITY examples.1.desc "bllokoni gjithë subdomejnet">
+<!ENTITY examples.2.filter "http://sports.shembull.com/widgets/*">
+<!ENTITY examples.2.desc "bllokoni një direktori të caktuar">
+<!ENTITY examples.3.filter "http://sports.shembull.com/index.html">
+<!ENTITY examples.3.desc "bllokoni një faqe të caktuar">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.shembull\.(com|org)\//i">
+<!ENTITY examples.4.desc "ekspert: bllokoni duke përdorur regexp">
+<!ENTITY options-import "Importo">
+<!ENTITY options-export "Eksporto">
+<!ENTITY about.desc "OptimizeGoogle është një shtojcë e Firefox që përmirëson rezultatet e kërkimit në Google duke shtuar informacione shtesë (si linke në Yahoo, Ask, MSN etj.) dhe mënjanon informacione të padëshiruara (si reklama e spame). Gjithë veçoritë janë me zgjedhje.">
+<!ENTITY donate.short "Përkraheni OptimizeGoogle">
+<!ENTITY donate.long "Kontribuoni duke dhuruar me PayPal. Ju faleminderit për përkrahjen!">
+<!ENTITY linktext.paypal "Dhuroni me PayPal">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Anulo">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Kërkimi i Videove në Google">
+<!ENTITY web-add-video-links "Në rezultatet e videove, shtoni linke tek site të tjera kërkimi për video">
+<!ENTITY web-autopager "Rrymoji faqet me rezultatet e kërkimit [BETA]">
+<!ENTITY secure-text "I sigurt (kalo në https)">
+<!ENTITY images-autopager "Rezultatet e kërkimit të rrymave">
+<!ENTITY label.reader "Lexuesi">
+<!ENTITY label.reader.long "Lexuesi Google">
+<!ENTITY label.history "Histori">
+<!ENTITY label.history.long "Histori e Google">
+<!ENTITY web-favicons "Shfaq ikona për faqet në rrjet">
+<!ENTITY label.cache "Depo">
+<!ENTITY label.cache.long "Depo e Google">
+<!ENTITY cache-continue "Rishkruaji linket për t&apos;u drejtuar te depoja e Google">
+<!ENTITY label.blogs "Bloget">
+<!ENTITY label.blogs.long "Kërkimi i Blogeve në Google">
+<!ENTITY blogs-add-blog-links "Shto linket te trojet e tjera të kërkimit të blogeve">
+<!ENTITY blogs-remove-url-click-track "Fshije gjurmimin e klikimit">
+<!ENTITY prefs.suggest "Sugjerimet e hetimit">
+<!ENTITY prefs.suggest.desc "Jep sugjerime të hetimit në kutinë e kërkimit.">
+<!ENTITY youtube-remove-ads "Fshiji reklamat dhe ndale autolojën">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

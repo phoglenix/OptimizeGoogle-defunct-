@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.gmail.web" onload="cgprefs.onLoad('cg.gmail.web');" onunload="cgprefs.onOK('cg.gmail.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.gmail.long;"/>
+		<checkbox id="gmail-remove-ads" label="&gmail-remove-ads;" prefstring="extensions.optimizegoogle.gmail.remove-ads" prefdefval="false"/>
+		<checkbox id="gmail-secure" label="&secure-text;" prefstring="extensions.optimizegoogle.gmail.secure" prefdefval="true"/>
+		<checkbox id="gmail-hidespam" label="&gmail-hidespam;" prefstring="extensions.optimizegoogle.gmail.hidespam" prefdefval="false"/>
+		<checkbox id="gmail-hidechat" label="&gmail-hidechat;" prefstring="extensions.optimizegoogle.gmail.hidechat" prefdefval="false"/>
+		<checkbox id="gmail-hideinvite" label="&gmail-hideinvite;" prefstring="extensions.optimizegoogle.gmail.hideinvite" prefdefval="false"/>
+		<checkbox id="gmail-monospace" label="&gmail-monospace;" prefstring="extensions.optimizegoogle.gmail.monospace" prefdefval="false"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('gmail-remove-ads','noAds');
+        cg_useAnyDisablePref('gmail-secure','sslWhenAble');
+    </script>
+</page>

@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Valg">
+<!ENTITY label.prefs.long "&quot;Sticky&quot; Google-valg">
+<!ENTITY prefs.desc "Valgene vil bli satt automatisk når du benytter Google.  Ikke-valgte elementer vil fortsatt kunne endres vha valgene på Google.  Disse valgene vil ikke fungere hvis du har skrudd av cookies i browseren din.">
+<!ENTITY prefs.interface "Grensesnittspråk">
+<!ENTITY prefs.interface.desc "Vis Google tips og meldinger i:">
+<!ENTITY prefs.search "Søk Språk:">
+<!ENTITY prefs.search.any "Søk etter sider på alle språk:">
+<!ENTITY prefs.search.selected "Søk kun i sider på disse språk(ene):">
+<!ENTITY prefs.safe "SafeSearch (Sikkert søk)">
+<!ENTITY prefs.safe.strict "Bruk streng filtrering (Filtrer både text og bilder for upassende innhold)">
+<!ENTITY prefs.safe.moderate "Bruk moderat filtrering (filtrer kun bilder for upassende innhold)">
+<!ENTITY prefs.safe.off "Ikke filtrer mitt søkeresultat.">
+<!ENTITY prefs.resultsperpage "Antall resultater pr side">
+<!ENTITY prefs.resultswindow "Resultatvindu">
+<!ENTITY prefs.resultswindow.desc "Åpne søkeresultater i nytt browservindu">
+<!ENTITY gmail-hidechat "Hide the Quick Contacts box">
+<!ENTITY gmail-hideinvite "Hide the invite box">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google Alternativer">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Bilder">
+<!ENTITY label.groups "Grupper">
+<!ENTITY label.news "Nyheter">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Svar">
+<!ENTITY label.print "Trykk">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Lokal">
+<!ENTITY label.privacy "Personvern">
+<!ENTITY label.filter "Filter">
+<!ENTITY label.about "Om">
+<!ENTITY label.web.long "Google Websøk">
+<!ENTITY label.images.long "Google Bildesøk">
+<!ENTITY label.groups.long "Google Grupper">
+<!ENTITY label.news.long "Google Nyheter">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Svar">
+<!ENTITY label.print.long "Google Trykk">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Lokal">
+<!ENTITY label.privacy.long "Personvern">
+<!ENTITY label.filter.long "Filter websider">
+<!ENTITY label.about.long "Om OptimizeGoogle">
+<!ENTITY web-remove-ads "Fjern annonser">
+<!ENTITY web-add-search-links "Legg til linker til andre søkemotorer">
+<!ENTITY web-add-news-links "I nyhetsresultatet, legg til linker til andre søkemotorer">
+<!ENTITY web-add-movie-links "I filmresultater, legg til linker til andre søkemotorer">
+<!ENTITY web-add-weather-links "I værresultater, legg til linker til andre søkemotorer">
+<!ENTITY web-add-product-links "I produktresultater, legg til linker til andre søkemotorer">
+<!ENTITY web-use-googlesuggest "Bruk Google Forslag (foreslår ord mens man skriver)">
+<!ENTITY web-searchfocus "Gi fokus til søkefeltet">
+<!ENTITY web-add-counter "Legg til posisjonsteller">
+<!ENTITY web-filter "Aktiver filtere (se &apos;Filter&apos; tab)">
+<!ENTITY web-history "Legg til link fra WayBackMachine (webside historikk)">
+<!ENTITY web-save "Legg til linker til bokmerkene/lagre en side">
+<!ENTITY web-remove-url-click-track "Fjern klikksporing">
+<!ENTITY images-add-image-links "Legg til link til andre bildesøkemotorer">
+<!ENTITY images-rewrite-links "Skriv om linkene til å peke direkte til bildene">
+<!ENTITY groups-remove-ads "Fjern annonser">
+<!ENTITY news-add-news-links "Legg til linker til andre nyhetssøkemotorer">
+<!ENTITY froogle-remove-ads "Fjern annonser">
+<!ENTITY froogle-add-product-links "Legg til linker til andre produktsøkemotorer">
+<!ENTITY answers-remove-ads "Fjern annonser">
+<!ENTITY print-remove-ads "Fjern annonser">
+<!ENTITY print-restore-menu "Restore right-click context menu">
+<!ENTITY print-add-book-links "Legg til linker til andre bokanmeldelser">
+<!ENTITY gmail-remove-ads "Fjern annonser og relaterte sider">
+<!ENTITY gmail-hidespam "Hide the spam-counter">
+<!ENTITY gmail-monospace "Use a fixed font for mail bodies">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Fjern annonser">
+<!ENTITY misc-analytics "Ikke send informasjonskapsler (cookies) til Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (også kjent som Urchin) er en tjeneste fra Google som hjelper websiteeiere til å analysere hvordan brukere bruker sidene deres. Informasjon om din bruk av en site (inkludert din IP-adresse) kan sendes automatisk til og lagres hos Google ved bruk av informasjonskapsler.">
+<!ENTITY misc-anonymize "Anonymiser Google cookie UID-en">
+<!ENTITY misc-anonymize.desc "Fjern muligheten for at google bygger opp en profil om deg. Dette vil ikke blokke aksess til Google konti, slik som GMail. Noen tjenester kan bli berørt. For eksempel, i Google Grupper, vil listen med &apos;nylig besøkte&apos; være tom.">
+<!ENTITY label.filter.desc "List alle sitene du vil filtrere fra søkeresultatet:">
+<!ENTITY examples "Eksempler">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "Filtrer bort subdomene">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "Filtrer en underkatalog på en site">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "Filtrer en side">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "Ekspert: filtrer ved hjelp av regexp">
+<!ENTITY options-import "Import">
+<!ENTITY options-export "Eksport">
+<!ENTITY about.desc "OptimizeGoogle er et Firefox tillegg som øker opplevelsen av Google søk ved å legge til ektra informasjon (slik som linker til Yahoo, Ask, MSN etc) og fjerner uønsket informasjon (slik som annonser og spam). All funksjonalitet er valgfri.">
+<!ENTITY donate.short "Støtt OptimizeGoogle">
+<!ENTITY donate.long "Bidra ved å donere via PayPal. På forhånd takk!">
+<!ENTITY linktext.paypal "PayPal donasjoner">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Avbryt">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Søk">
+<!ENTITY web-add-video-links "I Videoresultater, legg til lenker til andre videosøk siter">
+<!ENTITY web-autopager "Legg til etterfølgende resultatsider fortløpende">
+<!ENTITY secure-text "Sikker (bytt til https)">
+<!ENTITY images-autopager "Legg til etterfølgende resultatsider fortløpende">
+<!ENTITY label.reader "Leser">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Fjern klikksporing">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

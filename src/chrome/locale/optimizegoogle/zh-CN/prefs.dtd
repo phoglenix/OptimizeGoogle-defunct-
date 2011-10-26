@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "选项">
+<!ENTITY label.prefs.long "Google 使用偏好">
+<!ENTITY prefs.desc "　　访问 Google 时，您在下面选择的参数将会被自动设置。您也可以使用 google 设置页面上的选项更改下面的参数。请先确认您的浏览器启用了 cookie，否则无法进行所需设置。">
+<!ENTITY prefs.interface "界面语言">
+<!ENTITY prefs.interface.desc "显示 Google 提示和信息的语言:">
+<!ENTITY prefs.search "搜索语言">
+<!ENTITY prefs.search.any "搜索任何语言编写的网页">
+<!ENTITY prefs.search.selected "仅搜索特定语言编写的网页:">
+<!ENTITY prefs.safe "安全搜索过滤">
+<!ENTITY prefs.safe.strict "严格过滤(过滤图片搜索和普通的网页搜索)">
+<!ENTITY prefs.safe.moderate "中等过滤(仅过滤色情图片 - 默认)">
+<!ENTITY prefs.safe.off "不过滤">
+<!ENTITY prefs.resultsperpage "每页显示搜索结果的数量">
+<!ENTITY prefs.resultswindow "结果窗口">
+<!ENTITY prefs.resultswindow.desc "在新标签页中打开搜索结果">
+<!ENTITY gmail-hidechat "隐藏聊天框">
+<!ENTITY gmail-hideinvite "隐藏邀请框">
+<!ENTITY label.docs "文档">
+<!ENTITY label.docs.long "Google 文档">
+<!ENTITY dialog.cgtitle "Google 选项">
+<!ENTITY label.web "网页">
+<!ENTITY label.images "图片">
+<!ENTITY label.groups "论坛">
+<!ENTITY label.news "资讯">
+<!ENTITY label.froogle "购物">
+<!ENTITY label.answers "问答">
+<!ENTITY label.print "图书">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "地图">
+<!ENTITY label.privacy "隐私">
+<!ENTITY label.filter "过滤">
+<!ENTITY label.about "关于">
+<!ENTITY label.web.long "Google 网页搜索">
+<!ENTITY label.images.long "Google 图片搜索">
+<!ENTITY label.groups.long "Google 论坛">
+<!ENTITY label.news.long "Google 资讯">
+<!ENTITY label.froogle.long "Google 购物搜索">
+<!ENTITY label.answers.long "Google 问答">
+<!ENTITY label.print.long "Google 图书搜索">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google 地图">
+<!ENTITY label.privacy.long "隐私">
+<!ENTITY label.filter.long "过滤网站">
+<!ENTITY label.about.long "关于 OptimizeGoogle">
+<!ENTITY web-remove-ads "移除广告">
+<!ENTITY web-add-search-links "添加其它网站搜索的链接">
+<!ENTITY web-add-news-links "添加其它资讯网站的链接">
+<!ENTITY web-add-movie-links "添加其它影评网站的链接">
+<!ENTITY web-add-weather-links "添加其它气象网站的链接">
+<!ENTITY web-add-product-links "添加其它商家网站的链接">
+<!ENTITY web-use-googlesuggest "键入的同时提供搜索字词建议">
+<!ENTITY web-searchfocus "将输入焦点设定在搜索框">
+<!ENTITY web-add-counter "为搜索结果添加条目顺序">
+<!ENTITY web-filter "启用过滤(详见「过滤」标签)">
+<!ENTITY web-history "添加链接到 WayBack Machine(网络历史记录)">
+<!ENTITY web-save "添加链接到书签(保存网页)">
+<!ENTITY web-remove-url-click-track "禁止跟踪点击">
+<!ENTITY images-add-image-links "添加其它图片网站的链接">
+<!ENTITY images-rewrite-links "重写链接指向原始地址">
+<!ENTITY groups-remove-ads "移除广告">
+<!ENTITY news-add-news-links "添加其它资讯网站的链接">
+<!ENTITY froogle-remove-ads "移除广告">
+<!ENTITY froogle-add-product-links "添加其它商家网站的链接">
+<!ENTITY answers-remove-ads "移除广告">
+<!ENTITY print-remove-ads "移除广告">
+<!ENTITY print-restore-menu "重置鼠标右键关联菜单">
+<!ENTITY print-add-book-links "添加其它书评网站的链接">
+<!ENTITY gmail-remove-ads "移除广告和相关页面">
+<!ENTITY gmail-hidespam "隐藏「垃圾邮件」标签">
+<!ENTITY gmail-monospace "邮件内容使用固定字体">
+<!ENTITY label.calendar "日历">
+<!ENTITY label.calendar.long "Google 日历">
+<!ENTITY local-remove-ads "移除广告">
+<!ENTITY misc-analytics "禁止向 Google Analytics 发送任何 cookie">
+<!ENTITY misc-analytics.desc "　　Google Analytics (另称 Urchin) 是 Google 提供的一项服务，它用来帮助网站所有者分析用户使用网站的行为，它也通过 cookie 记录并保存网站的相关信息。">
+<!ENTITY misc-anonymize "将 Google cookie UID 匿名化">
+<!ENTITY misc-anonymize.desc "　　该选项可避免 Google 获取一些私人资料，这并不会导致您无法使用 Google 帐户的服务，如 Gmail。但有些服务可能会受到影响，比如 Google 论坛上的「我最近访问的论坛」就会为空了。">
+<!ENTITY label.filter.desc "需要过滤的网站列表(每行一条规则):">
+<!ENTITY examples "示例">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "屏蔽所有子域名">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "屏蔽一个特定的目录">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "屏蔽一个特定的页面">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "高级: 使用正则表达式屏蔽">
+<!ENTITY options-import "导入">
+<!ENTITY options-export "导出">
+<!ENTITY about.desc "　　OptimizeGoogle 是 Firefox 的一个扩展，它可以改善用户在 Google 搜索时的体验，例如增加其它搜索引擎的链接，或是移除不想要的信息(如广告)。所有的功能都是可选的。">
+<!ENTITY donate.short "支持 OptimizeGoogle">
+<!ENTITY donate.long "　　通过 PayPal 进行捐赠以支持 OptimizeGoogle 的开发:">
+<!ENTITY linktext.paypal "PayPal 捐赠">
+<!ENTITY about.links "碰到问题，需要支持？">
+<!ENTITY about.website "官方网站">
+<!ENTITY about.group "讨论组">
+<!ENTITY about.reportabug "报告 Bug">
+<!ENTITY okButtonlabel "确定">
+<!ENTITY cancelButtonlabel "取消">
+<!ENTITY label.video "视频">
+<!ENTITY label.video.long "Google 视频搜索">
+<!ENTITY web-add-video-links "添加其它视频网站的链接">
+<!ENTITY web-autopager "平滑滚动显示搜索结果页">
+<!ENTITY secure-text "安全模式(使用https://)">
+<!ENTITY images-autopager "平滑滚动显示搜索结果页">
+<!ENTITY label.reader "阅读器">
+<!ENTITY label.reader.long "Google 阅读器">
+<!ENTITY label.history "历史">
+<!ENTITY label.history.long "Google 网页历史">
+<!ENTITY web-favicons "显示网页标志">
+<!ENTITY label.cache "缓存">
+<!ENTITY label.cache.long "Google 缓存">
+<!ENTITY cache-continue "重写链接指向 Google 的缓存">
+<!ENTITY label.blogs "博客">
+<!ENTITY label.blogs.long "Google 博客搜索">
+<!ENTITY blogs-add-blog-links "添加其它博客网站的链接">
+<!ENTITY blogs-remove-url-click-track "禁止跟踪点击">
+<!ENTITY prefs.suggest "查询建议">
+<!ENTITY prefs.suggest.desc "在搜索框内提供查询建议">
+<!ENTITY youtube-remove-ads "移除广告">
+<!ENTITY images-remove-ads "移除广告">
+<!ENTITY web-disable-searchwiki "禁用 SearchWiki">
+<!ENTITY label.all "所有服务">
+<!ENTITY all-label-long "所有 Google 服务">
+<!ENTITY all-always-ssl "当 SSL 可用时使用之">
+<!ENTITY all-never-ads "阻止所有 Google 服务里的广告">
+<!ENTITY all-always-links "总是显示其它网站的链接">
+<!ENTITY all-always-rewrite "总是移除点击跟踪">
+<!ENTITY all-always-filters "总是启用过滤">
+<!ENTITY all-enable-multi-accounts "显示切换用户帐号的脚本">

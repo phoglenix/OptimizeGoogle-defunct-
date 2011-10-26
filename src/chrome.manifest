@@ -1,0 +1,50 @@
+overlay	chrome://browser/content/browser.xul	chrome://optimizegoogle/content/browser.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://optimizegoogle/content/browser.xul
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://optimizegoogle/content/browser.xul
+overlay chrome://emusic/content/startup.xul chrome://optimizegoogle/content/browser.xul
+content	optimizegoogle	jar:chrome/optimizegoogle.jar!/content/optimizegoogle/
+
+skin	optimizegoogle	classic/1.0	jar:chrome/optimizegoogle.jar!/skin/optimizegoogle/
+locale	optimizegoogle	en-US	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/en-US/
+locale	optimizegoogle	ar		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ar/
+locale	optimizegoogle	be-BY	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/be-BY/
+locale	optimizegoogle	bg-BG	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/bg-BG/
+locale	optimizegoogle	ca-AD	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ca-AD/
+locale	optimizegoogle	cs		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/cs/
+locale	optimizegoogle	da		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/da/
+locale	optimizegoogle	de		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/de/
+locale	optimizegoogle	el		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/el/
+locale	optimizegoogle	en-GB	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/en-GB/
+locale	optimizegoogle	es-AR	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/es-AR/
+locale	optimizegoogle	es-CL	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/es-CL/
+locale	optimizegoogle	es-ES	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/es-ES/
+locale	optimizegoogle	eu-ES	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/eu-ES/
+locale	optimizegoogle	fa-IR	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/fa-IR/
+locale	optimizegoogle	fi-FI	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/fi-FI/
+locale	optimizegoogle	fr		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/fr/
+locale	optimizegoogle	fy-NL	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/fy-NL/
+locale	optimizegoogle	he-IL	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/he-IL/
+locale	optimizegoogle	hr-HR	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/hr-HR/
+locale	optimizegoogle	hu-HU	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/hu-HU/
+locale	optimizegoogle	hy-AM	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/hy-AM/
+locale	optimizegoogle	id-ID	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/id-ID/
+locale	optimizegoogle	it		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/it/
+locale	optimizegoogle	ja		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ja/
+locale	optimizegoogle	ko-KR	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ko-KR/
+locale	optimizegoogle	nb-NO	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/nb-NO/
+locale	optimizegoogle	nl		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/nl/
+locale	optimizegoogle	pl		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/pl/
+locale	optimizegoogle	pt-BR	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/pt-BR/
+locale	optimizegoogle	pt-PT	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/pt-PT/
+locale	optimizegoogle	ro-RO	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ro-RO/
+locale	optimizegoogle	ru		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/ru/
+locale	optimizegoogle	sk-SK	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/sk-SK/
+locale	optimizegoogle	sq-AL	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/sq-AL/
+locale	optimizegoogle	sr		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/sr/
+locale	optimizegoogle	sv-SE	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/sv-SE/
+locale	optimizegoogle	th		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/th/
+locale	optimizegoogle	tr		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/tr/
+locale	optimizegoogle	uk-UA	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/uk-UA/
+locale	optimizegoogle	vi		jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/vi/
+locale	optimizegoogle	zh-CN	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/zh-CN/
+locale	optimizegoogle	zh-TW	jar:chrome/optimizegoogle.jar!/locale/optimizegoogle/zh-TW/

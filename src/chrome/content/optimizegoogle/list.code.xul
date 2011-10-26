@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.code.web" onload="cgprefs.onLoad('cg.code.web');" onunload="cgprefs.onOK('cg.code.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.code.long;"/>
+		<checkbox id="code-secure" label="&secure-text;" prefstring="extensions.optimizegoogle.code.secure" prefdefval="true"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('code-secure','sslWhenAble');
+    </script>
+</page>

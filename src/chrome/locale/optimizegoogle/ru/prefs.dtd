@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Настройки">
+<!ENTITY label.prefs.long "Передаваемые Google настройки">
+<!ENTITY prefs.desc "Выбранные настройки будут установлены автоматически во время доступа к Google. Не выбранные настройки можно спокойно изменить используя google.com/preferences. Установленные настройки не будут работать, если у Вас отключены cookies в браузере.">
+<!ENTITY prefs.interface "Язык интерфейса">
+<!ENTITY prefs.interface.desc "Отображать подсказки Google и сообщения в:">
+<!ENTITY prefs.search "Язык поиска">
+<!ENTITY prefs.search.any "Искать по страницам на каком-нибудь языке">
+<!ENTITY prefs.search.selected "Искать только по страницам на определённом языке(ах):">
+<!ENTITY prefs.safe "Безопасный поиск">
+<!ENTITY prefs.safe.strict "Использовать строгую фильтрацию (фильтруется текст и изображения)">
+<!ENTITY prefs.safe.moderate "Использовать умеренную фильтрацию (по-умолчанию фильтруются только изображения)">
+<!ENTITY prefs.safe.off "Не фильтровать результаты поиска">
+<!ENTITY prefs.resultsperpage "Количество результатов на страницу">
+<!ENTITY prefs.resultswindow "Окно с результатами">
+<!ENTITY prefs.resultswindow.desc "Открывать результаты поиска в новом окне брузера">
+<!ENTITY gmail-hidechat "Скрывать окно быстрых сообщений">
+<!ENTITY gmail-hideinvite "Скрывать окно приглашения">
+<!ENTITY label.docs "Документы">
+<!ENTITY label.docs.long "Google Документы и Таблицы">
+<!ENTITY dialog.cgtitle "Настройки Google">
+<!ENTITY label.web "Веб">
+<!ENTITY label.images "Изображения">
+<!ENTITY label.groups "Группы">
+<!ENTITY label.news "Новости">
+<!ENTITY label.froogle "Продукты">
+<!ENTITY label.answers "Ответы">
+<!ENTITY label.print "Книги">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Карты">
+<!ENTITY label.privacy "Приватность">
+<!ENTITY label.filter "Фильтр">
+<!ENTITY label.about "Информация">
+<!ENTITY label.code "Код">
+<!ENTITY label.web.long "Веб-поиск Google">
+<!ENTITY label.images.long "Поиск изображений Google">
+<!ENTITY label.groups.long "Группы Google">
+<!ENTITY label.news.long "Google новости">
+<!ENTITY label.froogle.long "Поиск по продуктам Google">
+<!ENTITY label.answers.long "Google ответы">
+<!ENTITY label.print.long "Google печать">
+<!ENTITY label.gmail.long "Почта GMail">
+<!ENTITY label.local.long "Google карты">
+<!ENTITY label.privacy.long "Приватность">
+<!ENTITY label.filter.long "Фильтр веб-страниц">
+<!ENTITY label.code.long "Код Google">
+<!ENTITY label.about.long "О OptimizeGoogle">
+<!ENTITY web-remove-ads "Убрать рекламу">
+<!ENTITY web-add-search-links "Добавить ссылки на другие поисковые сайты">
+<!ENTITY web-add-news-links "В результатах поиска новостей, добавить ссылки на другие поисковики машины по новостным сайтам">
+<!ENTITY web-add-movie-links "В результатах поиска видео, добавить ссылки на другие сайты, посвящённые видео">
+<!ENTITY web-add-weather-links "В результатах прогноза погоды, добавить ссылки на другие погодные сайты">
+<!ENTITY web-add-product-links "В результатах поиска товаров, добавить ссылки на другие сайты поиска товаров">
+<!ENTITY web-use-googlesuggest "Использовать Google Suggest (Показ вариантов по мере набора запроса)">
+<!ENTITY web-searchfocus "Дать фокус строке поиска">
+<!ENTITY web-add-counter "Добавить счётчик позиции">
+<!ENTITY web-filter "Включить фильтр (см. закладку «Фильтр»)">
+<!ENTITY web-history "Добавить ссылки на WayBackMachine (история веб-страниц)">
+<!ENTITY web-save "Добавить ссылки на закладки/сохранить веб-страницу">
+<!ENTITY web-remove-url-click-track "Убрать отслеживание кликов">
+<!ENTITY images-add-image-links "Добавить ссылки на другие сайты поиска изображений/фотографий">
+<!ENTITY images-rewrite-links "Переделывать прямые ссылки на изображения">
+<!ENTITY groups-remove-ads "Убрать рекламу">
+<!ENTITY news-add-news-links "Добавить ссылки на другие новостные сайты">
+<!ENTITY froogle-remove-ads "Убрать рекламу">
+<!ENTITY froogle-add-product-links "Добавить ссылки на другие сайты поиска товаров">
+<!ENTITY answers-remove-ads "Убрать рекламу">
+<!ENTITY print-remove-ads "Убрать рекламу">
+<!ENTITY print-restore-menu "Восстановить контекстное меню (по правому клику)">
+<!ENTITY print-add-book-links "Добавить ссылки на сайты с обзорами литературы">
+<!ENTITY gmail-remove-ads "Убрать рекламу и связанные страницы">
+<!ENTITY gmail-hidespam "Скрыть счётчик спама">
+<!ENTITY gmail-monospace "Использовать фиксированный шрифт для тел писем">
+<!ENTITY label.calendar "Календарь">
+<!ENTITY label.calendar.long "Google Календарь">
+<!ENTITY local-remove-ads "Удалить рекламу">
+<!ENTITY misc-analytics "Не посылать никаких cookies Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (также известное как Urchin) — это сервис от Google, который позволяет владельцам веб-сайтов анализировать, как пользователи их посещают. Информация о Вашем посещении определённого веб-сайта (Включая ваш IP-адрес) может автоматически передаваться и запоминаться Google путём использования cookies.">
+<!ENTITY misc-anonymize "Сделать Google cookie UID анонимным">
+<!ENTITY misc-anonymize.desc "Запретить Google возможность строить связанный с Вами профиль. Эта настройка не блокирует Ваш доступ к сервисам с аккаунтами Google, таким как GMail. Но некоторые возможности могут быть затронуты. Например, в группах Google список последних посещений будет пустым.">
+<!ENTITY label.filter.desc "Внесите в список сайты, которые вы хотите отфильтровать в ваших результатах поиска:">
+<!ENTITY examples "Примеры:">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "блокировать все поддомены">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "блокировать определённую директорию">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "блокировать определённую страницу">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "Эксперт: блокировать, используя регулярные выражения">
+<!ENTITY options-import "Импорт">
+<!ENTITY options-export "Экспорт">
+<!ENTITY about.desc "OptimizeGoogle — расширение для Firefox позволяющее улучшить результаты поиска в Google путём внесения дополнительной информации (ссылки на Yahoo, Ask, MSN и др.) и удаления нежелательной информации (реклама и спам). Все функции опциональны.">
+<!ENTITY donate.short "Поддержка OptimizeGoogle">
+<!ENTITY donate.long "Содействовать путём пожертвования денег через PayPal. Спасибо за участие!">
+<!ENTITY linktext.paypal "Пожертвовать денег через PayPal">
+<!ENTITY about.links "Вопросы? Поддержка?">
+<!ENTITY about.website "Веб-сайт">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Отчеты ошибке">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Отмена">
+<!ENTITY label.video "Видео">
+<!ENTITY label.video.long "Google поиск видео">
+<!ENTITY web-add-video-links "В результатах поиска видео, добавлять ссылки на другие видео поисковые сайты">
+<!ENTITY web-autopager "Потоковый результат поиска страниц">
+<!ENTITY secure-text "Безопасный режим (переключаться на https)">
+<!ENTITY images-autopager "Потоковый результат поиска страниц">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "История">
+<!ENTITY label.history.long "Google Веб-история">
+<!ENTITY web-favicons "Отображать favicon для веб-сайтов">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Убрать отслеживание кликов">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Все услуги">
+<!ENTITY all-label-long "Все службы Google">
+<!ENTITY all-never-ads "Блок реклам на всех услуг Google">
+<!ENTITY all-always-links "Показать ссылки на другие сайты, когда это применимо">
+<!ENTITY all-always-rewrite "Всегда вынимайте отслеживания кликов">
+<!ENTITY all-always-filters "Всегда включайте фильтры">

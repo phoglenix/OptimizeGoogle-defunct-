@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Beállítások">
+<!ENTITY label.prefs.long "Ragadós Google beállítások">
+<!ENTITY prefs.desc "A kiválasztott beállítások automatikusan beállításra kerülnek, amikor Ön felkeresi a Google weblapjait. A nem kiválasztott beállítások továbbra is a megváltoztathatóak a google.com/preferences weboldalon. A kiválasztott beállítások nem jutnak érvényre, ha böngészőjében letiltotta a Sütik kezelését.">
+<!ENTITY prefs.interface "Felhasználói felület nyelve">
+<!ENTITY prefs.interface.desc "Google ötletek és üzenetek megjelenítése:">
+<!ENTITY prefs.search "Keresés nyelve">
+<!ENTITY prefs.search.any "Bármilyen nyelven írt weboldalak keresése">
+<!ENTITY prefs.search.selected "Megadott nyelven írt weboldalak keresése">
+<!ENTITY prefs.safe "Biztonságos keresés">
+<!ENTITY prefs.safe.strict "Szigorú szűrés alkalmazása (Szűrés szövegekre és képekre is)">
+<!ENTITY prefs.safe.moderate "Visszafogott szűrés alkalmazása (Csak képek szűrése - alapértelmezett beállítás)">
+<!ENTITY prefs.safe.off "Ne szűrje a keresési eredményt.">
+<!ENTITY prefs.resultsperpage "Eredmények száma oldalanként">
+<!ENTITY prefs.resultswindow "Eredményablak">
+<!ENTITY prefs.resultswindow.desc "Keresési eredmények megjelenítése új ablakban">
+<!ENTITY gmail-hidechat "Gyors kapcsolatok elrejtése">
+<!ENTITY gmail-hideinvite "Hívja meg egy ismerősét doboz elrejtése">
+<!ENTITY label.docs "Dokumentumok">
+<!ENTITY label.docs.long "Google Dokumentumok">
+<!ENTITY dialog.cgtitle "Google beállítások">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Képek">
+<!ENTITY label.groups "Csoportok">
+<!ENTITY label.news "Hírek">
+<!ENTITY label.froogle "Termékek">
+<!ENTITY label.answers "Válaszok">
+<!ENTITY label.print "Könyvek">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Térképek">
+<!ENTITY label.privacy "Adatvédelem">
+<!ENTITY label.filter "Szűrők">
+<!ENTITY label.about "Névjegy">
+<!ENTITY label.web.long "Google webkereső">
+<!ENTITY label.images.long "Google képkereső">
+<!ENTITY label.groups.long "Google csoportok">
+<!ENTITY label.news.long "Google hírek">
+<!ENTITY label.froogle.long "Google Termékkereső">
+<!ENTITY label.answers.long "Google Válaszok">
+<!ENTITY label.print.long "Google Könyvkereső">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Térképek">
+<!ENTITY label.privacy.long "Adatvédelem">
+<!ENTITY label.filter.long "Weboldalak kiszűrése">
+<!ENTITY label.about.long "OptimizeGoogle névjegye">
+<!ENTITY web-remove-ads "Reklámok eltávolítása">
+<!ENTITY web-add-search-links "Linkek hozzáadása más keresőoldalakhoz">
+<!ENTITY web-add-news-links "Hír találatoknál linkek hozzáadása más hír keresőoldalakhoz">
+<!ENTITY web-add-movie-links "Film találatoknál linkek hozzáadása más filmkritika oldalakhoz">
+<!ENTITY web-add-weather-links "Időjárás találatoknál linkek hozzáadása más időjárás-előrejelző oldalakhoz">
+<!ENTITY web-add-product-links "Termék találatoknál linkek hozzáadása más termékkereső-oldalakhoz">
+<!ENTITY web-use-googlesuggest "Google Suggest (javaslatokat ad gépelés közben)">
+<!ENTITY web-searchfocus "Fókusz átállítása a szövegbeviteli mezőre">
+<!ENTITY web-add-counter "Sorszámok hozzáadása">
+<!ENTITY web-filter "Szűrők engedélyezése (lásd &apos;Szűrők&apos; fül)">
+<!ENTITY web-history "WayBackMachine oldalra mutató linkek hozzáadása (oldalak régi változatai)">
+<!ENTITY web-save "Link hozzáadása az oldalak mentéséhez/felvételéhez a könyvjelzők közé">
+<!ENTITY web-remove-url-click-track "Kattintás-követés kikapcsolása">
+<!ENTITY images-add-image-links "Linkek hozzáadása más kép/fotó keresőoldalakhoz">
+<!ENTITY images-rewrite-links "Link közvetlenül a képre mutasson">
+<!ENTITY groups-remove-ads "Reklámok eltávolítása">
+<!ENTITY news-add-news-links "Linkek hozzáadása más hírkereső-oldalakhoz">
+<!ENTITY froogle-remove-ads "Reklámok eltávolítása">
+<!ENTITY froogle-add-product-links "Linkek hozzáadása más termékkereső-oldalakhoz">
+<!ENTITY answers-remove-ads "Reklámok eltávolítása">
+<!ENTITY print-remove-ads "Reklámok eltávolítása">
+<!ENTITY print-restore-menu "Környezeti menü (jobb klikk) engedélyezése">
+<!ENTITY print-add-book-links "Linkek hozzáadása könyvkritikai oldalakhoz">
+<!ENTITY gmail-remove-ads "Reklámok és &apos;Kapcsolódó oldalak&apos; eltávolítása">
+<!ENTITY gmail-hidespam "Kéretlenlevél-számláló elrejtése">
+<!ENTITY gmail-monospace "Fix szélességű betűtípus használata levelekben">
+<!ENTITY label.calendar "Naptár">
+<!ENTITY label.calendar.long "Google Naptár">
+<!ENTITY local-remove-ads "Reklámok eltávolítása">
+<!ENTITY misc-analytics "Ne küldjön sütiket a Google Analytics szolgáltatásnak">
+<!ENTITY misc-analytics.desc "A Google Analytics (alias Urchin) a Google egy szolgáltatása, amely segítségével a weboldal tulajdonosok megtudhatják, hogyan használják a látogatók az oldalaikat. Ezt az információt (amely tartalmazza a felhasználó IP címét) sütikkel szokták automatikusan eljuttatni a Google Analytics szolgáltatásnak.">
+<!ENTITY misc-anonymize "Google felhasználói azonosító névtelenítése">
+<!ENTITY misc-anonymize.desc "Kizárja annak a lehetőségét, hogy a Google összefüggő képet alkothasson az Ön szokásairól. Ez nem akadályozza meg a Google regisztrációhoz kötött szolgáltatásainak elérését (mint a GMail), de néhány funkció működését megakadályozza. Például a Google Csoportokban az &apos;Utoljára látogatott&apos; csoportok listája üres lesz.">
+<!ENTITY label.filter.desc "Azon oldalak, amelyeket ki akar szűrni a találatok közül:">
+<!ENTITY examples "Példák">
+<!ENTITY examples.1.filter "http://*.pelda.hu/*">
+<!ENTITY examples.1.desc "Összes aldomain blokkolása">
+<!ENTITY examples.2.filter "http://sport.pelda.hu/kutyuk/*">
+<!ENTITY examples.2.desc "Meghatározott könyvtár blokkolása">
+<!ENTITY examples.3.filter "http://sport.pelda.hu/index.html">
+<!ENTITY examples.3.desc "Meghatározott oldal blokkolása">
+<!ENTITY examples.4.filter "/http:\/\/\w+\pelda\.(com|org|hu)\//i">
+<!ENTITY examples.4.desc "Haladó: blokkolás reguláris kifejezések használatával">
+<!ENTITY options-import "Importálás">
+<!ENTITY options-export "Exportálás">
+<!ENTITY about.desc "A OptimizeGoogle egy Firefox kiterjesztés, ami javítja a Google találati oldalát extra linkek hozzáadásával (mint például: Yahoo, Ask, MSN, stb.) és nem kívánt információ (reklámok és kéretlen üzenetek) eltávolításával. Minden funkció kikapcsolható.">
+<!ENTITY donate.short "OptimizeGoogle támogatása">
+<!ENTITY donate.long "Kérem támogasson a PayPal rendszeren keresztül. Előre is köszönöm!">
+<!ENTITY linktext.paypal "Adomány PayPal rendszeren keresztül">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Mégse">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Kereső">
+<!ENTITY web-add-video-links "További videokereső webhelyek megjelenítése">
+<!ENTITY web-autopager "Tömeges eredmények">
+<!ENTITY secure-text "Biztonságos (váltás https protokollra)">
+<!ENTITY images-autopager "Tömeges eredmények">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "Előzmények">
+<!ENTITY label.history.long "Google web előzmények">
+<!ENTITY web-favicons "Weboldal-ikon megjelenítése">
+<!ENTITY label.cache "Tárolt változat">
+<!ENTITY label.cache.long "Google által tárolt változat">
+<!ENTITY cache-continue "Tárolt oldalak linkjeinek használata">
+<!ENTITY label.blogs "Blogok">
+<!ENTITY label.blogs.long "Google Blogkereső">
+<!ENTITY blogs-add-blog-links "További blogkereső webhelyek megjelenítése">
+<!ENTITY blogs-remove-url-click-track "Kattintás-követés kikapcsolása">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

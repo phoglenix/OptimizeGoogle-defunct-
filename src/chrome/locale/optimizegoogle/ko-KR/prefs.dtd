@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "환경설정">
+<!ENTITY label.prefs.long "Google 환경설정 고정">
+<!ENTITY prefs.desc "Google을 사용할 때 선택한 환경설정이 자동으로 적용됩니다. 선택하지 않은 환경설정은 google.co.kr/preferences 에서 변경할 수 있습니다. 브라우저의 쿠키를 비활성화 한 경우 환경설정이 작동하지 않습니다.">
+<!ENTITY prefs.interface "인터페이스 언어">
+<!ENTITY prefs.interface.desc "Google 팁과 메시지를 다음 언어를 사용해 보여줍니다:">
+<!ENTITY prefs.search "검색 언어">
+<!ENTITY prefs.search.any "모든 언어로 된 페이지 검색">
+<!ENTITY prefs.search.selected "다음 언어로 된 페이지 검색">
+<!ENTITY prefs.safe "안전검색(SafeSearch)">
+<!ENTITY prefs.safe.strict "엄격한 필터 사용 (노골적 텍스트 및 이미지 모두 필터)">
+<!ENTITY prefs.safe.moderate "중간수준 필터 사용 (노골적 이미지만 필터 - 기본 동작)">
+<!ENTITY prefs.safe.off "검색 결과를 필터하지 않음">
+<!ENTITY prefs.resultsperpage "페이지당 검색결과 수">
+<!ENTITY prefs.resultswindow "검색 결과 창">
+<!ENTITY prefs.resultswindow.desc "검색 결과를 브라우저 새 창에서 열기">
+<!ENTITY gmail-hidechat "빠른 연락처 상자 숨김">
+<!ENTITY gmail-hideinvite "초대 상자 숨김">
+<!ENTITY label.docs "문서">
+<!ENTITY label.docs.long "Google 워드프로세서 &amp; 스프레드쉬트">
+<!ENTITY dialog.cgtitle "Google 옵션">
+<!ENTITY label.web "웹">
+<!ENTITY label.images "이미지">
+<!ENTITY label.groups "그룹스">
+<!ENTITY label.news "뉴스">
+<!ENTITY label.froogle "제품">
+<!ENTITY label.answers "앤서즈">
+<!ENTITY label.print "책">
+<!ENTITY label.gmail "Gmail">
+<!ENTITY label.local "지도">
+<!ENTITY label.privacy "개인 정보">
+<!ENTITY label.filter "필터">
+<!ENTITY label.about "이 프로그램에 대하여">
+<!ENTITY label.web.long "Google 웹 검색">
+<!ENTITY label.images.long "Google 이미지 검색">
+<!ENTITY label.groups.long "Google 그룹스">
+<!ENTITY label.news.long "Google 뉴스">
+<!ENTITY label.froogle.long "구글 제품 검색">
+<!ENTITY label.answers.long "Google 앤서즈">
+<!ENTITY label.print.long "개인 정보">
+<!ENTITY label.gmail.long "Gmail">
+<!ENTITY label.local.long "Google 지도">
+<!ENTITY label.privacy.long "개인 정보">
+<!ENTITY label.filter.long "웹사이트 필터">
+<!ENTITY label.about.long "OptimizeGoogle에 대하여">
+<!ENTITY web-remove-ads "광고 제거">
+<!ENTITY web-add-search-links "다른 웹 검색 사이트 링크 추가">
+<!ENTITY web-add-news-links "뉴스 결과에서, 다른 뉴스 검색 사이트 링크 추가">
+<!ENTITY web-add-movie-links "영화 결과에서, 다른 영화 검색 리뷰 링크 추가">
+<!ENTITY web-add-weather-links "날씨 결과에서, 다른 날씨 사이트 링크 추가">
+<!ENTITY web-add-product-links "제품 결과에서, 다른 제품 검색 사이트 링크 추가">
+<!ENTITY web-use-googlesuggest "Google Suggest 사용(입력 중 단어 제안)">
+<!ENTITY web-searchfocus "검색 상자로 포커스 이동">
+<!ENTITY web-add-counter "위치 카운터 추가">
+<!ENTITY web-filter "필터 활성화 (&apos;필터&apos;탭을 보세요)">
+<!ENTITY web-history "WayBackMachine 링크 추가 (웹페이지 히스토리)">
+<!ENTITY web-save "북마크/웹페이지 저장 링크 추가">
+<!ENTITY web-remove-url-click-track "클릭 추적 제거">
+<!ENTITY images-add-image-links "다른 이미지/사진/예술 검색 사이트 링크 추가">
+<!ENTITY images-rewrite-links "이미지를 바로 보여주도록 링크 고침">
+<!ENTITY groups-remove-ads "광고 제거">
+<!ENTITY news-add-news-links "다른 뉴스 검색 사이트 링크 추가">
+<!ENTITY froogle-remove-ads "광고 제거">
+<!ENTITY froogle-add-product-links "다른 제품 검색 사이트 링크 추가">
+<!ENTITY answers-remove-ads "광고 제거">
+<!ENTITY print-remove-ads "광고 제거">
+<!ENTITY print-restore-menu "오른쪽 클릭 상황 메뉴 복구">
+<!ENTITY print-add-book-links "책 리뷰 사이트 링크 추가">
+<!ENTITY gmail-remove-ads "광고 및 관련 페이지 제거">
+<!ENTITY gmail-hidespam "스팸 카운터 숨김">
+<!ENTITY gmail-monospace "메일 본문에 고정된 글자크기 사용">
+<!ENTITY label.calendar "캘린더">
+<!ENTITY label.calendar.long "Google 캘린더">
+<!ENTITY local-remove-ads "광고 제거">
+<!ENTITY misc-analytics "Google Analytics에 어떤 쿠키도 보내지 않음">
+<!ENTITY misc-analytics.desc "Google Analytics(Urchin으로도 알려짐)는 Google 서비스 중 하나로서, 사용자가 웹사이트를 어떻게 사용하는지 해당 웹사이트 소유자가 분석할 수 있도록 합니다. 당신이 특정 웹사이트를 어떻게 사용하는지에 관한 정보(IP 주소 포함)가 쿠키를 통해 자동적으로 Google로 전송되고 분석될 수 있습니다.">
+<!ENTITY misc-anonymize "Google 쿠키 UID를 익명화 함">
+<!ENTITY misc-anonymize.desc "Google이 당신에 관한 종합적인 프로파일을 작성할 가능성을 방지합니다. 이 기능은 GMail 등 Google Account 서비스 접속을 차단하지 않습니다. 일부 서비스는 영향을 받을 수 있습니다. 예를 들어, Google 그룹스에서 &apos;최근 방문한 그룹&apos; 목록이 비어있게 됩니다.">
+<!ENTITY label.filter.desc "검색 결과에서 제외할 사이트 목록:">
+<!ENTITY examples "예제">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "서브도메인 수준에서 차단">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "특정 디렉토리 차단">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "특정 페이지 차단">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "고급: 정규식을 사용한 차단">
+<!ENTITY options-import "가져오기">
+<!ENTITY options-export "내보내기">
+<!ENTITY about.desc "OptimizeGoogle은 Firefox 확장기능으로써, Google 검색 결과에 추가 정보를(Yahoo, Ask, MSN 등으로의 링크 등) 더하고, 원하지 않는 정보를(광고와 스팸 등) 제거하여 검색 결과를 향상시킵니다. 모든 기능은 선택적으로 설정 가능합니다.">
+<!ENTITY donate.short "OptimizeGoogle을 지원하세요">
+<!ENTITY donate.long "PayPal을 통해 기부함으로써 본 프로그램에 기여하세요. 미리 감사드립니다!">
+<!ENTITY linktext.paypal "PayPal 기부">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "확인">
+<!ENTITY cancelButtonlabel "취소">
+<!ENTITY label.video "비디오">
+<!ENTITY label.video.long "Google 비디오 검색">
+<!ENTITY web-add-video-links "비디오 검색에서, 다른 비디오 검색 사이트 링크 추가">
+<!ENTITY web-autopager "연속된 검색 결과 페이지">
+<!ENTITY secure-text "보안 접속 (https로 전환)">
+<!ENTITY images-autopager "연속된 검색 결과 페이지">
+<!ENTITY label.reader "리더">
+<!ENTITY label.reader.long "Google 리더">
+<!ENTITY label.history "히스토리">
+<!ENTITY label.history.long "Google 웹 히스토리">
+<!ENTITY web-favicons "웹 페이지 아이콘(favicon) 보이기">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "클릭 추적 제거">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

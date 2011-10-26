@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "喜好">
+<!ENTITY label.prefs.long "Google緊密貼近喜好">
+<!ENTITY prefs.desc "已選的喜好將每次連到Google時自動啟動.未選的喜好仍能透過google.com或preferences設定.如果你停止了瀏覽器使用cookies,已設定的喜好將不能使用.">
+<!ENTITY prefs.interface "語言界面">
+<!ENTITY prefs.interface.desc "顯示Google tips及messages的語言:">
+<!ENTITY prefs.search "搜尋語言">
+<!ENTITY prefs.search.any "搜尋所有語言的網頁">
+<!ENTITY prefs.search.selected "只搜尋以下語言的網頁:">
+<!ENTITY prefs.safe "安全搜尋">
+<!ENTITY prefs.safe.strict "使用嚴格過濾(同時過濾特定字眼及圖片)">
+<!ENTITY prefs.safe.moderate "使用適中程度過濾(只過濾特定圖片-預設)">
+<!ENTITY prefs.safe.off "不要過濾我的搜尋結果">
+<!ENTITY prefs.resultsperpage "每頁搜尋結果數目">
+<!ENTITY prefs.resultswindow "結果視窗">
+<!ENTITY prefs.resultswindow.desc "於新視窗顯示搜尋結果">
+<!ENTITY gmail-hidechat "隱藏&quot;Quick Contacts box&quot;">
+<!ENTITY gmail-hideinvite "隱藏&quot;invite box&quot;">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google 選項">
+<!ENTITY label.web "網際網路">
+<!ENTITY label.images "圖片">
+<!ENTITY label.groups "網上論壇">
+<!ENTITY label.news "新聞">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Print">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Maps">
+<!ENTITY label.privacy "隱私">
+<!ENTITY label.filter "過濾">
+<!ENTITY label.about "關於">
+<!ENTITY label.web.long "Google 網頁搜尋">
+<!ENTITY label.images.long "Google 圖片搜尋">
+<!ENTITY label.groups.long "Google 網上論壇">
+<!ENTITY label.news.long "Google 新聞">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers (answers.google.com)">
+<!ENTITY label.print.long "Google Print (print.google.com)">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Local (local.google.com)">
+<!ENTITY label.privacy.long "隱私">
+<!ENTITY label.filter.long "過濾的網站">
+<!ENTITY label.about.long "關於 OptimizeGoogle">
+<!ENTITY web-remove-ads "移除廣告">
+<!ENTITY web-add-search-links "加上其他搜尋引擎的連結">
+<!ENTITY web-add-news-links "加上其他新聞搜尋引擎的連結(針對搜尋到的新聞)">
+<!ENTITY web-add-movie-links "加上其他影片評論網站的連結(針對搜尋到的影片)">
+<!ENTITY web-add-weather-links "加上其他氣象網站的連結(針對搜尋到的氣象)">
+<!ENTITY web-add-product-links "加上其他商品搜尋引擎的連結(針對搜尋到的商品)">
+<!ENTITY web-use-googlesuggest "啟用Google建議 (將會顯示一個清單列出建議的關鍵字)">
+<!ENTITY web-searchfocus "將輸入焦點設定在輸入關鍵字的格子">
+<!ENTITY web-add-counter "為搜尋結果加上順序(第#筆)">
+<!ENTITY web-filter "啟用過濾規則 (詳細資訊請看「過濾」分頁)">
+<!ENTITY web-history "把連結加到 WaybackMachine.org">
+<!ENTITY web-save "將鍊結加入書籤/存檔">
+<!ENTITY web-remove-url-click-track "拒絕追蹤我點擊的連結">
+<!ENTITY images-add-image-links "加上其他圖片搜尋引擎的連結">
+<!ENTITY images-rewrite-links "將上原圖片及原網頁的連結">
+<!ENTITY groups-remove-ads "移除廣告">
+<!ENTITY news-add-news-links "加上其他新聞搜尋引擎的連結">
+<!ENTITY froogle-remove-ads "移除廣告">
+<!ENTITY froogle-add-product-links "加上其他商品搜尋引擎的連結">
+<!ENTITY answers-remove-ads "移除廣告">
+<!ENTITY print-remove-ads "移除廣告">
+<!ENTITY print-restore-menu "不要禁用我的右鍵選單">
+<!ENTITY print-add-book-links "加入其他書評網站的連結">
+<!ENTITY gmail-remove-ads "移除廣告和相關頁面">
+<!ENTITY gmail-hidespam "隱藏spam-counter">
+<!ENTITY gmail-monospace "使用固定字體作郵件內容顯示">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "移除廣告">
+<!ENTITY misc-analytics "不要提供cookie給Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (另稱 Urchin)。這是Google提供使用者的一項服務，用來分析該使用者擁有的網站流量等資訊(如IP)。它也會利用cookie紀錄一些你的相關資訊。">
+<!ENTITY misc-anonymize "將Google cookie UID匿名化">
+<!ENTITY misc-anonymize.desc "此選項可避免Google取得一些個人的資料，這並不會造成你無法使用Google的個人服務(如GMail)，但是像Google 網上論壇裡的「我最近(拜訪)的群組」將會變成空白。">
+<!ENTITY label.filter.desc "列出你想要過濾的網站(支援萬用字元和正規表示法)：">
+<!ENTITY examples "範例">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "過濾所有子網域">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "過濾特定的目錄">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "過濾特定的頁面">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "進階：使用正規表示法">
+<!ENTITY options-import "匯入">
+<!ENTITY options-export "匯出">
+<!ENTITY about.desc "OptimizeGoogle是一個Firefox的擴充套件，它可以補足原有Google的一些不足之處，例如增加其他搜尋引擎的連結資訊，或是移除不想要的內容(如廣告)，此外所有功能都是選用的。">
+<!ENTITY donate.short "支援 OptimizeGoogle">
+<!ENTITY donate.long "用PayPal捐上一筆心意，以進一步表達你的謝意。">
+<!ENTITY linktext.paypal "PayPal">
+<!ENTITY about.links "有問題？需要支援？">
+<!ENTITY about.website "官網">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "錯誤回報">
+<!ENTITY okButtonlabel "確定">
+<!ENTITY cancelButtonlabel "取消">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "於影片搜尋結果,增加其他影片搜尋網站的鏈結">
+<!ENTITY web-autopager "連續顯示後頁搜尋結果[測試版]">
+<!ENTITY secure-text "安全模式 (切換到https://)">
+<!ENTITY images-autopager "連續顯示後頁搜尋結果[測試版]">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "顯示網頁標誌">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "拒絕追蹤我點擊的連結">
+<!ENTITY prefs.suggest "查詢建議">
+<!ENTITY prefs.suggest.desc "提供查詢建議於搜尋欄位裡">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "移除廣告">
+<!ENTITY web-disable-searchwiki "停用 SearchWiki">
+<!ENTITY label.all "所有服務">
+<!ENTITY all-label-long "所有Google的服務">
+<!ENTITY all-always-ssl "啟用SSL(當SSL可使用時)">
+<!ENTITY all-never-ads "封鎖所有Google服務中的廣告">
+<!ENTITY all-always-links "Show links to other sites when applicable">
+<!ENTITY all-always-rewrite "拒絕追蹤我點擊的連結">
+<!ENTITY all-always-filters "總是啟用過濾規則">
+<!ENTITY all-enable-multi-accounts "顯示切換使用者帳戶的動作">

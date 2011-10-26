@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "Voorkeuren">
+<!ENTITY label.prefs.long "Vaste Google-voorkeuren">
+<!ENTITY prefs.desc "De geselecteerde voorkeuren zullen automatische ingesteld worden wanneer Google benaderd wordt. Niet geselecteerde voorkeuren kunnen nog steeds ingesteld worden via google.com/preferences. Voorkeuren instellen werkt niet als cookies in de browser zijn uitgeschakeld.">
+<!ENTITY prefs.interface "Interfacetaal">
+<!ENTITY prefs.interface.desc "Googletips en -berichten weergeven in:">
+<!ENTITY prefs.search "Zoektaal">
+<!ENTITY prefs.search.any "Pagina’s zoeken in alle talen">
+<!ENTITY prefs.search.selected "Alleen pagina’s zoeken geschreven in de volgende ta(a)l(en):">
+<!ENTITY prefs.safe "Veilig zoeken">
+<!ENTITY prefs.safe.strict "Strikte filtering gebruiken (zowel explicite tekst als afbeeldingen filteren)">
+<!ENTITY prefs.safe.moderate "Basisfiltering gebruiken (alleen expliciete afbeeldingen filteren - standaardmethode)">
+<!ENTITY prefs.safe.off "De zoekresultaten niet filteren">
+<!ENTITY prefs.resultsperpage "Aantal resultaten per pagina">
+<!ENTITY prefs.resultswindow "Resultatenvenster">
+<!ENTITY prefs.resultswindow.desc "Zoekresultaten in een nieuw browservenster openen">
+<!ENTITY gmail-hidechat "Chatvenster verbergen">
+<!ENTITY gmail-hideinvite "Uitnodigingenvenster verbergen">
+<!ENTITY label.docs "Documenten">
+<!ENTITY label.docs.long "Google Documenten &amp; Rekenbladen">
+<!ENTITY dialog.cgtitle "Google opties">
+<!ENTITY label.web "Het internet">
+<!ENTITY label.images "Afbeeldingen">
+<!ENTITY label.groups "Discussiegroepen">
+<!ENTITY label.news "Nieuws">
+<!ENTITY label.froogle "Producten">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Boeken">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Maps">
+<!ENTITY label.privacy "Privacy">
+<!ENTITY label.filter "Filter">
+<!ENTITY label.about "Over">
+<!ENTITY label.code "Code">
+<!ENTITY label.web.long "Google Internet zoeken">
+<!ENTITY label.images.long "Google Afbeeldingen zoeken">
+<!ENTITY label.groups.long "Google Discussiegroepen">
+<!ENTITY label.news.long "Google Nieuws">
+<!ENTITY label.froogle.long "Google Producten zoeken">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Boeken zoeken">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Maps">
+<!ENTITY label.privacy.long "Privacy">
+<!ENTITY label.filter.long "Websites filteren">
+<!ENTITY label.code.long "Google Code">
+<!ENTITY label.about.long "Over OptimizeGoogle">
+<!ENTITY web-remove-ads "Advertenties verwijderen">
+<!ENTITY web-add-search-links "Koppelingen naar andere webzoeksites toevoegen">
+<!ENTITY web-add-news-links "Koppelingen naar andere nieuwszoeksites in nieuwsresultaten toevoegen">
+<!ENTITY web-add-movie-links "Koppelingen naar andere filmrecensiesites in filmresultaten toevoegen">
+<!ENTITY web-add-weather-links "Koppelingen naar andere weersites in weerresultaten toevoegen">
+<!ENTITY web-add-product-links "Koppelingen naar andere zoekmachines voor producten in productresultaten toevoegen">
+<!ENTITY web-use-googlesuggest "Google suggestie gebruiken (woorden voorstellen tijdens typen).">
+<!ENTITY web-searchfocus "Tekstvak voor zoektekst actief maken">
+<!ENTITY web-add-counter "Teller met positie toevoegen">
+<!ENTITY web-filter "Filters inschakelen (zie tabblad ‘Filter’)">
+<!ENTITY web-history "Koppelingen naar WayBackMachine (webpaginageschiedenis) toevoegen">
+<!ENTITY web-save "Koppelingen naar bladwijzer/opslaan van webpagina toevoegen">
+<!ENTITY web-remove-url-click-track "Koppelingen die u heeft bezocht niet onthouden">
+<!ENTITY images-add-image-links "Koppelingen naar andere afbeeldingen-/foto-/kunstzoeksites toevoegen">
+<!ENTITY images-rewrite-links "Koppelingen herschrijven zodat deze rechtstreeks naar de afbeeldingen verwijzen">
+<!ENTITY groups-remove-ads "Advertenties verwijderen">
+<!ENTITY news-add-news-links "Koppelingen naar andere nieuwszoeksites toevoegen">
+<!ENTITY froogle-remove-ads "Advertenties verwijderen">
+<!ENTITY froogle-add-product-links "Koppelingen naar andere productzoeksites toevoegen">
+<!ENTITY answers-remove-ads "Advertenties verwijderen">
+<!ENTITY print-remove-ads "Advertenties verwijderen">
+<!ENTITY print-restore-menu "Rechtermuisknop contextmenu herstellen">
+<!ENTITY print-add-book-links "Koppelingen naar boekrecensiesites toevoegen">
+<!ENTITY gmail-remove-ads "Advertenties en gerelateerde pagina’s verwijderen">
+<!ENTITY gmail-hidespam "Spamteller verbergen">
+<!ENTITY gmail-monospace "Een lettertype met vaste breedte voor de mailinhoud gebruiken">
+<!ENTITY label.calendar "Agenda">
+<!ENTITY label.calendar.long "Google Agenda">
+<!ENTITY local-remove-ads "Advertenties verwijderen">
+<!ENTITY misc-analytics "Geen cookies naar Google Analytics verzenden">
+<!ENTITY misc-analytics.desc "Google Analytics (ook bekend als Urchin) is een dienst van Google die eigenaren van websites helpt te analyseren hoe gebruikers hun sites gebruiken. Informatie over uw gebruik van een bepaalde website (inclusief uw IP-adres) kan automatisch worden overgebracht naar en opgeslagen door Google met behulp van cookies.">
+<!ENTITY misc-anonymize "Google cookie-UID anoniem maken">
+<!ENTITY misc-anonymize.desc "Vermijd de mogelijkheid dat Google een samenhangend profiel over u opbouwt. Dit blokkeert de toegang tot de Google Account diensten, zoals GMail, niet. Sommige diensten kunnen hinder ondervinden. Zo wordt bijvoorbeeld de lijst van Onlangs bezochte groepen leeg.">
+<!ENTITY label.filter.desc "Lijst van alle sites die gefilterd moeten worden uit de zoekresultaten:">
+<!ENTITY examples "Voorbeelden">
+<!ENTITY examples.1.filter "http://*.voorbeeld.com/*">
+<!ENTITY examples.1.desc "blokkeren over alle subdomeinen">
+<!ENTITY examples.2.filter "http://sport.voorbeeld.com/afbeeldingen/*">
+<!ENTITY examples.2.desc "een specifieke map blokkeren">
+<!ENTITY examples.3.filter "http://sport.voorbeeld.com/index.html">
+<!ENTITY examples.3.desc "een specifieke pagina blokkeren">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.voorbeeld\.(com|org)\//i">
+<!ENTITY examples.4.desc "expert: blokkeren met reguliere expressie">
+<!ENTITY options-import "Importeren">
+<!ENTITY options-export "Exporteren">
+<!ENTITY about.desc "OptimizeGoogle is een FireFox-extensie die de zoekresultaten van Google verbetert door extra informatie toe te voegen (zoals koppelingen naar Yahoo, Ask, MSN enz.) en overbodige informatie zoals advertenties en spam te verwijderen. Alle mogelijkheden zijn optioneel. Deze extensie is gebouwd om de OptimizeGoogle-extensie van Daniel te onderhouden en verbeteren, aangezien de ontwikkeling hiervan lijkt te zijn gestopt, waardoor de wijzigingen die Google heeft gemaakt aan hun pagina’s niet meer worden ondersteund.">
+<!ENTITY donate.short "OptimizeGoogle ondersteunen">
+<!ENTITY donate.long "Draag bij middels een donatie via PayPal. Alvast bedankt!">
+<!ENTITY linktext.paypal "PayPal-donatie">
+<!ENTITY about.links "Vragen? Ondersteuning?">
+<!ENTITY about.website "Website">
+<!ENTITY about.group "Discussiegroep">
+<!ENTITY about.reportabug "Foutrapporten">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Annuleren">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video zoeken">
+<!ENTITY web-add-video-links "Koppelingen naar andere videozoeksites in videoresultaten toevoegen">
+<!ENTITY web-autopager "De resultatenpagina voortdurend met resultaten bijwerken">
+<!ENTITY secure-text "Beveiligd (overschakelen naar https)">
+<!ENTITY images-autopager "De resultatenpagina voortdurend met resultaten bijwerken">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "Geschiedenis">
+<!ENTITY label.history.long "Google Web geschiedenis">
+<!ENTITY web-favicons "Favicons voor webpagina’s weergeven">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Koppelingen herschrijven zodat deze naar Google’s cacheverwijzen">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blogs zoeken">
+<!ENTITY blogs-add-blog-links "Koppelingen naar andere blogzoeksites toevoegen">
+<!ENTITY blogs-remove-url-click-track "Koppelingen die u heeft bezocht niet onthouden">
+<!ENTITY prefs.suggest "Suggesties voor zoekopdrachten">
+<!ENTITY prefs.suggest.desc "Suggesties voor zoekopdrachten geven in het zoekveld.">
+<!ENTITY youtube-remove-ads "Advertenties verwijderen">
+<!ENTITY images-remove-ads "Advertenties verwijderen">
+<!ENTITY web-disable-searchwiki "SearchWiki uitschakelen">
+<!ENTITY label.all "Alle diensten">
+<!ENTITY all-label-long "Alle Google-diensten">
+<!ENTITY all-always-ssl "Indien mogelijk SSL gebruiken">
+<!ENTITY all-never-ads "Advertenties bij alle Google-diensten blokkeren">
+<!ENTITY all-always-links "Koppelingen naar andere sites weergeven indien van toepassing">
+<!ENTITY all-always-rewrite "Kliktrackers altijd verwijderen">
+<!ENTITY all-always-filters "Filters altijd inschakelen">
+<!ENTITY all-enable-multi-accounts "Script voor wisselen gebruikersaccount weergeven">

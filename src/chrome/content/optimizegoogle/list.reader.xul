@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.reader.web" onload="cgprefs.onLoad('cg.reader.web');" onunload="cgprefs.onOK('cg.reader.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.reader.long;"/>
+		<checkbox id="reader-secure" label="&secure-text;" prefstring="extensions.optimizegoogle.reader.secure" prefdefval="true"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('reader-secure','sslWhenAble');
+    </script>
+
+</page>

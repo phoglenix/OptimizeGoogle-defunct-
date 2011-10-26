@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.answers.web" onload="cgprefs.onLoad('cg.answers.web');" onunload="cgprefs.onOK('cg.answers.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+    <script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+ 
+   <groupbox flex="1">
+		<caption label="&label.answers.long;"/>
+		<checkbox id="answers-remove-ads" label="&answers-remove-ads;" prefstring="extensions.optimizegoogle.answers.remove-ads" prefdefval="false"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('answers-remove-ads','noAds');
+    </script>
+</page>

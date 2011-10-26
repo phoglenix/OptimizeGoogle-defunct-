@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Asetukset">
+<!ENTITY label.prefs.long "Pysyvät Googlen Asetukset">
+<!ENTITY prefs.desc "Valitut asetukset tulevat käyttöön automaattisesti kun käytät Googlea. Valitsemattomia asetuksia voi vielä muokata osoitteessa http://google.com/preferences/ Asetusten määritys ei toimi jos olet estäny keksit (cookies) selaimestasi.">
+<!ENTITY prefs.interface "Käyttöliittymän kieli">
+<!ENTITY prefs.interface.desc "Näytä Googlen vinkit ja viestit:">
+<!ENTITY prefs.search "Haun kieli">
+<!ENTITY prefs.search.any "Etsi sivuja jotka on kirjoitettu millä tahansa kielellä">
+<!ENTITY prefs.search.selected "Aseta etusijalle seuraavilla kielillä kirjoitetut sivut:">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Käytä tiukkaa suojausta (Suodata kuvat ja tekstit)">
+<!ENTITY prefs.safe.moderate "Käytä keskitason suojausta (Suodata vain kuvat. - Normaali käytäntö)">
+<!ENTITY prefs.safe.off "Älä suodata hakutuloksia.">
+<!ENTITY prefs.resultsperpage "Tuloksia per sivu">
+<!ENTITY prefs.resultswindow "Tulosikkuna">
+<!ENTITY prefs.resultswindow.desc "Avaa hakutulokset uudessa selainikkunassa.">
+<!ENTITY gmail-hidechat "Piilota Pikayhteystieto- ikkuna">
+<!ENTITY gmail-hideinvite "Piilota &quot;Lähetä ystävälle kutsu&quot;-laatikko">
+<!ENTITY label.docs "Dokumentit">
+<!ENTITY label.docs.long "Google Dokumentit &amp; Kaaviot (en)">
+<!ENTITY dialog.cgtitle "Google Asetukset">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Kuvat">
+<!ENTITY label.groups "Keskusteluryhmät">
+<!ENTITY label.news "Uutiset">
+<!ENTITY label.froogle "Tuotteet">
+<!ENTITY label.answers "Vastaukset">
+<!ENTITY label.print "Kirjat">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Kartat">
+<!ENTITY label.privacy "Yksityisyys">
+<!ENTITY label.filter "Suodattimet">
+<!ENTITY label.about "Tietoja">
+<!ENTITY label.web.long "Google Webhaku">
+<!ENTITY label.images.long "Google Kuvahaku">
+<!ENTITY label.groups.long "Google Keskusteluryhmät">
+<!ENTITY label.news.long "Google Uutiset">
+<!ENTITY label.froogle.long "Google Tuotehaku">
+<!ENTITY label.answers.long "Google Vastaukset">
+<!ENTITY label.print.long "Google Kirjahaku">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Kartat">
+<!ENTITY label.privacy.long "Yksityisyys">
+<!ENTITY label.filter.long "Suodata sivustoja">
+<!ENTITY label.about.long "Tietoja OptimizeGoogle:sta">
+<!ENTITY web-remove-ads "Poista mainokset">
+<!ENTITY web-add-search-links "Lisää linkkejä muihin web hakukoneisiin">
+<!ENTITY web-add-news-links "Lisää linkkejä muihin uutishaku sivustoihin uutishakujen tuloksissa">
+<!ENTITY web-add-movie-links "Lisää linkkejä muihin elokuva arvostelu sivuihin elokuvahakujen tuloksissa">
+<!ENTITY web-add-weather-links "Lisää linkkejä muihin sää sivustoihin säähakujen tuloksissa">
+<!ENTITY web-add-product-links "Lisää linkkejä muihin tuotehaku sivustoihin tuotehakujen tuloksissa">
+<!ENTITY web-use-googlesuggest "Käytä Google Suggestia (ehdottaa hakusanoja kirjoittamiesi sanojen perusteella)">
+<!ENTITY web-searchfocus "Kohdista huomio haku kenttään">
+<!ENTITY web-add-counter "Lisää sijoitus laskuri">
+<!ENTITY web-filter "Käytä suodattimia (katso 'Suodattimet' välilehti)">
+<!ENTITY web-history "Lisää linkkejä WayBackMachine hakukoneeseen (internet arkisto)">
+<!ENTITY web-save "Lisää linkit tallenna kirjanmerkkeihin/tallenna sivu">
+<!ENTITY web-remove-url-click-track "Poista klikkausten seuranta">
+<!ENTITY images-add-image-links "Lisää linkkejä muihin kuva/valokuva/taidehaku sivustoihin">
+<!ENTITY images-rewrite-links "Uudelleenkirjoita linkit osoittamaan suoraan kuvaan">
+<!ENTITY groups-remove-ads "Poista mainokset">
+<!ENTITY news-add-news-links "Lisää linkkejä muihin uutishaku sivustoihin">
+<!ENTITY froogle-remove-ads "Poista mainokset">
+<!ENTITY froogle-add-product-links "Lisää linkkejä toisiin tuotehaku sivustoihin">
+<!ENTITY answers-remove-ads "Poista mainokset">
+<!ENTITY print-remove-ads "Poista mainokset">
+<!ENTITY print-restore-menu "Palauta oikea-klikkaus valikko">
+<!ENTITY print-add-book-links "Lisää linkkejä toisiin kirja arvostelu sivustoihin">
+<!ENTITY gmail-remove-ads "Poista mainokset ja liittyvät sivut">
+<!ENTITY gmail-hidespam "Piilota roskapostilaskuri">
+<!ENTITY gmail-monospace "Käytä tasaleveää fonttia viestien tekstissä">
+<!ENTITY label.calendar "Kalenteri">
+<!ENTITY label.calendar.long "Google Kalenteri">
+<!ENTITY local-remove-ads "Poista mainokset">
+<!ENTITY misc-analytics "Älä lähetä keksejä (cookies) Google Analytics palveluun">
+<!ENTITY misc-analytics.desc "Google Analytics (tunnetaan myös nimellä Urchin) on Googlen palvelu joka auttaa verkkosivujen omistajia analysoimaan kuinka käyttäjät käyttävät heidän sivujaan. Tiedot kuinka käytät jotain tiettyä sivustoa (mukaanlukien IP-osoitteesi) voidaan automaattisesti lähettää ja tallentaa Googlen toimesta käyttäen keksejä (cookies).">
+<!ENTITY misc-anonymize "Anonymisoi Google:n keksi (cookie) UID">
+<!ENTITY misc-anonymize.desc "Vältä mahdollisuutta, että Google tekee sinusta kattavan profiilin. Tämä ei estä pääsyäsi Google Tili-palveluihin, kuten GMail. Tämä saattaa vaikuttaa joihinkin palveluihin. Esimerkiksi Googlen keskusteluryhmissä lista 'Äskettäin käydyistä ryhmistä' on tyhjä.">
+<!ENTITY label.filter.desc "Listaa kaikki sivustot jotka haluat suodattaa etsinnöistäsi:">
+<!ENTITY examples "Esimerkit">
+<!ENTITY examples.1.filter "http://*.esimerkki.fi/*">
+<!ENTITY examples.1.desc "estä kaikki alaosoitteet (subdomain)">
+<!ENTITY examples.2.filter "http://urheilu.esimerkki.fi/valineet/*">
+<!ENTITY examples.2.desc "estä tietty kansio">
+<!ENTITY examples.3.filter "http://urheilu.esimerkki.fi/index.html">
+<!ENTITY examples.3.desc "estä tietty sivu/tiedosto">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.esimerkki\.(fi|org)\//i">
+<!ENTITY examples.4.desc "edistynyt: estä käyttäen regexp-toimintoa">
+<!ENTITY options-import "Tuo">
+<!ENTITY options-export "Vie">
+<!ENTITY about.desc "OptimizeGoogle on Firefox-laajennus joka parantaa Googlen hakutuloksia lisäämällä lisätietoa (kuten linkkejä Yahoo, Altavista, MSN jne. hakupalveluihin) ja poistaa ei-halutun tiedon (kuten mainokset ja roskapostin). Kaikki toiminnot ovat valinnaisia.">
+<!ENTITY donate.short "Tue OptimizeGooglea">
+<!ENTITY donate.long "Tue lahjoittamalla PayPalin kautta. Kiitos etukäteen!">
+<!ENTITY linktext.paypal "PayPal lahjoitus">
+<!ENTITY about.links "Kysymyksiä? Tukiasioita?">
+<!ENTITY about.website "Verkkosivu">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Bugi Raportit">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Peruuta">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Videohaku">
+<!ENTITY web-add-video-links "Lisää linkkejä muihin videohaku sivustoihin">
+<!ENTITY web-autopager "Lataa hakutulos sivut automaattisesti [BETA]">
+<!ENTITY secure-text "Salattu (käytä https-yhteyttä)">
+<!ENTITY images-autopager "Virtauta (stream) hakutulos sivut">
+<!ENTITY label.reader "Syötteenlukija">
+<!ENTITY label.reader.long "Google Syötteenlukija">
+<!ENTITY label.history "Historia">
+<!ENTITY label.history.long "Google Historia">
+<!ENTITY web-favicons "Näytä kuvakkeet web sivuille">
+<!ENTITY label.cache "Välimuisti">
+<!ENTITY label.cache.long "Google Välimuisti">
+<!ENTITY cache-continue "Uudellenkirjoita linkit osoittamaan Googlen välimuistiin">
+<!ENTITY label.blogs "Blogit">
+<!ENTITY label.blogs.long "Google Blogihaku">
+<!ENTITY blogs-add-blog-links "Lisää linkkejä muihin blogihaku sivuihin">
+<!ENTITY blogs-remove-url-click-track "Poista klikkausten seuranta">
+<!ENTITY prefs.suggest "Hakusana Ehdotukset">
+<!ENTITY prefs.suggest.desc "Näytä hakusana ehdotukset hakukentässä">
+<!ENTITY youtube-remove-ads "Poista mainokset ja estä videon automattinen toisto">
+<!ENTITY images-remove-ads "Poista mainokset">
+<!ENTITY web-disable-searchwiki "Poista HakuWiki käytöstä">
+<!ENTITY label.all "Kaikki Palvelut">
+<!ENTITY all-label-long "Kaikki Google Palvelut">
+<!ENTITY all-always-ssl "Käytä aina suojattua yhteyttä jos mahdollista">
+<!ENTITY all-never-ads "Estä kaikki mainokset kaikissa Googlen palveluissa">
+<!ENTITY all-always-links "Näytä linkkejä muille sivuille jos mahdollista">
+<!ENTITY all-always-rewrite "Poista klikkausten seuranta aina">
+<!ENTITY all-always-filters "Käytä aina filttereitä">
+<!ENTITY all-enable-multi-accounts "Näytä vaihda käyttäjä tilejä skripti">

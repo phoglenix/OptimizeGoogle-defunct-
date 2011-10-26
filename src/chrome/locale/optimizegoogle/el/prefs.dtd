@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "Προτιμήσεις (Google)">
+<!ENTITY label.prefs.long "Διατηρούμενες προτιμήσεις Google">
+<!ENTITY prefs.desc "Οι επιλεγμένες προτιμήσεις θα εφαρμόζονται αυτόματα κάθε φορά που επισκέπτεστε μια υπηρεσία Google. Οι μη επιλεγμένες προτιμήσεις μπορούν να αλλαχθούν από τη σελίδα προτιμήσεων του Google.com. Η επιλογή προτιμήσεων δεν λειτουργεί αν έχετε απενεργοποιήσει την χρήση cookies.">
+<!ENTITY prefs.interface "Γλώσσα περιβάλλοντος διασύνδεσης">
+<!ENTITY prefs.interface.desc "Εμφάνιση συμβουλών και μηνυμάτων Google σε:">
+<!ENTITY prefs.search "Γλώσσα αναζήτησης">
+<!ENTITY prefs.search.any "Αναζήτηση σελίδων σε οποιαδήποτε γλώσσα">
+<!ENTITY prefs.search.selected "Αναζήτηση μόνο σελίδων σε αυτές τις γλώσσες:">
+<!ENTITY prefs.safe "Ελεγχόμενη αναζήτηση">
+<!ENTITY prefs.safe.strict "Αυστηρή χρήση φίλτρων (Φιλτράρισμα ακατάλληλου κειμένου και εικόνων)">
+<!ENTITY prefs.safe.moderate "Μετριοπαθής χρήση φίλτρων (Φιλτράρισμα ακατάλληλων εικόνων μόνο - αρχική επιλογή)">
+<!ENTITY prefs.safe.off "Να μην γίνεται χρήση φίλτρων.">
+<!ENTITY prefs.resultsperpage "Αριθμός αποτελεσμάτων">
+<!ENTITY prefs.resultswindow "Παράθυρο αποτελεσμάτων">
+<!ENTITY prefs.resultswindow.desc "Ανοίξτε τα αποτελέσματα αναζήτησης σε νέο παράθυρο στον περιηγητή σας.">
+<!ENTITY gmail-hidechat "Απόκρυψη του πλαισίου άμεσων επαφών">
+<!ENTITY gmail-hideinvite "Απόκρυψη του πλαισίου προσκλήσεων">
+<!ENTITY label.docs "Έγγραφα">
+<!ENTITY label.docs.long "Έγγραφα &amp; λογιστικά φύλλα του Google">
+<!ENTITY dialog.cgtitle "Επιλογές Google">
+<!ENTITY label.web "Παγκόσμιος Ιστός">
+<!ENTITY label.images "Εικόνες">
+<!ENTITY label.groups "Ομάδες (usenet)">
+<!ENTITY label.news "Ειδήσεις">
+<!ENTITY label.froogle "Προϊόντα">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Βιβλία">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Χάρτες">
+<!ENTITY label.privacy "Ιδιωτικό απόρρητο">
+<!ENTITY label.filter "Φίλτρα">
+<!ENTITY label.about "Περί">
+<!ENTITY label.code "Code">
+<!ENTITY label.web.long "Αναζήτηση Google στον παγκόσμιο ιστό">
+<!ENTITY label.images.long "Αναζήτηση εικόνων στο Google">
+<!ENTITY label.groups.long "Ομάδες (usenet) του Google">
+<!ENTITY label.news.long "Ειδήσεις Google">
+<!ENTITY label.froogle.long "Αναζήτηση προϊόντων στο Google">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Αναζήτηση βιβλίων στο Google Book">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Χάρτες Google">
+<!ENTITY label.privacy.long "Ιδιωτικό απόρρητο">
+<!ENTITY label.filter.long "Φιλτράρισμα ιστοσελίδων">
+<!ENTITY label.code.long "Google Code">
+<!ENTITY label.about.long "Περί OptimizeGoogle">
+<!ENTITY web-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY web-add-search-links "Προσθήκη δεσμών σε άλλες μηχανές αναζήτησης">
+<!ENTITY web-add-news-links "Προσθήκη δεσμών σε άλλες σελίδες ειδήσεων στα αποτελέσματα αναζήτησης ειδήσεων,">
+<!ENTITY web-add-movie-links "Προσθήκη δεσμών σε άλλες σελίδες κριτικής ταινιών στα αποτελέσματα αναζήτησης κριτικών">
+<!ENTITY web-add-weather-links "Προσθήκη δεσμών σε άλλες σελίδες μετεωρολογικών προβλέψεων στα αποτελέσματα αναζήτησης μετεωρολογικών προβλέψεων">
+<!ENTITY web-add-product-links "Προσθήκη δεσμών σε άλλες σελίδες αναζήτησης προϊόντων στα αποτελέσματα αναζήτησης προϊόντων">
+<!ENTITY web-use-googlesuggest "Χρήση της υπηρεσίας Google Suggest (προτείνει λέξεις καθώς πληκτρολογείτε)">
+<!ENTITY web-searchfocus "Εστίαση στο πεδίο εισαγωγής κειμένου για αναζήτηση">
+<!ENTITY web-add-counter "Προσθήκη μετρητή θέσης">
+<!ENTITY web-filter "Ενεργοποίηση φίλτρων (δείτε την καρτέλα φίλτρων)">
+<!ENTITY web-history "Προσθήκη δεσμών στην υπηρεσία WayBackMachine (ιστορικό ιστοσελίδων)">
+<!ENTITY web-save "Προσθήκη δεσμών για αποθήκευση σελίδας/προσθήκη στους σελιδοδείκτες">
+<!ENTITY web-remove-url-click-track "Αφαίρεση ανίχνευσης κλικ">
+<!ENTITY images-add-image-links "Προσθήκη δεσμών σε άλλες υπηρεσίες αναζήτησης εικόνων/φωτογραφιών/τέχνης">
+<!ENTITY images-rewrite-links "Επαναπροσδιορισμός δεσμών, ώστε να κατευθύνουν άμεσα στις εικόνες">
+<!ENTITY groups-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY news-add-news-links "Προσθήκη δεσμών σε άλλες υπηρεσίες αναζήτησης ειδήσεων">
+<!ENTITY froogle-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY froogle-add-product-links "Προσθήκη δεσμών σε άλλες υπηρεσίες αναζήτησης προϊόντων">
+<!ENTITY answers-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY print-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY print-restore-menu "Επαναφορά μενού περιεχομένου δεξιού κλικ">
+<!ENTITY print-add-book-links "Προσθήκη δεσμών σε σελίδες βιβλιοκριτικής">
+<!ENTITY gmail-remove-ads "Αφαίρεση διαφημίσεων και σχετικών σελίδων">
+<!ENTITY gmail-hidespam "Απόκρυψη του μετρητή ενοχλητικών μηνυμάτων">
+<!ENTITY gmail-monospace "Χρήση γραμματοσειράς σταθερού μεγέθους για το κυρίως σώμα μηνυμάτων ηλεκτρονικής αλληλογραφίας">
+<!ENTITY label.calendar "Ημερολόγιο">
+<!ENTITY label.calendar.long "Ημερολόγιο του Google">
+<!ENTITY local-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY misc-analytics "Να μην αποστέλλονται cookies στην υπηρεσία Google Analytics">
+<!ENTITY misc-analytics.desc "Το Google Analytics (γνωστό και ως Urchin) είναι μια υπηρεσία του Google που βοηθά τους ιδιοκτήτες ιστότοπων να αναλύουν τη χρήση των ιστότοπων τους από τους χρήστες. Πληροφορίες για τη χρήση ενός συγκεκριμένου ιστότοπου (συμπεριλαμβανομένης και της διεύθυνσης IP) μπορούν αυτόματα να μεταδοθούν στο Google και να αποθηκευθούν με τη χρήση cookies.">
+<!ENTITY misc-anonymize "Μετατροπή του cookie UID του Google σε ανώνυμο">
+<!ENTITY misc-anonymize.desc "Αποτρέψτε την πιθανότητα δημιουργίας ενός συνεκτικού προφίλ σας από το Google. Δεν επηρεάζει την πρόσβασή σας σε υπηρεσίες λογαριασμών του Google όπως το GMail. Μερικές υπηρεσίες μπορεί να επηρεαστούν. Για παράδειγμα, στις Ομάδες(usenet) του Google, η λίστα των «πρόσφατα επισκεφθέντων» ομάδων θα είναι κενή.">
+<!ENTITY label.filter.desc "Τοποθετήστε στη λίστα όλους τους ιστότοπους που θέλετε να φιλτράρονται στα αποτελέσματα αναζήτησης">
+<!ENTITY examples "Παραδείγματα">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "Φραγή όλων των υποδιευθύνσεων">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "Φραγή  συγκεκριμένου καταλόγου">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "Φραγή συγκεκριμένης σελίδας">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "Για προχωρημένους: Φραγή με χρήση κανονικής έκφρασης">
+<!ENTITY options-import "Εισαγωγή">
+<!ENTITY options-export "Εξαγωγή">
+<!ENTITY about.desc "Το OptimizeGoogle είναι ένα πρόσθετο του Firefox που βελτιώνει τα αποτελέσματα αναζητήσεων στο Google προσθέτοντας πληροφορίες (όπως δεσμούς στο Yahoo, Ask, MSN κλπ) και αφαιρώντας ανεπιθύμητες πληροφορίες (όπως διαφημίσεις και ενοχλητικά μηνύματα). Όλα τα χαρακτηριστικά είναι προαιρετικά.">
+<!ENTITY donate.short "Υποστηρίξτε το OptimizeGoogle">
+<!ENTITY donate.long "Συνεισφέρετε κάνοντας μια δωρεά μέσω PayPal. Ευχαριστούμε προκαταβολικά!">
+<!ENTITY linktext.paypal "Δωρεά PayPal">
+<!ENTITY about.links "Ερωτήσεις; Υποστήριξη;">
+<!ENTITY about.website "Ιστοσελίδα">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Αναφορές σφαλμάτων">
+<!ENTITY okButtonlabel "Εφαρμογή">
+<!ENTITY cancelButtonlabel "Ακύρωση">
+<!ENTITY label.video "Βίντεο">
+<!ENTITY label.video.long "Αναζήτηση στο Google Video">
+<!ENTITY web-add-video-links "Προσθήκη δεσμών σε άλλες σελίδες αναζήτησης βίντεο στα αποτελέσματα αναζήτησης βίντεο">
+<!ENTITY web-autopager "Εμφάνιση όλων των αποτελεσμάτων από τους παρακάτω ιστότοπους σε μια σελίδα (σε φάση ανάπτυξης)">
+<!ENTITY secure-text "Ασφαλής σύνδεση (εναλλαγή σε https)">
+<!ENTITY images-autopager "Διοχέτευση σελίδων αποτελεσμάτων αναζήτησης">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Αναζήτηση στο Google Reader">
+<!ENTITY label.history "Ιστορικό">
+<!ENTITY label.history.long "Ιστορικό ιστού Google">
+<!ENTITY web-favicons "Προβολή εικονιδίων ιστοσελίδων">
+<!ENTITY label.cache "Προσωρινά αποθηκευμένες">
+<!ENTITY label.cache.long "Προσωρινά αποθηκευμένες σελίδες στο Google">
+<!ENTITY cache-continue "Επαναπροσδιορισμός δεσμών για μετάβαση στις προσωρινά αποθηκευμένες σελίδες του Google">
+<!ENTITY label.blogs "Ιστολόγια">
+<!ENTITY label.blogs.long "Αναζήτηση ιστολογίων Google">
+<!ENTITY blogs-add-blog-links "Προσθήκη δεσμών προς άλλες μηχανές αναζήτησης ιστολογίων">
+<!ENTITY blogs-remove-url-click-track "Αφαίρεση ανίχνευσης κλικ">
+<!ENTITY prefs.suggest "Προτάσεις αναζήτησης">
+<!ENTITY prefs.suggest.desc "Παροχή προτάσεων αναζήτησης στην εργαλειοθήκη αναζήτησης">
+<!ENTITY youtube-remove-ads "Αφαίρεση διαφημίσεων και διακοπή αυτόματης αναπαραγωγής">
+<!ENTITY images-remove-ads "Αφαίρεση διαφημίσεων">
+<!ENTITY web-disable-searchwiki "Απενεργοποίηση SearchWiki">
+<!ENTITY label.all "Όλες οι υπηρεσίες">
+<!ENTITY all-label-long "Όλες οι υπηρεσίες Google">
+<!ENTITY all-always-ssl "Χρήση SSL όταν είναι δυνατό">
+<!ENTITY all-never-ads "Φραγή διαφημίσεων σε όλες τις υπηρεσίες Google">
+<!ENTITY all-always-links "Προβολή δεσμών για άλλες ιστοσελίδες όταν υπάρχουν">
+<!ENTITY all-always-rewrite "Να γίνεται πάντα αφαίρεση ανίχνευσης κλικ">
+<!ENTITY all-always-filters "Να ενεργοποιούνται πάντα τα φίλτρα">
+<!ENTITY all-enable-multi-accounts "Προβολή του σεναρίου εντολών αλλαγής λογαριασμού χρήστη">

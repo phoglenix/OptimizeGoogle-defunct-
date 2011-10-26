@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.filter.web" onload="cgprefs.onLoad('cg.filter.web');" onunload="cgprefs.onOK('cg.filter.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.filter.long;"/>
+		<description wrap="true">&label.filter.desc;</description>
+		
+		<textbox flex="1" multiline="true" id="misc-filterlist" prefstring="extensions.optimizegoogle.misc.filterlist" prefdefval=""/>
+		
+		<hbox>
+			<spacer flex="1"/>
+			<button id="options-import" label="&options-import;" popup="options-import" oncommand="cgprefs.importList()"/>
+			<button id="options-export" label="&options-export;" popup="options-export" oncommand="cgprefs.exportList()"/>
+		</hbox>
+
+		<groupbox>
+			<caption label="&examples;"/>
+			<grid flex="1">
+				<columns>
+					<column flex="1"/>
+					<column flex="2"/>
+				</columns>
+				<rows>
+					<row>
+						<label value="&examples.1.filter;"/>
+						<description wrap="true">&examples.1.desc;</description>
+					</row>
+					<row>
+						<label value="&examples.2.filter;"/>
+						<description wrap="true">&examples.2.desc;</description>
+					</row>
+					<row>
+						<label value="&examples.3.filter;"/>
+						<description wrap="true">&examples.3.desc;</description>
+					</row>
+					<row>
+						<label value="&examples.4.filter;"/>
+						<description wrap="true">&examples.4.desc;</description>
+					</row>
+				</rows>
+			</grid>
+		</groupbox>
+    </groupbox>
+</page>

@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "Ascunde căsuţa de Contacte Rapide">
+<!ENTITY gmail-hideinvite "Ascunde căsuţa de invitare">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Opţiuni Google">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Imagini">
+<!ENTITY label.groups "Grupuri">
+<!ENTITY label.news "Ştiri">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Răspunsuri">
+<!ENTITY label.print "Cărţi">
+<!ENTITY label.gmail "Gmail">
+<!ENTITY label.local "Hărţi">
+<!ENTITY label.privacy "Confidenţialitate">
+<!ENTITY label.filter "Filtru">
+<!ENTITY label.about "Despre">
+<!ENTITY label.web.long "Căutare Google">
+<!ENTITY label.images.long "Căutare Google (imagini)">
+<!ENTITY label.groups.long "Google Groups">
+<!ENTITY label.news.long "Google News">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Book Search">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Maps">
+<!ENTITY label.privacy.long "Confidenţialitate">
+<!ENTITY label.filter.long "Filtrează paginile web">
+<!ENTITY label.about.long "Despre OptimizeGoogle">
+<!ENTITY web-remove-ads "Îndepărtează publicitatea">
+<!ENTITY web-add-search-links "Adaugă legături către alte pagini de căutare">
+<!ENTITY web-add-news-links "În lista de ştiri, adaugă legături către alte pagini de căutare">
+<!ENTITY web-add-movie-links "În lista de filme, adaugă legături către alte pagini de filme">
+<!ENTITY web-add-weather-links "În prognoza meteo, adaugă legături către alte pagini meteo">
+<!ENTITY web-add-product-links "În lista de produse, adaugă legături către alte pagini web">
+<!ENTITY web-use-googlesuggest "Foloseşte Google Suggest (sugerare cuvinte în timpul scrierii)">
+<!ENTITY web-searchfocus "Poziţionare automată în căsuţa de căutare">
+<!ENTITY web-add-counter "Adaugă contor poziţie">
+<!ENTITY web-filter "Activează filtre">
+<!ENTITY web-history "Adaugă legături către WayBackMachine (cronică pagini web)">
+<!ENTITY web-save "Adaugă legătură pentru a salva resp. a salva în favorite o pagină">
+<!ENTITY web-remove-url-click-track "Dezactivează urmărirea clickurilor">
+<!ENTITY images-add-image-links "Adaugă legături către alte pagini de căutare imagini">
+<!ENTITY images-rewrite-links "Rescrie legături pentru a indica direct imaginile">
+<!ENTITY groups-remove-ads "Înlătură publicitatea">
+<!ENTITY news-add-news-links "Adaugă legături către alte pagini de căutare ştiri">
+<!ENTITY froogle-remove-ads "Înlătură publicitatea">
+<!ENTITY froogle-add-product-links "Adaugă legături către alte pagini de căutare produse">
+<!ENTITY answers-remove-ads "Înlătură publicitatea">
+<!ENTITY print-remove-ads "Înlătură publicitatea">
+<!ENTITY print-restore-menu "Restaurează meniul contextual (click-dreapta)">
+<!ENTITY print-add-book-links "Adaugă legături către pagini de evaluat cărţi">
+<!ENTITY gmail-remove-ads "Înlătură publicitatea şi paginile corespunzătoare">
+<!ENTITY gmail-hidespam "Ascunde contorul de poştă nedorită">
+<!ENTITY gmail-monospace "Foloseşte caractere fixe pentru corpurile mesajelor">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Înlătură publicitatea">
+<!ENTITY misc-analytics "Nu trimite cookies către Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (sau Urchin) este un serviciu Google care ajută posesorii paginilor web în analizarea vizitatorilor. Informaţiile despre vizitele Dvs. în pginile web 8inclusiv adresa IP) poate fi transmisă automat şi stocată de către Google folosind cookies.">
+<!ENTITY misc-anonymize "Anonimizează identificatorul unic (Google cookie UID)">
+<!ENTITY misc-anonymize.desc "Evită posibilitetea ca Google să contruiască un profil comprehensiv despre vizitele Dvs. Aceasă setare nu blochează accessul la servicille de utilizator Google (de exemplu, Gmail), în schimb poate să afecteze funcţionalitatea altor servicii (de exemplu, în Google Groups, lista celor mai recente grupuri vizitate se goleşte automat)">
+<!ENTITY label.filter.desc "Lista paginilor pe care le doriţi excluse din lista de rezultate:">
+<!ENTITY examples "Exemple">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "blocare toate subdomenii">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "blocare director specific">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "blocare pagină specifică">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "blocare expert, folosid expresii regulare">
+<!ENTITY options-import "Import">
+<!ENTITY options-export "Export">
+<!ENTITY about.desc "OptimizeGoogle este o extensie Firefox care îmbunătăţeşte rezultatele căutării Google prin adăugarea de informaţii suplimentare (de ex. legături spre Yahoo sau MSN) şi prin înlăturarea informaţiilor nedorite (publicitate, poştă nedorită). Toate caracteristicile sunt opţionale.">
+<!ENTITY donate.short "Susţine OptimizeGoogle">
+<!ENTITY donate.long "Contribuiţi prin donaţia PayPal. Mulţumiri anticipate!">
+<!ENTITY linktext.paypal "Donaţie PayPal">
+<!ENTITY about.links "Întrebări? Asistentă?">
+<!ENTITY about.website "Pagină Web">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Raportări probleme">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Anulare">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Căutare Google Video">
+<!ENTITY web-add-video-links "În lista de rezultate video, adaugă legături către alte pagini de căutare">
+<!ENTITY web-autopager "Adaugă la lista iniţială rezultatele din pagina următoare">
+<!ENTITY secure-text "Securizat (comută în https)">
+<!ENTITY images-autopager "Adaugă la lista iniţială rezultatele din pagina următoare">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Arată pictogramele paginilor web">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Dezactivează urmărirea clickurilor">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Toate serviciile">
+<!ENTITY all-label-long "Toate serviciile Google">
+<!ENTITY all-always-ssl "Foloseşte SSL dacă este disponibil">
+<!ENTITY all-never-ads "Blochează publicitatea pe toate serviciile google">
+<!ENTITY all-always-links "Arată legături către alte pagini">
+<!ENTITY all-always-rewrite "Îndepărtează urmărirea clickurilor">
+<!ENTITY all-always-filters "Activează filtrele întotdeauna">
+<!ENTITY all-enable-multi-accounts "Arată scriptul pentru schimbarea utilizatorului">

@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "Hide the Quick Contacts box">
+<!ENTITY gmail-hideinvite "Hide the invite box">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "خيارات Google">
+<!ENTITY label.web "ويب">
+<!ENTITY label.images "صور">
+<!ENTITY label.groups "مجموعات">
+<!ENTITY label.news "أخبار">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Books">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "خرائط">
+<!ENTITY label.privacy "الخصوصية">
+<!ENTITY label.filter "مرشح">
+<!ENTITY label.about "حول">
+<!ENTITY label.web.long "بحث Google في الويب">
+<!ENTITY label.images.long "بحث Google في الصور">
+<!ENTITY label.groups.long "Google مجموعات">
+<!ENTITY label.news.long "أخبار Google">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "بحث Books في الكتب">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "خرائط Google">
+<!ENTITY label.privacy.long "الخصوصية">
+<!ENTITY label.filter.long "مرشح المواقع">
+<!ENTITY label.about.long "OptimizeGoogle">
+<!ENTITY web-remove-ads "لا تظهر الإعلانات">
+<!ENTITY web-add-search-links "أضف روابط لمواقع محركات بحث أخرى">
+<!ENTITY web-add-news-links "في نتائج الأخبار، أضف روابط لمواقع أخرى للبحث عن الأخبار">
+<!ENTITY web-add-movie-links "في نتائج الأفلام، أضف روابط لمواقع أخرى للبحث عن الأفلام">
+<!ENTITY web-add-weather-links "في نتائج الطقس، أضف روابط لمواقع أخرى عن الطقس">
+<!ENTITY web-add-product-links "في نتائج المنتجات، أضف روابط لمواقع أخرى للبحث عن المنتجات">
+<!ENTITY web-use-googlesuggest "استخدم Google Suggest(يقترح الكلمات بينما تطبعها على الحاسب)">
+<!ENTITY web-searchfocus "أعطي تركيزاً لصندوق البحث">
+<!ENTITY web-add-counter "أضف عداد وجهة">
+<!ENTITY web-filter "إدعم المرشحات(أظهر لسان المرشحات)">
+<!ENTITY web-history "أضف روابط ل WayBackMachin">
+<!ENTITY web-save "أضف روابط لإضافة علامة إسترجاعية/إحفظ الصفحة">
+<!ENTITY web-remove-url-click-track "ألغي تعقب الضغطات">
+<!ENTITY images-add-image-links "أضف روابط لمواقع بحث أخرى عن الصور">
+<!ENTITY images-rewrite-links "أعد كتابة الروابط لتشير مباشرةً إلى الصور">
+<!ENTITY groups-remove-ads "لا تظهر الإعلانات">
+<!ENTITY news-add-news-links "أضف روابط لمواقع بحث أخرى عن الأخبار">
+<!ENTITY froogle-remove-ads "لا تظهر الإعلانات">
+<!ENTITY froogle-add-product-links "أضف روابط لمواقع أخرى للبحث عن المنتجات">
+<!ENTITY answers-remove-ads "لا تظهر الإعلانات">
+<!ENTITY print-remove-ads "لا تظهر الإعلانات">
+<!ENTITY print-restore-menu "أعد تخزين قائمة السياق بضغطة يمين">
+<!ENTITY print-add-book-links "أضف روابط لمواقع مراجعات الكتب">
+<!ENTITY gmail-remove-ads "لا تظهر الإعلانات و الصفحات المتعلقة">
+<!ENTITY gmail-hidespam "لا تظهر عداد البريد المزعج">
+<!ENTITY gmail-monospace "استخدم خط معدل لأجسام الرسائل">
+<!ENTITY label.calendar "النتيجة">
+<!ENTITY label.calendar.long "نتيجة جوجل">
+<!ENTITY local-remove-ads "لا تظهر الإعلانات">
+<!ENTITY misc-analytics "لا ترسل أي كعكات(كوكيز) إلى Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics(معروف أيضاً ب Urchin) هى خدمة من Google تساعد مالكي المواقع لتحليل كيفية استخدام المستخدمين لمواقعهم. المعلومات حول استخدامك لموقع معين(مثل عنوان ال أى بي) من الممكن إرسالها و تخزينها بواسطة Google باستخدام الكعكات.">
+<!ENTITY misc-anonymize "Anonymize the Google cookie UID">
+<!ENTITY misc-anonymize.desc "تجنب إحتمالية بناء Google ملف خاص عنك. هذا لا يؤثر على دخولك لخدمات Google، مثل GMail.  بعض الخدمات من الممكن أن تتأثر. على سبيل المثال في مجموعات Google قائمة المجموعات المزارة مؤخراً ستصبح فارغة.">
+<!ENTITY label.filter.desc "قائمة بكل المواقع التي تريد ترشيحها من نتائج البحث:">
+<!ENTITY examples "أمثلة">
+<!ENTITY examples.1.filter "*/http://*.example.com">
+<!ENTITY examples.1.desc "صد عبر كل الخادمات الثانوية">
+<!ENTITY examples.2.filter "*/http://sports.example.com/widgets">
+<!ENTITY examples.2.desc "صد دليل معين">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "صد صفحة معينة">
+<!ENTITY examples.4.filter "/http:W\w+\.example\.(com|org)V/i">
+<!ENTITY examples.4.desc "expert: block using a regexp">
+<!ENTITY options-import "استيراد">
+<!ENTITY options-export "تصدير">
+<!ENTITY about.desc "OptimizeGoogle هو تمديد لبرنامج FireFox يعزز نتائج البحث في Google بواسطة إدراج معلومات إضافية(مثل روابط لYahoo,Ask,MSN etc) و حذف معلومات غير مرغوب فيها(مثل الإعلانات و البرامج المزعجة). كل الميزات إختيارية.">
+<!ENTITY donate.short "إدعم OptimizeGoogle">
+<!ENTITY donate.long "تعاون بالتبرع من خلال PayPal. شكراً مقدماً!">
+<!ENTITY linktext.paypal "تبرع PayPal">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "موافق">
+<!ENTITY cancelButtonlabel "إلغاء">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "In video results, add links to other video search sites">
+<!ENTITY web-autopager "Stream search result pages">
+<!ENTITY secure-text "أمن (حول إلى https)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "ألغي تعقب الضغطات">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<window id="cgpref"
+  windowtype="global:OptimizeGoogle"
+  title="OptimizeGoogle"
+  orient="vertical"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="dialog_texts" src="chrome://optimizegoogle/locale/dialog_texts.properties"/>
+	</stringbundleset>
+
+	<hbox flex="1">
+		<listbox id="cglist" onselect="cgprefs._changePage(this)">
+			<listitem label="&label.all;" selected="true" value="chrome://optimizegoogle/content/list.all.xul"/>
+			<listitem label="&label.web;" value="chrome://optimizegoogle/content/list.web.xul"/>
+			<listitem label="&label.images;" value="chrome://optimizegoogle/content/list.images.xul"/>
+			<listitem label="&label.groups;" value="chrome://optimizegoogle/content/list.groups.xul"/>
+			<listitem label="&label.news;" value="chrome://optimizegoogle/content/list.news.xul"/>
+			<listitem label="&label.froogle;" value="chrome://optimizegoogle/content/list.froogle.xul"/>
+			<listitem label="&label.answers;" value="chrome://optimizegoogle/content/list.answers.xul"/>
+			<listitem label="&label.print;" value="chrome://optimizegoogle/content/list.print.xul"/>
+			<listitem label="&label.gmail;" value="chrome://optimizegoogle/content/list.gmail.xul"/>
+			<listitem label="&label.calendar;" value="chrome://optimizegoogle/content/list.calendar.xul"/>
+			<listitem label="&label.local;" value="chrome://optimizegoogle/content/list.local.xul"/>
+			<listitem label="&label.docs;" value="chrome://optimizegoogle/content/list.docs.xul"/>
+			<listitem label="&label.video;" value="chrome://optimizegoogle/content/list.video.xul"/>
+			<listitem label="&label.reader;" value="chrome://optimizegoogle/content/list.reader.xul"/>
+			<listitem label="&label.cache;" value="chrome://optimizegoogle/content/list.cache.xul"/>
+			<listitem label="&label.blogs;" value="chrome://optimizegoogle/content/list.blogs.xul"/>
+			<listitem label="&label.code;" value="chrome://optimizegoogle/content/list.code.xul"/>
+			<listitem label="YouTube" value="chrome://optimizegoogle/content/list.youtube.xul"/>
+			<listitem label="&label.history;" value="chrome://optimizegoogle/content/list.history.xul"/>
+			<listitem label="&label.privacy;" value="chrome://optimizegoogle/content/list.privacy.xul"/>
+			<listitem label="&label.prefs;" value="chrome://optimizegoogle/content/list.cookies.xul"/>
+			<listitem label="&label.filter;" value="chrome://optimizegoogle/content/list.filter.xul"/>
+			<listitem label="&label.about;" value="chrome://optimizegoogle/content/list.about.xul"/>
+		</listbox>
+		<iframe flex="1" id="cgoptions-iframe" src="chrome://optimizegoogle/content/list.all.xul"/>
+	</hbox>
+
+	<hbox align="right" valign="middle">
+		<label id="updatePage" class="link" onclick="window.open('http://www.optimizegoogle.com/'); return true;">www.optimizegoogle.com</label>
+		<spacer flex="1"/>
+		<button label="&okButtonlabel;" oncommand="window.close();" />
+		<button label="&cancelButtonlabel;" oncommand="window.close();"/>
+	</hbox>
+</window>

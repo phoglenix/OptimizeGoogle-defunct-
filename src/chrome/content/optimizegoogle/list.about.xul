@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.about.web" onload="cgprefs.onLoad('cg.about.web');" onunload="cgprefs.onOK('cg.about.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.about.long;"/>
+		<description wrap="true">&about.desc;</description>
+		<separator/>
+		<label value="&donate.short;" style="font-weight: bold;"/>
+		<description wrap="true">&donate.long;</description>
+		<label id="donationPage" class="link" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=10118706'); return true;">&linktext.paypal;</label>
+		<separator/>
+		<label value="&about.links;" style="font-weight: bold;"/>
+		<label id="extensionHomepage" class="link" onclick="window.open('http://www.optimizegoogle.com'); return true;">&about.website;</label>
+		<label id="extensionEmail" class="link" onclick="window.open('mailto:info@optimizegoogle.com'); return true;">info@optimizegoogle.com</label>
+		<label id="extensionDiscussionGroup" class="link" onclick="window.open('http://groups.google.com/group/optimizegoogle'); return true;">&about.group;</label>
+		<label id="extensionBugtracker" class="link" onclick="window.open('https://sourceforge.net/projects/optimizegoogle/support'); return true;">&about.reportabug;</label>
+    </groupbox>
+</page>

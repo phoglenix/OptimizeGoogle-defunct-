@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "Hide the Quick Contacts box">
+<!ENTITY gmail-hideinvite "Hide the invite box">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Налады Google">
+<!ENTITY label.web "Вэб">
+<!ENTITY label.images "Малюнкі">
+<!ENTITY label.groups "Групы">
+<!ENTITY label.news "Навіны">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Адказы">
+<!ENTITY label.print "Друк">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Лакальна">
+<!ENTITY label.privacy "Прыватнасць">
+<!ENTITY label.filter "Фільтр">
+<!ENTITY label.about "Інфармацыя">
+<!ENTITY label.web.long "Вэб-пошук Google">
+<!ENTITY label.images.long "Пошук малюнкаў Google">
+<!ENTITY label.groups.long "Групы Google">
+<!ENTITY label.news.long "Google навіны">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google адказы">
+<!ENTITY label.print.long "Google друк">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google лакальна">
+<!ENTITY label.privacy.long "Прыватнасць">
+<!ENTITY label.filter.long "Фільтр вэб-старонак">
+<!ENTITY label.about.long "Аб OptimizeGoogle">
+<!ENTITY web-remove-ads "Выдаліць рэкламу">
+<!ENTITY web-add-search-links "Дадаць спасылкі на іншыя пошукавыя сайты">
+<!ENTITY web-add-news-links "У выніках пошуку навін -&gt; дадаць спасылкі на іншыя навінавыя сайты">
+<!ENTITY web-add-movie-links "У выніках пошуку відэа -&gt; дадаць спасылкі на іншыя сайты, прысвечаныя відэа">
+<!ENTITY web-add-weather-links "У выніках прагнозу надвор&apos;я -&gt; дадаць спасылкі на іншыя пагодныя сайты">
+<!ENTITY web-add-product-links "У выніках пошуку тавараў -&gt; дадаць спасылкі на іншыя сайты пошуку тавараў">
+<!ENTITY web-use-googlesuggest "Выкарыстаць Google Suggest (Паказ варыянтаў па мене набору запыту)">
+<!ENTITY web-searchfocus "Даць фокус радку пошуку">
+<!ENTITY web-add-counter "Дадаць лічыльнік пазіцыі">
+<!ENTITY web-filter "Уключыць фільтр (гл. закладку &apos;Фільтр&apos;)">
+<!ENTITY web-history "Дадаць спасылкі на WayBackMachine (гісторыя вэб-старонак)">
+<!ENTITY web-save "Дадаць спасылкі на закладкі/захаваць вэб-старонку">
+<!ENTITY web-remove-url-click-track "Выдаліць адсочванне клікаў">
+<!ENTITY images-add-image-links "Дадаць спасылкі на іншыя сайты пошуку малюнкаў/фатаграфій">
+<!ENTITY images-rewrite-links "Перарабляць прамыя спасылкі на малюнкі">
+<!ENTITY groups-remove-ads "Выдаліць рэкламу">
+<!ENTITY news-add-news-links "Дадаць спасылкі на іншыя навінавыя сайты">
+<!ENTITY froogle-remove-ads "Выдаліць рэкламу">
+<!ENTITY froogle-add-product-links "Дадаць спасылкі на іншыя сайты пошуку тавараў">
+<!ENTITY answers-remove-ads "Выдаліць рэкламу">
+<!ENTITY print-remove-ads "Выдаліць рэкламу">
+<!ENTITY print-restore-menu "Аднавіць кантэкстнае меню (па правым кліку)">
+<!ENTITY print-add-book-links "Дадаць спасылкі на сайты з аглядамі літаратуры">
+<!ENTITY gmail-remove-ads "Выдаліць рэкламу і звязаныя старонкі">
+<!ENTITY gmail-hidespam "Выдаліць лічыльнік спаму">
+<!ENTITY gmail-monospace "Выкарыстаць фіксаваны шрыфт для тэл лістоў">
+<!ENTITY label.calendar "Каляндар">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Выдаліць рэкламу">
+<!ENTITY misc-analytics "Не пасылаць ніякіх cookies Google Analytics">
+<!ENTITY misc-analytics.desc " Google Analytics (таксама вядомае як Urchin) - гэта сэрвіс ад Google, які дазваляе ўладальнікам вэб-сайтаў аналізаваць, як карыстачы іх наведваюць. Інфармацыя аб Вашым наведванні вызначанага вэб-сайта (Уключаючы ваш IP-адрас) можа аўтаматычна перадавацца і запамінацца Google шляхам выкарыстання cookies.">
+<!ENTITY misc-anonymize "Зрабіць Google cookie UID ананімным">
+<!ENTITY misc-anonymize.desc "Забараніць Google магчымасць будаваць звязаны з Вамі профіль. Гэтая налада не блакуе Ваш доступ да сэрвісаў з акаўнтамі Google, такім як GMail. Але некаторыя магчымасці могуць быць закранутыя. Напрыклад, у групах Google спіс апошніх наведванняў будзе пустым.">
+<!ENTITY label.filter.desc "Занясіце ў спіс сайты, якія вы жадаеце адфільтраваць у вашых выніках пошуку:">
+<!ENTITY examples "Прыклады:">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "блакаваць усё поддомены">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "блакаваць вызначаную дырэкторыю">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "блакаваць вызначаную старонку">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "Эксперт: блакаваць, выкарыстаючы рэгулярныя выразы">
+<!ENTITY options-import "Імпарт">
+<!ENTITY options-export "Экспарт">
+<!ENTITY about.desc "OptimizeGoogle - пашырэнне для Firefox якое дазваляе палепшыць вынікі пошуку ў Google шляхам занясення дадатковай інфармацыі (спасылкі на Yahoo, Ask, MSN і інш.) і выдаленні непажаданай інфармацыі (рэклама і спам). Усе функцыі апцыянальныя.">
+<!ENTITY donate.short "Падтрымка OptimizeGoogle">
+<!ENTITY donate.long "Садзейнічаць шляхам ахвяравання грошай праз PayPal. Дзякуй за ўдзел!">
+<!ENTITY linktext.paypal "Ахвяраваць грошай праз PayPal">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Адмена">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "In video results, add links to other video search sites">
+<!ENTITY web-autopager "Stream search result pages">
+<!ENTITY secure-text "Бяспека (пераключэнне на https)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Выдаліць адсочванне клікаў">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

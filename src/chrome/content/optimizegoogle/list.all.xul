@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.all.web" onload="cgprefs.onLoad('cg.all.web');" onunload="cgprefs.onOK('cg.all.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+
+    <groupbox flex="1">
+		<caption label="&all-label-long;"/>
+		<checkbox id="all-always-ssl" label="&all-always-ssl;" prefstring="extensions.optimizegoogle.all.sslWhenAble" prefdefval="true"/>
+		<checkbox id="all-never-ads" label="&all-never-ads;" prefstring="extensions.optimizegoogle.all.noAds" prefdefval="false"/>
+		<checkbox id="all-always-links" label="&all-always-links;" prefstring="extensions.optimizegoogle.all.otherLinks" prefdefval="false" />
+		<checkbox id="all-always-rewrite" label="&all-always-rewrite;" prefstring="extensions.optimizegoogle.all.rewrite" prefdefval="true" />
+		<checkbox id="all-always-filters" label="&all-always-filters;" prefstring="extensions.optimizegoogle.all.filters" prefdefval="true" />
+		<!--checkbox id="all-enable-multi-account" label="&all-enable-multi-accounts;" prefstring="extensions.optimizegoogle.all.multiaccounts" prefdefval="false" disabled="true" /-->
+    </groupbox>
+</page>

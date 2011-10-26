@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "مخفی کردن جعبه تماس سریع">
+<!ENTITY gmail-hideinvite "مخفی کردن جعبه دعوت به جی میل">
+<!ENTITY label.docs "پرونده ها">
+<!ENTITY label.docs.long "پرونده ها و صفحات گسترده گوگل">
+<!ENTITY dialog.cgtitle "تنظیمات گوگل">
+<!ENTITY label.web "وب">
+<!ENTITY label.images "جستجوی عکس">
+<!ENTITY label.groups "گروه ها">
+<!ENTITY label.news "اخبار">
+<!ENTITY label.froogle "فروگل">
+<!ENTITY label.answers "پرسش و پاسخ">
+<!ENTITY label.print "کتاب ها">
+<!ENTITY label.gmail "جی میل">
+<!ENTITY label.local "نقشه ها">
+<!ENTITY label.privacy "امنیت">
+<!ENTITY label.filter "فیلتر">
+<!ENTITY label.about "درباره برنامه">
+<!ENTITY label.web.long "جستجوی وب گوگل">
+<!ENTITY label.images.long "جستجوی عکس گوگل">
+<!ENTITY label.groups.long "گروه های گوگل">
+<!ENTITY label.news.long "اخبار گوگل">
+<!ENTITY label.froogle.long "فروگل">
+<!ENTITY label.answers.long "پرسش و پاسخ گوگل">
+<!ENTITY label.print.long "جستجوی کتاب گوگل">
+<!ENTITY label.gmail.long "جی میل">
+<!ENTITY label.local.long "نقشه های گوگل">
+<!ENTITY label.privacy.long "امنیت">
+<!ENTITY label.filter.long "فیلتر وب سایت ها">
+<!ENTITY label.about.long "OptimizeGoogle درباره">
+<!ENTITY web-remove-ads "پاک کردن تبلیغات">
+<!ENTITY web-add-search-links "افزودن لینک دیگر سایت های جستجو">
+<!ENTITY web-add-news-links "افزودن لینک دیگر سایت های جستجو خبر در نتایج جستجوی خبر">
+<!ENTITY web-add-movie-links "افزودن لینک دیگر سایت های نقد فیلم در نتایج جستجوی فیلم">
+<!ENTITY web-add-weather-links "افزودن لینک دیگر سایت های آب و هوایی در نتایج جستجوی آب و هوا">
+<!ENTITY web-add-product-links "افزودن لینک دیگر سایت های ارائه محصولات در نتایج جستجوی محصولات">
+<!ENTITY web-use-googlesuggest "استفاده از پیشنهاد کلمه گوگل هنگام جستجو">
+<!ENTITY web-searchfocus "تمرکز روی کادر جستجو">
+<!ENTITY web-add-counter "افزودن شمارنده وضعیت">
+<!ENTITY web-filter "(فعالسازی فیلترها (تب فیلتر را ببینید">
+<!ENTITY web-history "(تاریخچه صفحات وب) WayBackMachine افزودن لینک به سایت">
+<!ENTITY web-save "افزودن لینک برای ذخیره و نشانه گذاری کردن صفحات">
+<!ENTITY web-remove-url-click-track "غیرفعال کردن ردگیری کلیک">
+<!ENTITY images-add-image-links "افزودن لینک به سایر سایت های جستجوی هنری و عکس">
+<!ENTITY images-rewrite-links "(دسترسی مستقیم به عکس ها(پاک کردن صفحه واسطه گوگل">
+<!ENTITY groups-remove-ads "پاک کردن تبلیغات">
+<!ENTITY news-add-news-links "افزودن لینک به سایر سایت های جستجوی خبر">
+<!ENTITY froogle-remove-ads "پاک کردن تبلیغات">
+<!ENTITY froogle-add-product-links "افزودن لینک به سایر سایت های جستجوی محصولات">
+<!ENTITY answers-remove-ads "پاک کردن تبلیغات">
+<!ENTITY print-remove-ads "پاک کردن تبلیغات">
+<!ENTITY print-restore-menu "بازگردانی منوی کلیک راست">
+<!ENTITY print-add-book-links "افزودن لینک به سایت های نقد کتاب">
+<!ENTITY gmail-remove-ads "پاک کردن تبلیغات و صفحه های مرتبط">
+<!ENTITY gmail-hidespam "مخفی کردن شمارنده اسپم">
+<!ENTITY gmail-monospace "استفاده از یک فونت مشخص برای ایمیل ها">
+<!ENTITY label.calendar "تقویم">
+<!ENTITY label.calendar.long "تقویم گوگل">
+<!ENTITY local-remove-ads "پاک کردن تبلیغات">
+<!ENTITY misc-analytics "ارسال نشود Google Analytics هیچ کوکی برای">
+<!ENTITY misc-analytics.desc "یکی از سرویس های گوگل است که به مدیران سایت ها کمک می کند تا از نحوه استفاده Google Analytics کاربرانشان از سایت اطلاع پیدا کنند.اطلاعات استفاده شما از یسایت خاص از جمله آی پی شما می تواند به صورت خودکار برای این سرویس ارسال شود">
+<!ENTITY misc-anonymize "ناشناس بودن برای گوگل">
+<!ENTITY misc-anonymize.desc "این احتمال را بدهید که گوگل اطلاعات شما را جمع آوری می کند.با انتخاب این گزینه شما برای گوگل ناشناس می مانید.این کار روی سرویس های کلی گوگل مثلا جی میل تاثیر نمی گذارد اما در بعضی از بخش ها مثل آخرین گروه های دیده شد در گروه های گوگل لیست خالی است">
+<!ENTITY label.filter.desc ":لیست سایت هایی که می خواهید نتایج آن ها در جستجوی شما نباشد">
+<!ENTITY examples "مثال">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "بستن تمام ساب دامین ها">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "بستن یک دایرکتوری خاص">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "بستن یک صفحه خاص">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "حرفه ای:فیلتر کردن یک نام خاص">
+<!ENTITY options-import "ایمپورت">
+<!ENTITY options-export "اکسپورت">
+<!ENTITY about.desc ".برنامه ای است که جستجوی گوگل را آسان می کند و اطلاعات ناخواسته مثل تبلیغات را پاک می کند OptimizeGoogle">
+<!ENTITY donate.short "OptimizeGoogle پشتیبانی از">
+<!ENTITY donate.long "PayPal همکاری با ما با پرداخت در">
+<!ENTITY linktext.paypal "PayPal پرداخت از طریق">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "تایید">
+<!ENTITY cancelButtonlabel "انصراف">
+<!ENTITY label.video "ویدئو">
+<!ENTITY label.video.long "جستجوی ویدئوی گوگل">
+<!ENTITY web-add-video-links "افزودن لینک به سایر سایت های جستجوی ویدئو در صفحه نتایج">
+<!ENTITY web-autopager "نمایش تمام نتایج در یک صفحه">
+<!ENTITY secure-text "(https امن (تغییر به">
+<!ENTITY images-autopager "نمایش تمام نتایج در یک صفحه">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "تاریخچه">
+<!ENTITY label.history.long "تاریخچه گوگل">
+<!ENTITY web-favicons "نمایش آیکون برای صفحات وب">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "غیرفعال کردن ردگیری کلیک">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

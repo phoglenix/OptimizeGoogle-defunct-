@@ -1,0 +1,668 @@
+Revision history for Firefox extension OptimizeGoogle
+
+2011-10-25 v0.79 - By al_9x & Phoglenix
+	Fixed detection of https urls
+	Anonymise tracking cookie properly
+	Fix possible error on clicking Google cache links
+	Updated translations
+
+2010-11-18 v0.78.2 - By Phoglenix
+	Updated compatibility for FF4
+
+2010-05-16 v0.78.1 - By Phoglenix
+	Fixed incorrect greying of Rewrite Image Links option (ID: 2998489)
+	Fixed hiding of new leftNavBar when streaming web results
+	Fixed showing alternate search sites due to change in web UI
+
+2010-05-01 v0.78 - "Still Alive" By Eitan Adler & Phoglenix
+	Added the ability to set preferences for all of google instead of per service
+	Fixed alternative search sites in video search.
+	Fixed sometimes unrecognised image page in image search.
+	Fixes to locales.
+
+2009-11-23 v0.77 - By Phoglenix
+	Update: Compatibility with Firefox 3.7.*
+	Bigfix: Now mostly works with new search result page. This is a stopgap solution, to be improved later.
+	Update: Links updated for alternate search sites.
+	Note: A known issue exists where the script runs on the current tab when another tab is (re)loaded. This will be fixed in a later version.
+
+2009-08-20 v0.76.3 - By Phoglenix (using contributions from Daniel, Morac and anonymous/unnamed submitters of fixes)
+	Note  : Name changed to OptimizeGoogle.
+	
+	Update: Integration of 0.77beta features by Daniel (CustomizeGoogle creator)
+	Changes merged from 0.77beta:
+		Update: Google Suggest should now be working again.
+		Update: Image Search links should now be working again.
+		Update: Fixed "streaming", "filter", "history", "favicons", "bookmarks" and "counter" in Web Search
+		Update: Links to news web sites should be visible again in Google News
+		Update: Removing ads in Google Maps now removes _all_ ads
+		Update: Hide the spam counter in Gmail was improved to handle Themes.
+		Bugfix: The Google Reader canvas view in iGoogle could not be maximized
+		Added : Removes new text ad in Google Images, http://googlesystem.blogspot.com/2009/01/text-ads-in-google-image-search.html
+		Added : Disable SearchWiki in Web Search, http://googleblog.blogspot.com/2008/11/searchwiki-make-search-your-own.html
+		Added : Removes text ads at YouTube.com (not inside videos).
+	Fixed : Image link rewrite now works again (actual fix submitted by someone else)
+	Note  : Stream image results still not working
+
+2009-07-01 v0.76.2 - By clbertels
+	Fixed: Image link rewrite now works again
+	
+2009-06-26 v0.76.1 - By Morac
+	Fixed: Stream search results now works again while logged into Google
+	Fixed: Stream Search Results now works again on main Google search page when the user is logged in.
+	Fixed: Rewrite Image links works again
+	Fixed: Bumped up compatibility to Firefox 3.5.x
+
+2008-10-20 v0.76
+	Added : 'Query Suggestions' in Sticky Preferences.
+	Update: 'Google Suggest' should now be working again. 'Google Suggest' is exactly the same as 'Query Suggestions', except that the former is working on all web search pages on all Google domains.
+	Update: Restored links to other search engines in Google Shopping
+	Update: Fixed "streaming" in Google Web Search
+	Update: Locale da-DK - thanks to AlleyKat, babelzilla.org
+	Update: Locale bg-BG - thanks to Hawksthorne, babelzilla.org
+	Update: Locale ca-AD - thanks to xavivars, babelzilla.org
+	Update: Locale el-GR - thanks to Sonickydon, babelzilla.org
+	Update: Locale sq-AL - thanks to Besmir Godole, babelzilla.org
+	Update: Locale es-ES - thanks to chuzo, babelzilla.org
+	Update: Locale pt-PT - thanks to lloco, babelzilla.org
+	Update: Locale hy-AM - thanks to edo248, babelzilla.org
+	Update: Locale sk-SK - thanks to wladow, babelzilla.org
+	Update: Locale fi-FI - thanks to masterchief91, babelzilla.org
+	Update: Locale he-IL - thanks to SiiiE, babelzilla.org
+	Update: Locale de-DE - thanks to Team Erweiterungen.de
+	Update: Locale pl-PL - thanks to teo, babelzilla.org
+	Update: Locale sv-SE - thanks to StiffeL, babelzilla.org
+	Update: Locale fy-NL - thanks to moZes, babelzilla.org
+
+	Note  : Enabling both 'Google Suggest' and 'Query Suggestions' at the same time is not needed. That should however not make any difference to the user experience.
+	Note  : If you don't want suggestions at all and disable 'Query Suggestions' at google.com/preferences or in 'Sticky Preferences'. Then don't forget to disable the 'Google Suggest' option in Customize.
+
+2008-08-19 v0.75
+	Added : "Remove click tracking" in Google Blog Search
+	Added : Locale hy-AM (Armenian/Armenia) - thanks to edo248
+	Update: Locale de-DE - thanks to Team Erweiterungen.de
+	Update: Locale sq-AL - thanks to Besmir Godole
+	Update: Fixed "streaming", "filter", "history", "favicons", "bookmarks" and "counter" in Google Web Search
+	Update: Fixed "Remove click tracking" in Google Web Search
+	Update: Made the default favicon more transparent
+	Update: Fixed and added some new search engines for images and videos - thanks to LouCypher!
+	Update: Made the counter work in right-to-left search results (like www.google.co.il) - thanks to Uri Breitman!
+
+2008-08-07 v0.74
+	Added :  Google Cache: Option to rewrite links to point to Google's cache
+	Added :  Google Blog Search: Option to add links to other blog search sites
+	Update:  Compatible with eMusic Remote
+	Update:  Rewriting links in Google Images now works with middle click => new tab
+	Update:  Locale fy-NL - thanks to moZes, babelzilla.org
+	Update:  Locale es-ES - thanks to chuzo, babelzilla.org
+	Update:  Locale es-AR - thanks to chuzo, babelzilla.org
+	Update:  Locale sk-SK - thanks to wladow, babelzilla.org
+	Update:  Locale pl-PL - thanks to teo, babelzilla.org
+	Update:  Locale lt-LT - thanks to garas, babelzilla.org
+	Update:  Locale nl-NL - thanks to Alf, babelzilla.org
+	Update:  Locale nl-BE - thanks to Alf, babelzilla.org
+	Update:  Locale he-IL - thanks to SiiiE, babelzilla.org
+	Update:  Locale cs-CZ - thanks to funTomas, babelzilla.org
+	Update:  Locale fi-FI - thanks to masterchief91, babelzilla.org
+	Update:  Locale el-GR - thanks to Sonickydon, babelzilla.org
+	Update:  Locale sv-SE - thanks to StiffeL, babelzilla.org
+	Removed: Inline weather/product/movie/image links in Google web search
+	
+2008-08-01 v0.73
+	Update: Fixed "streaming", "add links" and "remove ads" in Google Web Search
+	Update: Rewriting links in Google Images is now PicLens compatible. Thanks to Adamarla!
+	Update: Favicons in Google Web Search
+	Update: Locale cs-CZ - thanks to Tomas Marek
+
+2008-04-25 v0.72
+	Update: Fixed a small issue with link numbering - thanks to Len Rodman
+	Update: Compatible with Songbird 0.5
+	Update: Hide spamcounter in Gmail should be working again. A permanent solution is to set up a new filter, with the phrase "is:spam" then mark as read
+
+2008-03-13 v0.71
+	Update: Removing ads from Google Web Search is now working again
+	Update: The spamcounter in Gmail wasn't always underlined
+	
+2008-03-06 v0.70
+	Update: Customize Web Search features should be working again
+	Update: Hide spamcounter in Gmail should be working again. A permanent solution is to set up a new filter, with the phrase "is:spam" then mark as read
+	Update: SeaMonkey compability - thanks to Philip Chee
+	Update: Songbird compatibility - thanks to Bradley Dice
+	Update: Locale es-ES - thanks to Chuzo, babelzilla.org
+	Update: Locale nl-NL - thanks to Jan van de Wijdeven
+	Update: Locale hu-HU - thanks to kami, babelzilla.org
+
+2008-01-09 v0.69
+    Update: Google Suggest should now be working again
+	Update: Songbird compatibility
+
+2007-12-19 v0.68
+	Update: Google Suggest should now be working again
+
+2007-12-13 v0.67
+	Bugfix: Remove Clicktracking option should be working again
+
+2007-12-06 v0.66
+	Bugfix: Stream search result pages should be working in FF3b1
+
+2007-12-04 v0.65
+	Update: Firefox 3 compatible
+	Update: Hide spamcounter in Gmail should be working again
+	Update: Removing clicktracking from external links now also work with ftp://
+	Update: URL previews on sponsored links are now visible again
+
+2007-11-12 v0.64
+	Update: Removed sourcid=Customize from external links (added in v0.59)
+	Update: Locale de-DE - thanks to Team Erweiterungen.de
+	Update: Gettyimages was removed. The web site doesn't accept search keywords in URLs anymore.
+	Update: Secure Google Reader is now working again
+	Bugfix: Stream images search results sometimes displayed JavaScript to the user
+
+2007-09-10 v0.63
+	Added : Stream Google Images search result pages
+	Update: Google Suggest should now also be working on google.com/firefox and google.com/ig
+	Update: Image search sites were updated with DeviantART and Photobucket
+	Update: "Rewrite links to point directly to images" at Google Images was slightly changed
+	
+2007-09-04 v0.62
+	Update: Google Suggest should now be working again
+	
+2007-08-02 v0.61
+	Added : Support for Mozilla SeaMonkey (untested)
+	Update: Hiding the invite box now also hides the invite link in messages
+	Bugfix: Small bug when loading Customize options
+	Bugfix: Secure Google (http -> https) was slightly changed, should now work with Google Apps Mail
+	Bugfix: Prev/Next navigation was visible sometimes when using "Streaming search result pages"
+	Update: Links to news web sites should be visible again
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale nl-NL - thanks to BudsieBuds
+	
+	Known bug: Inlined videos in doesn't play when streaming the web search result.
+
+2007-04-21 v0.60
+	Added : Sticky Google Preferences
+	        http://www.Customize.com/sticky-google-preferences.html
+
+			- If you clear your cookies often
+			- If you want to make sure that your children won't find explicit text and images
+			- If you want to propagate your preferences to several Google domains
+
+	Update: Streaming search result pages is now compatible with:
+	        - Customize (such as filters, history and bookmarks)
+	        - Most (but not all) extensions and userscripts
+			
+              A note to other developers:
+			  ---------------------------
+
+			  If your extension/userscript doesn't work with Customize Streaming search result pages,
+			  make sure that your script executes on the 'DOMContentLoaded' event (not the 'load' event).
+
+			  If you're modifying the Google search result in such a way that it doesn't affect the individual
+			  results, then you can now check if the google url ends with #disable-userscript. If it does you
+			  can use this knowledge to disable your userscript when Customize fetches the next search
+			  result pages. If your userscript doesn't modify the individual results, then it doesn't need to
+			  execute. How to do this in a Greasemonkey userscript:
+			  @exclude http://*google.*/*#disable-userscript
+
+	Update: "Remove click tracking" should now be working again
+	Update: Locale sk-SK - thanks to Wladow
+	Update: Locale da-DK - thanks to AlleyKat
+	Update: Locale es-ES - thanks to Chuzo
+	Update: Locale fy-NL - thanks to Mozes
+	Update: Locale pl-PL - thanks to Teo
+	Update: Locale lt-LT - thanks to Garas
+	Update: Locale pt-PT - thanks to lloco
+	Update: Locale fi-FI - thanks to Masterchief91
+	Update: Locale el-GR - thanks to Sonickydon
+	Update: Locale th-TH - thanks to Qen
+	Update: Locale ja-JP - thanks to Norah
+	Update: Locale zh-TW - thanks to Anthk
+	Update: Locale bg-BG - thanks to Hawksthorne
+	Update: Locale ko-KR - thanks to Kita
+	Update: Locale ru-RU - thanks to Exlex
+	Update: Locale fr-FR - thanks to SonnyT
+	Update: Locale nb-NO - thanks to Fmr
+	Update: Locale sv-SE - thanks to StiffeL
+	Update: Locale ca-AD - thanks to Xavivars
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale he-IL - thanks to Siiie
+	
+2007-03-26 v0.59
+	Added : Secure Google History (including Bookmarks)
+	Added : Add favicons in the web search result
+			http://www.Customize.com/add-favicons-to-google-search-results.html
+	Added : sourceid=Customize on external links (this is not affiliate related!)
+	Added : Support for new Google Search Result design
+			http://googlesystem.blogspot.com/2007/04/be-first-to-try-googles-next-design.html
+	Added : URL previews on sponsored links are now visible in the status bar when hovering them. This is mandatory.
+			http://explabs.blogspot.com/2007/04/google-sponsored-links-not-safe.html
+	Bugfix: Fixed issue with Google Notebook
+	Bugfix: Option to add search field focus should be working again
+	Update: Links to news and products web sites should be visible again
+	Update: Filters in News search result should now be working again
+	Update: Locale el-GR - thanks to Sonickydon
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale pl-PL - thanks to Teo
+	Update: Locale de-DE - thanks to Team Erweiterungen.de
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Locale fa-IR - thanks to Pedram Veisi
+	Update: Locale he-IL - thanks to Siiie
+	Update: Locale zh-TW - thanks to Anthk
+	Update: Locale fr-FR - thanks to SonnyT
+	Update: Locale fy-NL - thanks to moZes
+	Update: Locale pt-BR - thanks to Peguca
+	Update: Locale lt-LT - thanks to Garas
+	Update: Locale es-ES - thanks to Chuzo
+	Update: Locale fi-FI - thanks to Masterchief91
+	Update: Locale pt-PT - thanks to lloco
+	Update: Locale bg-BG - thanks to Hawksthorne
+	Update: Locale ro-RO - thanks to Ultravioletu
+	Update: Locale sq-AL - thanks to Besmir Godole
+	
+2007-03-19 v0.58
+	Update: Locale ro-RO - thanks to ultravioletu
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale lt-LT - thanks to garas
+	Update: Added support for related search engines that doesn't know how to handle UTF-8 requests
+	Update: Added support for Google Product Search (Froogle)
+	Bugfix: Secure Spreadsheets didn't work
+
+2007-03-18 v0.57
+	Added : Stream Google search result pages [BETA]
+			This is my modification of Google Auto Pager userscript by ma.la and contributors:
+			http://userscripts.org/scripts/search?q=google+auto+pager
+			It is BETA since Customize filters, history and bookmarks only works with page 1.
+			More info and screencast: http://www.Customize.com/stream-google-search-result-pages.html
+	Added : Secure Google reader
+	Added : Search engine Yahoo! Alpha to locale en-US
+	Bugfix: https://google.tld/ig didn't work when anonymizing the Google UID
+	Bugfix: Google Talk Gadget didn't work when anonymizing the Google UID
+	Bugfix: Clicking a filtered link opens in same window/new tab, depending on Google prefs.
+	Update: Locale el-GR - thanks to Sonickydon
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale pl-PL - thanks to teo
+	Update: Locale zh-TW - thanks to anthk
+	Update: Locale pt-BR - thanks to peguca
+	Update: Locale bg-BG - thanks to Hawksthorne
+	Update: Locale ja-JP - thanks to matsuda1026 and Norah
+	Update: Locale fr-FR - thanks to SonnyT
+	Update: Locale pt-PT - thanks to Carlos Simão
+	Update: Locale th-TH - thanks to Qen
+	Update: Locale fy-NL - thanks to moZes
+	Update: Locale nb-NO - thanks to fmr
+	Update: Locale ca-AD - thanks to xavivars
+
+2007-03-05 v0.56
+	Added : Locale es-CL - thanks to Francisco
+	Added : Locale fy-NL - thanks to moZes
+	Added : Locale ro-RO - thanks to ultravioletu
+	Added : Social bookmarking site Reddit
+	Added : Remove click tracking now also works for ads
+	Added : Google Video Search now have links to other video search sites
+	Bugfix: Remove click tracking made some URLs unusable
+	Bugfix: Anonymizing the Google UID broke Google Book Search and Google Patents
+	Update: Monospace font now also works with "basic HTML" view in Gmail
+	Update: The modifications in Google Images now also works when window is resized
+	Update: Sponsored Links in Google Book Search is now removed
+	Update: Restored links to other search engines in Google News Search
+	Update: Customize Gmail options should now also work with Google Apps (not tested)
+	Update: Clicking a filtered link opens in same window/new tab, depending on Google prefs.
+	Update: Google suggest now also works with url google.com/intl/en/ (or other language)
+
+2006-11-17 v0.55
+	Added : Songbird support: www.songbirdnest.com
+	Added : Locale be-BY - thanks to DRKA
+	Added : Locale ko-KR - thanks to kita
+	Added : Change the color of a filtered URL*
+	Added : The CG Gmail options now also works with "Google Apps for your domain"
+	Update: Filtered URLs are now visible and clickable.
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale ca-AD - thanks to xavivars
+	Update: Locale it-IT - thanks to Pedro
+	Update: Locale hr-HR - thanks to Krcko
+	Update: Locale fr-FR - thanks to SonnyT
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Locale ja-JP - thanks to Norah
+	Update: Locale pt-PT - thanks to lloco
+	Update: Locale de-DE - thanks to Erweiterungen.de
+	Update: Some CG functionality in Web Search became broken when Google made an update
+	Update: Removing ads also removes the Google Toolbar ad in Web Search
+	Bugfix: Anonymizing Google UID caused a bug in Google AdSense interface
+	
+	* Using the preference "extensions.Customize.misc.filtercolor" in about:config you can control
+	the color of a filtered URL. If it's not there, you'll have to create it. The default color is grey ("#aaaaaa").
+	This way you can make it disappear ("#ffffff") or stand out ("#ff8000").
+
+2006-10-18 v0.54
+	Bugfix: Option to secure Docs & Spreadsheets is now working
+	Bugfix: Customize options layout should now work with all locales
+	Update: Locale fi-FI - thanks to Masterchief91
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Locale el-GR - thanks to Sonickydon
+
+2006-10-17 v0.53
+	Added : Secure Docs & Spreadsheets (use https)
+	Added : Hide the Quick Contacts box in Gmail
+	Added : Hide the invite box in Gmail
+	Bugfix: Anonymizing Google ID doesn't break the preferences
+	Bugfix: Removing ads in Google Maps now removes _all_ ads
+	Update: Locale it-IT - thanks to Pedro
+	Update: Locale ja-JP - thanks to Norah
+	Update: Locale fr-FR - thanks to SonnyT
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Locale pt-PT - thanks to lloco
+	Update: Locale tr-TR - thanks to ersenyoldac
+
+2006-09-27 v0.52
+	Update: Compatibility with Firefox 2
+	Update: Changed the Customize options interface
+	Update: Locale fi-FI - thanks to Masterchief91
+	Update: Locale ca-AD - thanks to xavivars
+	Update: Locale uk-UA - thanks to Sergey Khoruzhin
+	Update: Filtered URLs are now replaced by a describing text
+	Update: 'Remove click tracking' is now unchecked as default
+	Bugfix: Fixed small error within certain weather searches in Google Web Search
+
+2006-09-08 v0.51
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Locale fr-FR - thanks to DayWalker
+	Update: Restored links to other search engines in Google Web Search and Google Images
+
+2006-08-25 v0.50
+	Update: Locale bg-BG - thanks to Hawksthorne
+	Update: Locale de-DE - thanks to erweiterungen.de
+	Update: Locale sq-AL - thanks to Besmir Godole
+	Update: Locale th-TH - thanks to Qen
+	Update: Locale lt-LT - thanks to garas
+	Update: Locale ru-RU - thanks to wiselord
+	Update: Locale nl-NL - thanks to BudsieBuds
+	Update: Fixed font option now also applies when composing mail - thanks to Osvaldo Santana Neto
+	Update: Restored links to other search engines in Google Web Search and Google Images
+	Update: Restore right click in Google Book Search
+	Added : Bookmark service ma.gnolia.com
+	Added : Locale fa-IR - thanks to Pedram Veisi
+	Added : Locale ar-SA - thanks to Miga
+	Added : Locale uk-UA - thanks to MozUA
+
+2006-06-13 v0.49
+	Added : Locale pt-PT - thanks to dmmj
+	Added : Locale hu-HU - thanks to codemonkey
+	Added : Locale bg-BG - thanks to arris and Hawksthorne
+	Added : Locale sq-AL - thanks to Besmir Godole
+	Added : Locale th-TH - thanks to Qen
+	Added : Locale hr-HR - thanks to krcko
+	Added : Locale el-GR - thanks to Sonickydon
+	Update: Locale tr-TR - thanks to ersenyoldac
+	Update: Locale jp-JP - thanks to Norah
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale pt-BR - thanks to peguca
+	Update: Locale ca-AD - thanks to xavivars
+	Update: Locale lt-LT - thanks to Jonas
+	Update: Locale fi-FI - thanks to Masterchief91
+	Update: Firefox maxVersion set to 2.0 (compatible with Bon Echo)
+	Update: Search engine Teoma was removed
+
+2006-05-08 v0.48
+	Bugfix: Fixed font option for Gmail was on by default. Now it's off by default.
+	Bugfix: Fixed URL to add a bookmark to Google Bookmarks
+	Update: Google changed the name of its local search and mapping site to Google Maps from Google Local.
+	Update: Locale it-IT - thanks to Pedro
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale pt-BR - thanks to peguca
+	Update: Locale fr-FR - thanks to Julien Prangère
+
+2006-04-20 v0.47
+	Update: Automatically securing the Google Personalized page didn't work. Google didn't support it.
+	Update: Locale de-DE - thanks to ReinekeFux
+
+2006-04-19 v0.46
+	Update: Customize cs-CZ was updated with new URLs.
+	Update: Code to remove Gmail ads
+	Update: Code to remove Google Local ads
+	Added : It's possible to access Gmail from the Google Personalized homepage (google.com/ig).
+			Therefore the option to secure Gmail now also forces the Google Personalized page to be secure.
+	Added : Option to secure Google Calendar
+	Added : Option to hide the Gmail spam counter
+			http://www.Customize.com/hide-gmail-spam-counter.html
+	Added : Option to use a fixed font for Gmail mail bodies
+			http://www.Customize.com/use-a-fixed-font-for-gmail-mail-bodies.html
+
+2006-03-27 v0.45
+	Update: "Ask Jeeves" changed name to "Ask"
+	Update: Links other search engines (Ask, Yahoo, etc) now also works when using international characters
+	Update: Shopping sites were updated in Customize en-GB
+	Update: Remove ads from Froogle is now working again
+	Update: Google was added as a bookmark option (together with del.icio.us, digg, etc)
+	Added : Also removes hosted Gmail ads (mail.google.com/hosted)
+	Update: Locale de-DE - thanks to ReinekeFux
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale pt-BR - thanks to Rodrigo Bergmann Laurindo
+	Update: Locale lt-LT - thanks to garas
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale it-IT - thanks to Pedro
+	Update: Locale ca-AD - thanks to Xavi Ivars
+	Bugfix: Locale tr-TR
+
+2006-02-22 v0.44
+	Update: The previous Gmail fix didn't work for everyone. This fix should do it.
+
+2006-02-16 v0.43
+	Update: The previous Gmail fix removed 'Related pages', but not 'Sponsored links'. Now both are removed.
+
+2006-02-16 v0.42
+	Update: Now, ONLY Gmail ads are removed (maps, collapse etc. are NOT removed).
+	Update: US weather links now also includes Weather.com and AccuWeather.com
+	Update: Locale de-DE - thanks to ReinekeFux
+	Update: Locale it-IT - thanks to Pedro
+	Update: Locale ca-AD - thanks to Xavi Ivars
+	Update: Locale es-ES - thanks to chuzo
+	Update: Locale tr-TR - thanks to shaman
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale ru-RU - thanks to wiselord
+
+2006-01-20 v0.41
+	Update: Gmail ads are removed again (actually everything in the right column is removed, including maps etc.)
+	Update: Locale zh-TW - thanks to Kai-Chieh Ku
+	Update: Locale cs-CZ - thanks to Tomas Marek
+	Update: Locale ca-AD - thanks to Xavi Ivars
+	Update: Locale tr-TR - thanks to ErkanKaplan, batuhancetin, Yavuz Kaynar
+	Update: Locale es-ES - thanks to Carlos Castiñeiras García
+	Update: Filtered URLs are now truncated if they are very long.
+	Added : Locale id-ID - thanks to Agung Harjanto
+
+2005-12-09 v0.40
+	Update: Locale no-NB - thanks to Fredrik Rødland
+	Update: Locale de-DE - thanks to ReinekeFux
+	Bugfix: Some links didn't work after disabling clicktracking in web search
+	Bugfix: Links didn't get unescaped when containing arguments. This bug was in several Google services. Thanks to Marc-A. Zizka!
+	Bugfix: Inline weather links in web search didn't work under some circumstances
+	Update: Froogle 'Add links to other product search sites' is now working again
+
+2005-11-28 v0.39
+	Update: Locale fr-FR - thanks to Eskimo
+	Update: Locale zh-CN - thanks to Argan Wang
+	Update: Locale zh-TW - thanks to salagadoola
+	Added : Remove Google Analytics (Urchin) cookies on all websites (disabled by default)
+
+2005-11-18 v0.38
+	Bugfix: Google Suggest now also works with google.*/webhp
+	Update: Customize now works with Google Book Search (was Google Print)
+
+2005-11-15 v0.37
+	Added : Locale nb-NO - thanks to Fredrik Rodland
+	Update: Locale de-DE - thanks to erweiterungen.de
+	Update: Locale ru-RU - thanks to Alex Osipov
+	Added : Option to add links from Google to your bookmark manager (disabled by default)
+
+2005-11-07 v0.36
+	Bugfix: Remove ads from nonsecure Gmail should now be working. Thanks to Keeves.
+	Added : Added filter in newssearch (disabled by default)
+	Added : Remove Google click tracking in newssearch (enabled by default)
+	Added : Locale ru-RU - thanks to wiselord
+
+2005-11-01 v0.35
+	Bugfix: Click tracking made some links unusable
+	Update: Google Suggest now works with Google Personal (www.google.com/ig)
+
+2005-10-28 v0.34
+	Added : Locale da-DK - thanks to Anders Jorsal
+	Added : Locale pl-PL - thanks to Adam Kumiszcza
+	Added : CG now also works with Google Data centers (http://64.233.161.99/ ...)
+	Update: Improved the ad filter in Google Search
+	Update: Restored 'Add position counter' functionality in Search
+	Update: Restored 'Enable filters' functionality in Search
+	Update: Restored 'Add link to WayBackMachine' functionality in Search
+	Update: Restored 'Remove click tracking' functionality in Search
+
+2005-10-27 v0.33
+	Update: Restored 'Add position counter' functionality in Search
+	Update: Restored 'Enable filters' functionality in Search
+	Update: Restored 'Add link to WayBackMachine' functionality in Search
+	Update: Restored 'Remove click tracking' functionality in Search
+
+2005-10-27 v0.32
+	Bugfix: Some users experienced a problem with texts appearing in a different language
+	Bugfix: Some users experienced a problem with Google Reader
+	Update: Locale ja-JP
+
+2005-10-26 v0.31
+	Added : Customize now works with Flock
+	Added : Locale lt-LT - thanks to Copper
+	Added : Google cache is usually disabled for Chinese people. Now it's not.
+			This only works when installing from http://www.Customize.com/zh-CN/
+	Added : Customize also works with Google Special Searches http://www.google.com/options/specialsearches.html
+	Update: Restored 'Add links to other product search sites' functionality in Froogle
+	Update: Restored 'Remove ads' functionality in Froogle
+	Update: Restored 'Add links to other image/photo/art search sites' functionality in Images
+	
+2005-10-13 v0.30
+	Update: Several locales
+	Update: zh-CN - added Baidu
+	Update: All links now obey the Google preference: "Open search results in a new browser window", if set.
+	Bugfix: History links should not be urlencoded
+    Added : Locale pt-BR - thanks to Nighto
+	Added : Locale sk-SK - thanks to Viktor Kristian
+
+2005-10-03 v0.29
+	Update: Several locales
+	Update: The result counter in search result is working again
+	Update: The code that removes Google Ads is updated (Google keeps changing their code)
+	Update: CG now also works with Firefox 1.6a1
+	Bugfix: CG now also works with this page http://www.google.com/webhp
+	Added : "Check for update" link added in Customize options
+	Added : Added support for different locale distributions of this extension (see www.Customize.com)
+
+
+2005-09-19 v0.28
+	Bugfix: The Customize Options window was locked under some circumstances in Firefox 1.5 Beta 1.
+	Update: Customize now also triggers on this kind of searches http://google.com?images?q=<search terms>
+	Update: The code that removes Google Ads is updated (again)
+	Added : Locale he-IL - thanks to Nir Bruner
+	Added : Locale sr-YU - thanks to Ljubisa Radovanovic
+
+2005-09-09 v0.27
+	Update: Changed the location of the "Customize Settings..." option in the Tools menu
+	Update: "Remove Google click tracking" removes some new redirect links
+	Update: The code that removes Google Ads is updated (again)
+	Update: Several locales
+	Update: Customize now also works with Firefox 1.5 Beta 1
+	Added : Some, but not all, features of Customize now _also_ works with custom searches, example: http://shurl.org/google-custom-search
+
+2005-08-30 v0.26
+	Update: Locale it-IT - thanks to Roccobot
+	Update: The code that removes Google Ads is improved
+	Added:  Locale fi-FI - thanks to Toni Kaija
+	Bugfix: In a Froogle search with no results, links to competitors are now also visible
+	
+2005-08-23 v0.25
+	Added:  Google Images Preference 'Open search results in a new browser window' is also used on links below the thumbnail.
+	Added:  Remove Google click tracking in websearch (enabled by default)
+			Why? Because Google monitors people's search behaviour. More info:
+			http://www.boingboing.net/2005/08/22/google_stealthily_mo.html
+			http://mboffin.com/post.aspx?id=1830
+	Added:  Locale cs-CZ - thanks to Tomas Marek
+	Added:  Locale zh-TW - thanks to Kai-Chieh Ku
+	Update: Locale fr-FR - thanks to Mathieu
+	
+2005-08-17 v0.24
+	Bugfix: Google Suggest JavaScript created a Google Personal (www.google.com/ig) error. Now Google Suggest is disabled at Google Personal.
+	Added:  Locale eu-ES (basque) - thanks to Piarres Beobide
+	Added:  Locale fr-FR - thanks to Denis Devedjian and Mathieu (they made separate translations)
+	Added:  Locale zh-CN - thanks to Kerry Wang
+	Added:  Locale ca-AD - thanks to Xavi Ivars from the Catalan Mozilla Project
+
+2005-07-14 v0.23
+	Added:	Locale nl-NL and nl-BE
+			thanks to Ruben Verborgh
+	Bugfix: Fixed a JavaScript error related to filters and regexp.
+
+2005-07-13 v0.22
+	Added:	Locale es-ES and es-AR
+			thanks to Carlos/nave.escomposlinux.org and Rodrigo M. (both did separate translations)
+	Update: Locale it-IT
+	Bugfix: Options dialog is now working in Mac OS
+
+2005-07-08 v0.21
+	Changed:Improved the translation of it-IT - thanks to Roccobot/eXtenZilla.it
+	Added:	Support for more languages/countries.
+			ja-JP - thanks to Norah Marinkovic
+	Bugfix: Filter link was not added in some circumstances
+	Added:  Link to WayBack Machine (webpage history) in web search results (disabled by default)
+
+2005-07-05 v0.20.2
+	Added:	Support for more languages/countries.
+			tr-TR - thanks to Shaman Miller
+
+2005-06-28 v0.20.1
+	Added:	Support for more languages/countries.
+			it-IT - thanks to Timendum
+	Removed:Logo in taskbar/menu
+
+2005-06-27 v0.20
+	Added:	Support for more languages/countries.
+			de-DE
+			sv-SE
+
+2005-06-23 v0.19.5
+	Bugfix:	JavaScript error fixed.
+
+2005-06-23 Changed the format of changelog (this file)
+2005-06-21 Google change. Use mail.google.com
+2005-06-15 Bugfix. Filters are now also working when Google redirects
+2005-06-15 Compability problem with Greasemonkey extension fixed.
+2005-06-14 Added option to focus on the search form automatically (off by default)
+2005-06-14 Filtered websites are now greyed and without links in the search result.
+2005-06-08 Added filter in websearch
+2005-06-07 Fixed bug in http://www.google.*/ig
+2005-05-30 Added disable ads in print.google.com
+2005-05-30 Added options in the menu
+2005-05-26 Added options for the Firefox extension
+2005-05-23 Added support for Google Suggest at the Google Personalized home page: http://www.google.*/ig
+2005-05-16 Added Google UID Anonymizer. This does not block your access to Google Account services. Read more http://www.imilly.com/google-cookie.htm
+2005-05-16 Edited script for compability with ‘No Sponsored Links’-script. They overlap.
+2005-05-13 Removed bugfix for footer appearing twice. That caused another bug
+2005-04-25 Added code to skip showing the update script if SSL
+2005-04-22 Bugfix. Footer was appearing twice. Now it should be fixed.
+2005-04-20 Made the script smaller (if possible)
+2005-04-15 Fixed compatibility problems with Firefox 1.0.3
+2005-04-15 Made variables local
+2005-04-08 Links to other web search sites should now also work with UTF-8 characters
+2005-04-08 Added autocomplete=off for Google Suggest.
+2005-03-31 Bugfix. 'Add links to other news search sites' is now working again
+2005-03-31 Added two links to Origin Image & Origin Page in images.google.*. Thanks to Gehn WillowGlade.
+2005-03-23 Bugfix. i18 for the toolbar page. Thanks to Chris Harper.
+2005-03-23 Bugfix. i18 for news results should now be working. Thanks to Chris Harper.
+2005-03-22 Added option to select country.
+2005-03-22 Bugfix. Remove ads from secure Gmail should now be working. Thanks to Prakash Kailasa.
+2005-03-22 Added links to point straight to the pictures in images.google.*. Original code by Patrick Cavit, http://patcavit.com
+2005-03-22 Bugfix. AdBlock should no longer be blocking the script
+2005-03-22 Added eBay to product searches.
+2005-03-22 Added Altavista to web searches.
+2005-03-22 Bugfix. Remove ads from google-groups.google.* should now be working.
+2005-03-21 Added update notification
+2005-03-21 Bugfix. Remove ads from local.google.* should be working now
+2005-03-21 Added Google Suggest. Original code by Adrian Holovaty, http://www.holovaty.com/
+2005-03-21 Always Secure Gmail (use https). Original code by Mark Wubben
+2005-03-20 Remove ads from local.google.*
+2005-03-20 Remove ads from gmail.google.*

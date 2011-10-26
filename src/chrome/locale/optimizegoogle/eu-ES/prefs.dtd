@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "Hide the Quick Contacts box">
+<!ENTITY gmail-hideinvite "Hide the invite box">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google Aukerak">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Irudiak">
+<!ENTITY label.groups "Taldeak">
+<!ENTITY label.news "Berria">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Emaitzak">
+<!ENTITY label.print "Inprimatu">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Lokala">
+<!ENTITY label.privacy "Pribazitatea">
+<!ENTITY label.filter "Iragazkia">
+<!ENTITY label.about "Honi buruz">
+<!ENTITY label.web.long "Google Web Bilaketa">
+<!ENTITY label.images.long "Google Irudi Bilaketa">
+<!ENTITY label.groups.long "Google Taldeak">
+<!ENTITY label.news.long "Google Berriak">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Emaitzak">
+<!ENTITY label.print.long "Google Inprimatu">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Lokala">
+<!ENTITY label.privacy.long "Privazitatea">
+<!ENTITY label.filter.long "Webgune Iragazkia">
+<!ENTITY label.about.long "OptimizeGoogle-ri buruz">
+<!ENTITY web-remove-ads "Iragarkiak Kendu">
+<!ENTITY web-add-search-links "Beste bilaketa gune batzuetara estekak gehitu">
+<!ENTITY web-add-news-links "Berri emaitzetan, beste bilaketa gune batzuetara estekak gehitu">
+<!ENTITY web-add-movie-links "Filma emaitzetan, beste bilaketa gune batzuetara estekak gehitu">
+<!ENTITY web-add-weather-links "Eguraldi emaitzetan, beste bilaketa gune batzuetara estekak gehitu">
+<!ENTITY web-add-product-links "Produktu emaitzetan, beste bilaketa gune batzuetara estekak gehitu">
+<!ENTITY web-use-googlesuggest "Google Gomendioa erabili (Idatzi ala gomendioak egin)">
+<!ENTITY web-searchfocus "Ipini Fokoa Bilaketa Kutxan">
+<!ENTITY web-add-counter "Kokaleku zenbatzailea gehitu">
+<!ENTITY web-filter "Iragazkiak gaitu (ikus 'Iragazkia' fitxa)">
+<!ENTITY web-history "Gehitu estekak WayBackMachine-ra (webgune historia)">
+<!ENTITY web-save "Add links to bookmark/save a webpage">
+<!ENTITY web-remove-url-click-track "Remove click tracking">
+<!ENTITY images-add-image-links "Gehitu estekak iurdi/argazki/arte bilatzaileetara">
+<!ENTITY images-rewrite-links "Rewrite links to point straight to the images">
+<!ENTITY groups-remove-ads "Iragarkiak ezabatu">
+<!ENTITY news-add-news-links "Gehitu estekak beste berri bilatzaileetara">
+<!ENTITY froogle-remove-ads "Iragarkiak ezabatu">
+<!ENTITY froogle-add-product-links "Gehitu estekak beste produktu bilatzaileetara">
+<!ENTITY answers-remove-ads "Iragarkiak ezabatu">
+<!ENTITY print-remove-ads "Iragarkiak ezabatu">
+<!ENTITY print-restore-menu "Berezarri eskuin-klik kontestu menuarentzat">
+<!ENTITY print-add-book-links "Gehitu estekak liburu guneetara">
+<!ENTITY gmail-remove-ads "Ezabatu iragarkien orrialdeak">
+<!ENTITY gmail-hidespam "Hide the spam-counter">
+<!ENTITY gmail-monospace "Use a fixed font for mail bodies">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Iragarkiak ezabatu">
+<!ENTITY misc-analytics "Don't send any cookies to Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (also known as Urchin) is a service from Google that helps website owners analyze how users use their sites. Information about your use of a certain website (including your IP address) can automatically be transmitted to and stored by Google using cookies.">
+<!ENTITY misc-anonymize "Google cookie-n UID-a anonimo egin">
+<!ENTITY misc-anonymize.desc "Ekidin Googlek zutaz profil erabilgarri bat egitea. Honek ez du Google-ren kontua behar duten zerbitzuak, GMail adibiez,  erabiltzea ezintzen. Zenbait zerbitzu eraginak izango dira. Adibidez Google Taldeetan 'Azkenez Bistaratutako' zerrenda hutsik egongo da.">
+<!ENTITY label.filter.desc "Bilaketa emaitzetik iragazi nahi dituzun guneen zerrenda:">
+<!ENTITY examples "Adibideak">
+<!ENTITY examples.1.filter "http://*.adibidea.com/*">
+<!ENTITY examples.1.desc "azpidomeinu guztiak bloketatu">
+<!ENTITY examples.2.filter "http://kirolak.adibiea.com/lagungarriak/*">
+<!ENTITY examples.2.desc "ezarritako direktorioa blokeatu">
+<!ENTITY examples.3.filter "http://kirolak.adibiea.com/index.html">
+<!ENTITY examples.3.desc "Ezarritako orria blokeatu">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.adibidea\.(com|org)\//i">
+<!ENTITY examples.4.desc "aurreratua: espresio erregilarren bidezko iragazkia">
+<!ENTITY options-import "Inportatu">
+<!ENTITY options-export "Esportatu">
+<!ENTITY about.desc "OptimizeGoogle Googleren bilaketai beste informazio batzuek gehitzen (yahoo, MSN, etab. bilatzaileetara estekak adibidez) eta ikusi nahi ez dena kenduaz (iragarki-en antzerakoak) Firefox-en boteretsuago egiteko gehigarri bat da. Ezaugarri guztiak aukerakoak dira.">
+<!ENTITY donate.short "OptimizeGoogle Lagundu">
+<!ENTITY donate.long "PayPal bidez dohaintza egin laguntzeko. Milesker!">
+<!ENTITY linktext.paypal "PayPal dohaitza">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "Ados">
+<!ENTITY cancelButtonlabel "Utzi">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "In video results, add links to other video search sites">
+<!ENTITY web-autopager "Stream search result pages">
+<!ENTITY secure-text "Ziurra (https-ra aldatu)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Remove click tracking">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

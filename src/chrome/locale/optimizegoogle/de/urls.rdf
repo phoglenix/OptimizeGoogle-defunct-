@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:urls="http://www.optimizegoogle.com/rdf/">
+
+<!-- Web -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/yahoo">
+           <urls:name>Yahoo!</urls:name>
+           <urls:url>http://de.search.yahoo.com/search?p=[QUERY]&amp;ei=UTF-8</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/webde">
+           <urls:name>Web.de</urls:name>
+           <urls:url>http://suche.web.de/search/web/?su=[QUERY]&amp;allparams=&amp;smode=&amp;webRb=de</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/askjeeves">
+        <urls:name>Ask.com</urls:name>
+        <urls:url>http://de.ask.com/web?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/bing">
+        <urls:name>bing</urls:name>
+        <urls:url>http://www.bing.com/search?q=[QUERY]&amp;cc=de</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/lycos">
+        <urls:name>Lycos</urls:name>
+        <urls:url>http://suche.lycos.de/cgi-bin/pursuit?query=[QUERY]&amp;cat=loc&amp;enc=utf-8</urls:url>
+      </rdf:Description>
+   
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/alltheweb">
+        <urls:name>AllTheWeb</urls:name>
+        <urls:url>http://www.alltheweb.com/search?q=[QUERY]&amp;cs=utf-8</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/wikipedia">
+        <urls:name>Wikipedia</urls:name>
+        <urls:url>http://de.wikipedia.org/wiki/Special:Search?search=[QUERY]&amp;go=go</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/technorati">
+        <urls:name>Technorati</urls:name>
+        <urls:url>http://www.technorati.com/search/[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/bloglines">
+        <urls:name>Bloglines</urls:name>
+        <urls:url>http://www.bloglines.com/search?q=[QUERY]&amp;ql=de</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/altavista">
+        <urls:name>AltaVista</urls:name>
+        <urls:url>http://www.altavista.de/web/results?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/alpha">
+         <urls:name>Alpha</urls:name>
+         <urls:url>http://au.alpha.yahoo.com/search/web?p=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/wolframalpha">
+        <urls:name>Wolfram Alpha</urls:name>
+        <urls:url>http://www.wolframalpha.com/input/?i=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/websearch/clusty">
+        <urls:name>Clusty</urls:name>
+        <urls:url>http://clusty.com/search?query=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/tvmovie">
+        <urls:name>TV Movie</urls:name>
+        <urls:url>http://www.tvmovie.de/finder?finder=kino&amp;html=%2Frefresh%2Ftechnik%2Fkino%2Fsuche.htm&amp;titel=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/rottentomatoes">
+        <urls:name>Rotten Tomatoes</urls:name>
+        <urls:url>http://www.rottentomatoes.com/search/search.php?searchby=movies&amp;search=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/metacritic">
+        <urls:name>Metacritic</urls:name>
+        <urls:url>http://www.metacritic.com/search/process?ty=1&amp;ts=[QUERY]</urls:url>
+      </rdf:Description>
+   
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/yahoo">
+        <urls:name>Yahoo! Movies</urls:name>
+        <urls:url>http://de.search.movies.yahoo.com/search/movies_de?tag_xsx=[QUERY]&amp;fname_xsx=txt_</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/movies">
+        <urls:name>Movies.com</urls:name>
+        <urls:url>http://search.movies.go.com/movieSearch?search=[QUERY]</urls:url>
+      </rdf:Description>
+   
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/moviesearch/imdb">
+        <urls:name>IMDb</urls:name>
+        <urls:url>http://www.imdb.com/find?q=[QUERY];tt=on;mx=20</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/yahoo">
+        <urls:name>Yahoo!</urls:name>
+        <urls:url>http://de.news.search.yahoo.com/search/news?p=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/webde">
+        <urls:name>Web.de</urls:name>
+        <urls:url>http://suche.web.de/search/news/?su=[QUERY]</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/bing">
+        <urls:name>bing</urls:name>
+        <urls:url>http://www.bing.com/news/search?q=[QUERY]</urls:url>
+      </rdf:Description>
+   
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/askjeeves">
+        <urls:name>Ask.com</urls:name>
+        <urls:url>http://news.ask.com/news?q=[QUERY]</urls:url>
+      </rdf:Description>
+   
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/altavista">
+        <urls:name>AltaVista</urls:name>
+        <urls:url>http://de.altavista.com/news/results?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/lycos">
+        <urls:name>Paperball (Lycos)</urls:name>
+        <urls:url>http://suche.paperball.de/cgi-bin/pursuit?cat=pb_loc&amp;enc=utf-8&amp;query=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/alltheweb">
+        <urls:name>AllTheWeb</urls:name>
+        <urls:url>http://www.alltheweb.com/search?cat=news&amp;q=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/netzeitung">
+        <urls:name>Netzeitung</urls:name>
+        <urls:url>http://www.netzeitung.de/servlets/search?execute=query&amp;p_search_id=SEARCH_ALL&amp;p_qry=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/paperboy">
+        <urls:name>Paperboy</urls:name>
+        <urls:url>http://www.paperboy.de/index.php?d=suchen&amp;s=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/newssearch/bloglines">
+        <urls:name>Bloglines</urls:name>
+        <urls:url>http://www.bloglines.com/search?t=1&amp;q=[QUERY]</urls:url>
+      </rdf:Description>
+
+<!-- Weather -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/yahoo">
+        <urls:name>Yahoo!</urls:name>
+        <urls:url>http://de.search.weather.yahoo.com/search/weather_de?p=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/askjeeves">
+        <urls:name>Ask.com</urls:name>
+        <urls:url>http://web.ask.com/web?q=weather+[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/wetter.net">
+        <urls:name>wetter.net</urls:name>
+        <urls:url>http://www.wetter.net/cgi-bin/wetter-net/wetter_stadt.pl?NAME=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/wetter.de">
+        <urls:name>wetter.de</urls:name>
+        <urls:url>http://wetter.rtl.de/shared/php/search_plz_ort.php?in=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/donnerwetter">
+        <urls:name>Donnerwetter</urls:name>
+        <urls:url>http://www.donnerwetter.de/region/suchort.mv?search=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/wetteronline">
+        <urls:name>Wetteronline</urls:name>
+        <urls:url>http://www.wetteronline.de/cgi-bin/suchen?LANG=de&amp;PROG=citybild&amp;ORT=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/weathersearch/weather">
+        <urls:name>Weather Underground</urls:name>
+        <urls:url>http://www.wunderground.com/cgi-bin/findweather/getForecast?query=[QUERY]</urls:url>
+      </rdf:Description>
+
+<!-- Books -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/booksearch/newyorktimes">
+        <urls:name>NYTimes</urls:name>
+        <urls:url>http://topics.nytimes.com/top/features/books/bookreviews/?s=closest&amp;match=all&amp;query=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/booksearch/buchrezension">
+        <urls:name>Buchrezension.org</urls:name>
+        <urls:url>http://www.buchrezension.org/[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/booksearch/amazon">
+        <urls:name>Amazon</urls:name>
+        <urls:url>http://www.amazon.de/s/?url=search-alias%3Dstripbooks&amp;field-keywords=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/booksearch/bol">
+        <urls:name>Bol</urls:name>
+        <urls:url>http://www.bol.de/shop/bde_homestartseite/schnellsuche/any/?fc=BUCH&amp;fq=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+<!-- Books -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/yahoo">
+        <urls:name>Yahoo!</urls:name>
+        <urls:url>http://shopping.yahoo.de/ctl/do/search?siteSearchQuery=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/webde">
+        <urls:name>Web.de</urls:name>
+        <urls:url>http://produktsuche.web.de/search.do?s=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/lycos">
+        <urls:name>Lycos</urls:name>
+        <urls:url>http://shopping.lycos.de/query.html?qu=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/billigerde">
+        <urls:name>Billiger</urls:name>
+        <urls:url>http://www.billiger.de/suche.html?searchstring=[QUERY]&amp;houston=1</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/amazon">
+        <urls:name>Amazon</urls:name>
+        <urls:url>http://www.amazon.de/s/?url=search-alias%3Daps&amp;field-keywords=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/guenstigerde">
+        <urls:name>Guenstiger</urls:name>
+        <urls:url>http://www.guenstiger.de/gt/main.asp?okid=0&amp;suche=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/preissuchmaschinede">
+        <urls:name>PreisSuchmaschine</urls:name>
+        <urls:url>http://www.preissuchmaschine.de/psm_frontend/main.asp?suche=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/preistrendde">
+        <urls:name>PreisTrend</urls:name>
+        <urls:url>http://www.preistrend.de/suchen.php?q=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/ebay">
+        <urls:name>eBay</urls:name>
+        <urls:url>http://search.ebay.de/search/search.dll?query=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/geizhals">
+        <urls:name>Geizhals</urls:name>
+        <urls:url>http://geizhals.at/deutschland/?fs=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/geizkragende">
+        <urls:name>Geizkragen</urls:name>
+        <urls:url>http://www.geizkragen.de/preisvergleich/suche/suche.php?query=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/productsearch/idealode">
+        <urls:name>Idealo</urls:name>
+        <urls:url>http://www.idealo.de/preisvergleich/MainSearchProductCategory.html?query_[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+<!-- Images -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/yahoo">
+        <urls:name>Yahoo!</urls:name>
+        <urls:url>http://de.search.yahoo.com/search/images?ei=UTF-8&amp;fr=sfp&amp;p=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/webde">
+        <urls:name>WEB.DE</urls:name>
+        <urls:url>http://suche.web.de/search/pic/?su=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/lycos">
+        <urls:name>Lycos</urls:name>
+        <urls:url>http://suche.lycos.de/cgi-bin/pursuit?query=[QUERY]&amp;cat=image&amp;SITE=de&amp;enc=utf-8</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/altavista">
+        <urls:name>AltaVista</urls:name>
+        <urls:url>http://de.altavista.com/image/results?itag=ody&amp;q=[QUERY]&amp;mik=photo&amp;mik=graphic&amp;mish=all&amp;mip=all&amp;mis=all&amp;miwxh=all</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/askjeeves">
+        <urls:name>Ask.com</urls:name>
+        <urls:url>http://images.de.ask.com/pictures?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/alltheweb">
+        <urls:name>AllTheWeb</urls:name>
+        <urls:url>http://www.alltheweb.com/search?cat=img&amp;q=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/bing">
+        <urls:name>bing</urls:name>
+        <urls:url>http://www.bing.com/images/search?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/picsearch">
+        <urls:name>Picsearch</urls:name>
+        <urls:url>http://www.picsearch.de/search.cgi?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/creatas">
+        <urls:name>Creatas</urls:name>
+        <urls:url>http://www.creatas.com/searchResults.aspx?searchString=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/freefoto">
+        <urls:name>FreeFoto</urls:name>
+        <urls:url>http://www.freefoto.com/search.jsp?queryString=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/webshots">
+        <urls:name>WebShots</urls:name>
+        <urls:url>http://www.webshots.com/search?query=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/nasa">
+        <urls:name>NASA</urls:name>
+        <urls:url>http://nix.larc.nasa.gov/search?qa=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/flickr">
+        <urls:name>Flickr</urls:name>
+        <urls:url>http://www.flickr.com/search/?q=[QUERY]&amp;ct=6&amp;z=t&amp;mt=photos</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/deviantart">
+        <urls:name>deviantART</urls:name>
+        <urls:url>http://search.deviantart.com/?q=[QUERY]&amp;section=browse&amp;qh=boost%3Apopular+age_sigma%3A24h+age_scale%3A5</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/photobucket">
+        <urls:name>Photobucket</urls:name>
+        <urls:url>http://photobucket.com/images/[QUERYISO88591]/</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/visualizeus">
+        <urls:name>Vi.sualize.us</urls:name>
+        <urls:url>http://vi.sualize.us/search/all/[QUERY]/</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/imagesearch/zooomr">
+        <urls:name>Zooomr</urls:name>
+        <urls:url>http://www.zooomr.com/search/photos/?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+<!-- Video -->
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/youtube">
+        <urls:name>YouTube</urls:name>
+        <urls:url>http://www.youtube.com/results?search_query=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/yahoo">
+        <urls:name>Yahoo!</urls:name>
+        <urls:url>http://de.video.yahoo.com/video/search?p=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/myvideo">
+        <urls:name>MyVideo</urls:name>
+        <urls:url>http://www.myvideo.de/online/page.php?P=117&amp;channel=&amp;volltext=[QUERY]&amp;sort=relevancy&amp;type=alltime</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/sevenload">
+        <urls:name>sevenload</urls:name>
+        <urls:url>http://de.sevenload.com/suche?videos&amp;[QUERY]</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/clipfish">
+        <urls:name>Clipfish</urls:name>
+        <urls:url>http://www.clipfish.de/searchfish.php?word=[QUERYISO88591]&amp;type=video</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/altavista">
+        <urls:name>AltaVista</urls:name>
+        <urls:url>http://de.altavista.com/video/results?itag=ody&amp;q=[QUERY]&amp;mvf=mpeg&amp;mvf=avi&amp;mvf=qt&amp;mvf=msmedia&amp;mvf=realmedia&amp;mvf=flash&amp;mvf=other&amp;mvd=all</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/metacafe">
+        <urls:name>Metacafe</urls:name>
+        <urls:url>http://www.metacafe.com/tags/[QUERY]/</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/ifilm">
+        <urls:name>IFILM</urls:name>
+        <urls:url>http://www.ifilm.com/search?query=[QUERYISO88591]</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/revver">
+        <urls:name>Revver</urls:name>
+        <urls:url>http://one.revver.com/find/keywords/[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/dailymotion">
+        <urls:name>Dailymotion</urls:name>
+        <urls:url>http://www.dailymotion.com/relevance/search/[QUERY]</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/truveo">
+        <urls:name>Truveo</urls:name>
+        <urls:url>http://de.truveo.com/search.php?query=[QUERY]</urls:url>
+      </rdf:Description>
+      
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/flickr">
+        <urls:name>Flickr</urls:name>
+        <urls:url>http://www.flickr.com/search/?q=[QUERY]&amp;ct=0&amp;mt=videos&amp;z=t</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/videosearch/photobucket">
+        <urls:name>Photobucket</urls:name>
+        <urls:url>http://photobucket.com/videos/[QUERYISO88591]/</urls:url>
+      </rdf:Description>      
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/technorati">
+        <urls:name>Technorati</urls:name>
+        <urls:url>http://technorati.com/search/[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/bloglines">
+        <urls:name>Bloglines</urls:name>
+        <urls:url>http://www.bloglines.com/search?q=[QUERY]&amp;s=f</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/icerocket">
+        <urls:name>Icerocket</urls:name>
+        <urls:url>http://www.icerocket.com/search?tab=blog&amp;q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/blogpulse">
+        <urls:name>Blogpulse</urls:name>
+        <urls:url>http://www.blogpulse.com/search?query=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/blogdigger">
+        <urls:name>Blogdigger</urls:name>
+        <urls:url>http://www.blogdigger.com/search?q=[QUERY]</urls:url>
+      </rdf:Description>
+
+      <rdf:Description rdf:about="http://www.optimizegoogle.com/blogsearch/twingly">
+        <urls:name>Twingly</urls:name>
+        <urls:url>http://www.twingly.com/search?q=[QUERY]</urls:url>
+      </rdf:Description>
+      
+  <rdf:Seq rdf:about="http://www.optimizegoogle.com/all-urls">
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/websearch">
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/yahoo"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/webde"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/bing"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/lycos"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/altavista"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/askjeeves"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/clusty"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/alltheweb"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/alpha"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/wolframalpha"/> 
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/wikipedia"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/technorati"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/websearch/bloglines"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+        <rdf:Seq rdf:about="http://www.optimizegoogle.com/moviesearch">
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/yahoo"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/tvmovie"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/rottentomatoes"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/metacritic"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/movies"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/moviesearch/imdb"/>
+          </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/newssearch">
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/yahoo"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/webde"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/bing"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/lycos"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/altavista"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/askjeeves"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/netzeitung"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/paperboy"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/alltheweb"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/newssearch/bloglines"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/weathersearch">
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/yahoo"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/wetter.net"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/wetter.de"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/donnerwetter"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/wetteronline"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/askjeeves"/>
+                <rdf:li rdf:resource="http://www.optimizegoogle.com/weathersearch/weather"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/booksearch">
+            <rdf:li rdf:resource="http://www.optimizegoogle.com/booksearch/amazon"/>
+            <rdf:li rdf:resource="http://www.optimizegoogle.com/booksearch/bol"/>
+            <rdf:li rdf:resource="http://www.optimizegoogle.com/booksearch/buchrezension"/>
+            <rdf:li rdf:resource="http://www.optimizegoogle.com/booksearch/newyorktimes"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/productsearch">
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/yahoo"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/webde"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/lycos"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/ebay"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/amazon"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/billigerde"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/idealode"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/guenstigerde"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/geizhals"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/preissuchmaschinede"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/geizkragende"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/productsearch/preistrendde"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/imagesearch">
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/yahoo"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/webde"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/bing"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/lycos"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/altavista"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/askjeeves"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/alltheweb"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/picsearch"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/flickr"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/creatas"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/freefoto"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/webshots"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/nasa"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/deviantart"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/photobucket"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/visualizeus"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/imagesearch/zooomr"/>
+
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/videosearch">
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/youtube"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/yahoo"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/myvideo"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/sevenload"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/clipfish"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/dailymotion"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/altavista"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/metacafe"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/ifilm"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/revver"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/truveo"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/flickr"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/videosearch/photobucket"/>
+      </rdf:Seq>
+    </rdf:li>
+    <rdf:li>
+      <rdf:Seq rdf:about="http://www.optimizegoogle.com/blogsearch">
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/technorati"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/bloglines"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/icerocket"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/blogpulse"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/blogdigger"/>
+        <rdf:li rdf:resource="http://www.optimizegoogle.com/blogsearch/twingly"/>
+      </rdf:Seq>
+    </rdf:li>
+  </rdf:Seq>
+
+</rdf:RDF>

@@ -1,0 +1,133 @@
+<!ENTITY label.prefs "Préférences">
+<!ENTITY label.prefs.long "Préférences Google permanentes">
+<!ENTITY prefs.desc "Les modifications seront appliquées à l&apos;ensemble des services Google. Les préférences peuvent toujours être modifiées à l&apos;adresse google.com/preferences.
+
+
+Si votre navigateur n’accepte pas les cookies, les nouvelles valeurs de préférence ne peuvent pas être validées.">
+<!ENTITY prefs.interface "Langue de l&apos;interface">
+<!ENTITY prefs.interface.desc "Afficher les conseils et les messages Google en langue :">
+<!ENTITY prefs.search "Langue de recherche">
+<!ENTITY prefs.search.any "Rechercher les pages Web dans toutes les langues">
+<!ENTITY prefs.search.selected "Rechercher uniquement les pages écrites dans la ou les langues suivantes :">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Filtrage strict (contenu adulte, filtrer images et texte)">
+<!ENTITY prefs.safe.moderate "Filtrage modéré (contenu adulte, filtrer uniquement les images - valeur par défaut)">
+<!ENTITY prefs.safe.off "Ne pas filtrer les recherches">
+<!ENTITY prefs.resultsperpage "Nombre de résultats par page">
+<!ENTITY prefs.resultswindow "Fenêtre de résultats">
+<!ENTITY prefs.resultswindow.desc "Montrer les résultats de recherche dans une nouvelle fenêtre de navigateur">
+<!ENTITY gmail-hidechat "Cacher la fenêtre des contacts rapides">
+<!ENTITY gmail-hideinvite "Cacher la fenêtre d&apos;invitation">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Document &amp; Tableur">
+<!ENTITY dialog.cgtitle "Options Google">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Images">
+<!ENTITY label.groups "Groupes">
+<!ENTITY label.news "Actualités">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "Print">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Maps">
+<!ENTITY label.privacy "Vie privée">
+<!ENTITY label.filter "Filtres">
+<!ENTITY label.about "À propos">
+<!ENTITY label.web.long "Google Recherche Web">
+<!ENTITY label.images.long "Google Recherche d&apos;image">
+<!ENTITY label.groups.long "Google Groupes">
+<!ENTITY label.news.long "Google Actualités">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google Print">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Maps">
+<!ENTITY label.privacy.long "Vie privée">
+<!ENTITY label.filter.long "Filtrer les sites">
+<!ENTITY label.about.long "À propos de OptimizeGoogle">
+<!ENTITY web-remove-ads "Enlever les pubs">
+<!ENTITY web-add-search-links "Ajouter des liens vers d&apos;autres moteurs de recherche web">
+<!ENTITY web-add-news-links "Dans les résultats d&apos;informations, ajouter des liens vers d&apos;autres sources">
+<!ENTITY web-add-movie-links "Dans les résultats de films, ajouter des liens vers d&apos;autres sites de critiques">
+<!ENTITY web-add-weather-links "Dans les résultats météo, ajouter des liens vers d&apos;autres sites météo">
+<!ENTITY web-add-product-links "Dans les résultats de produits, ajouter des liens vers d&apos;autres sites commerciaux">
+<!ENTITY web-use-googlesuggest "Utiliser Google Suggest (suggère de nouveaux mots pendant que vous tapez)">
+<!ENTITY web-searchfocus "Placer le curseur sur la boîte de recherche">
+<!ENTITY web-add-counter "Ajouter un compteur de position">
+<!ENTITY web-filter "Activer les filtres (voir onglet &apos;Filtres&apos;)">
+<!ENTITY web-history "Ajouter des liens vers WayBackMachine (historique de la page)">
+<!ENTITY web-save "Ajouter des liens pour marquer/sauver une page web">
+<!ENTITY web-remove-url-click-track "Enlever le suivi des clics">
+<!ENTITY images-add-image-links "Ajouter des liens vers d&apos;autres sites de recherche d&apos;images/photos/art">
+<!ENTITY images-rewrite-links "Transformer les liens en liens directs vers l&apos;image">
+<!ENTITY groups-remove-ads "Enlever les pubs">
+<!ENTITY news-add-news-links "Ajouter des liens vers d&apos;autres sites d&apos;information">
+<!ENTITY froogle-remove-ads "Enlever les pubs">
+<!ENTITY froogle-add-product-links "Ajouter des liens vers d&apos;autres sites commerciaux">
+<!ENTITY answers-remove-ads "Enlever les pubs">
+<!ENTITY print-remove-ads "Enlever les pubs">
+<!ENTITY print-restore-menu "Permettre le clic droit">
+<!ENTITY print-add-book-links "Ajouter des liens vers des libraires">
+<!ENTITY gmail-remove-ads "Enlever les pubs et les pages relatives">
+<!ENTITY gmail-hidespam "Cacher le compteur d&apos;e-mails indésirables (spams)">
+<!ENTITY gmail-monospace "Utiliser une police de taille fixe pour le corps des e-mails">
+<!ENTITY label.calendar "Agenda">
+<!ENTITY label.calendar.long "Google Agenda">
+<!ENTITY local-remove-ads "Enlever les pubs">
+<!ENTITY misc-analytics "Ne pas transmettre de cookie à Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (aussi connu sous le nom d&apos;Urchin) est un service de Google qui permet aux webmasters d&apos;analyser l&apos;utilisation de leurs sites. Des informations sur votre utilisation (incluant votre adresse IP) peuvent être transmises automatiquement et stockées par Google à l&apos;aide de cookies.">
+<!ENTITY misc-anonymize "Rendre anonyme le cookie Google">
+<!ENTITY misc-anonymize.desc "Empêche Google de construire un profil vous concernant. Ceci n&apos;empêche pas le fonctionnement des services de votre compte Google, comme GMail mais quelques services peuvent être affectés. Dans Google Groupes, par exemple, la liste des groupes récemment visités devient vide.">
+<!ENTITY label.filter.desc "Indiquez tous les sites que vous voulez filtrer de vos résultats de recherche:">
+<!ENTITY examples "Exemples">
+<!ENTITY examples.1.filter "http://*.exemple.com/*">
+<!ENTITY examples.1.desc "bloque tous les sous-domaines">
+<!ENTITY examples.2.filter "http://sports.exemple.com/gadgets/*">
+<!ENTITY examples.2.desc "bloque un dossier spécifique">
+<!ENTITY examples.3.filter "http://sports.exemple.com/index.html">
+<!ENTITY examples.3.desc "bloque une page spécifique">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.exemple\.(com|org)\//i">
+<!ENTITY examples.4.desc "expert: bloque en utilisant des expressions rationnelles (regexp)">
+<!ENTITY options-import "Importer">
+<!ENTITY options-export "Exporter">
+<!ENTITY about.desc "OptimizeGoogle est une extension pour Firefox qui améliore les résultats de recherche de Google en ajoutant des informations supplémentaires (comme des liens vers Yahoo, MSN, Voila...) et en supprimant les informations non-utiles (comme les pubs et le spam). Toutes les fonctions sont désactivables.">
+<!ENTITY donate.short "Aider OptimizeGoogle">
+<!ENTITY donate.long "Contribuez en donnant via PayPal. Merci d&apos;avance!">
+<!ENTITY linktext.paypal "Donation PayPal">
+<!ENTITY about.links "Des questions ? Besoin d'aide t?">
+<!ENTITY about.website "Site Web">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Rapports de bogues">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Annuler">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Recherche Google Video">
+<!ENTITY web-add-video-links "Dans les résultats vidéo, ajouter des liens vers d&apos;autres sites de recherche de vidéos">
+<!ENTITY web-autopager "Présenter les résultats des pages suivantes à la suite de la première">
+<!ENTITY secure-text "Version sécurisée (passer en https)">
+<!ENTITY images-autopager "Présenter les résultats des pages suivantes à la suite de la première">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "Historique">
+<!ENTITY label.history.long "Historique Google">
+<!ENTITY web-favicons "Afficher les icônes des pages web">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Enlever le suivi des clics">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Tous les services">
+<!ENTITY all-label-long "Tous les services de Google">
+<!ENTITY all-always-ssl "Utiliser SSL si possible">
+<!ENTITY all-never-ads "Bloquer toutes les pubs des services Google">
+<!ENTITY all-always-links "Afficher les liens vers d'autres sites quand c'est possible">
+<!ENTITY all-always-rewrite "Toujours supprimer le traçage des clics">
+<!ENTITY all-always-filters "Toujours activer les filtres">
+<!ENTITY all-enable-multi-accounts "Afficher le script des changements de comptes utilisateurs">

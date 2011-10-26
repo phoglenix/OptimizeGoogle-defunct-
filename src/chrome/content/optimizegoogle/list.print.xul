@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.print.web" onload="cgprefs.onLoad('cg.print.web');" onunload="cgprefs.onOK('cg.print.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.print.long;"/>
+		<checkbox id="print-remove-ads" label="&print-remove-ads;" prefstring="extensions.optimizegoogle.print.remove-ads" prefdefval="false"/>
+		<checkbox id="print-restore-menu" label="&print-restore-menu;" prefstring="extensions.optimizegoogle.print.restore-menu" prefdefval="true"/>
+		<checkbox id="print-add-book-links" label="&print-add-book-links;" prefstring="extensions.optimizegoogle.print.book-links" prefdefval="true"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('print-remove-ads','noAds');
+        cg_useAnyDisablePref('print-add-book-links','otherLinks');
+    </script>
+</page>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.privacy.web" onload="cgprefs.onLoad('cg.privacy.web');" onunload="cgprefs.onOK('cg.privacy.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.privacy.long;"/>
+		<description wrap="true">&misc-anonymize.desc;</description>
+		<checkbox id="misc-anonymize" label="&misc-anonymize;" prefstring="extensions.optimizegoogle.misc.anonymizeUID" prefdefval="true"/>
+		<separator/>
+		<description wrap="true">&misc-analytics.desc;</description>
+		<checkbox id="misc-analytics" label="&misc-analytics;" prefstring="extensions.optimizegoogle.misc.removeGoogleAnalytics" prefdefval="true"/>
+    </groupbox>
+</page>

@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Նախընտրանքներ">
+<!ENTITY label.prefs.long "Google-ին փոխանցվող նախընտրանքներ">
+<!ENTITY prefs.desc "Այս նախընտրանքները օգտագործվելու են մեքենայորեն` Google-ին միանալու ժամանակ: Չնշված ընտրանքները կարող են փոփոխվել google.com/preferences հասցեով. Այս նախընտրանքները չեն աշխատելու, եթե կուկիները(cookie) անջատված են:">
+<!ENTITY prefs.interface "Ինտերֆեյսի լեզուն">
+<!ENTITY prefs.interface.desc "Ցույց տալ Google-ի հաղորդագրությունները և խորհուրդները">
+<!ENTITY prefs.search "Որոնման լեզուն">
+<!ENTITY prefs.search.any "Որոնել ցանկացած լեզվով էջերում">
+<!ENTITY prefs.search.selected "Որոնել միայն հետևյալ լեզվով (լեզուներով) էջերում.">
+<!ENTITY prefs.safe "Անվտանգ որոնում">
+<!ENTITY prefs.safe.strict "Օգտագործել խիստ ֆիլտրում (տեքստի և նկարների ֆիլտրում)">
+<!ENTITY prefs.safe.moderate "Օգտագործել թույլ (լռելիությամբ միայն նկարների ֆիլտրում)">
+<!ENTITY prefs.safe.off "Չ՛ֆիլտրել որոնման արդյունքները">
+<!ENTITY prefs.resultsperpage "Էջում որոնման արդյունքների քանակը`">
+<!ENTITY prefs.resultswindow "Արդյունքների պատուհան">
+<!ENTITY prefs.resultswindow.desc "Բացել որոնման արդյունքները նոր պատուհանում">
+<!ENTITY gmail-hidechat "Թաքցնել արագ կապվելու պատուհանը">
+<!ENTITY gmail-hideinvite "Թաքցնել հրավերի պատուհանը">
+<!ENTITY label.docs "Փասթաթղթեր">
+<!ENTITY label.docs.long "Google Փասթաթղթեր և Աղյուսակներ ">
+<!ENTITY dialog.cgtitle "Google-ի նախընտրանքներ">
+<!ENTITY label.web "Ցանց">
+<!ENTITY label.images "Նկարներ">
+<!ENTITY label.groups "Խմբեր">
+<!ENTITY label.news "Լուրեր">
+<!ENTITY label.froogle "Ապրանքներ">
+<!ENTITY label.answers "Պատասխաններ">
+<!ENTITY label.print "Գրքեր">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Քարտեզներ">
+<!ENTITY label.privacy "Անվտանգություն">
+<!ENTITY label.filter "Ֆիլտր">
+<!ENTITY label.about "Տեղեկատվություն">
+<!ENTITY label.web.long "Որոնում ցանցում">
+<!ENTITY label.images.long "Նկարների որոնում">
+<!ENTITY label.groups.long "Google Խմբեր">
+<!ENTITY label.news.long "Google Լուրեր">
+<!ENTITY label.froogle.long "Google Ապրանքների որոնում">
+<!ENTITY label.answers.long "Google Պատասխաններ">
+<!ENTITY label.print.long "Google Տպագրություն">
+<!ENTITY label.gmail.long "GMail Փոստ">
+<!ENTITY label.local.long "Google Քարտեզներ">
+<!ENTITY label.privacy.long "Անվտանգություն">
+<!ENTITY label.filter.long "Որոնման արդյունքների ֆիլտրում">
+<!ENTITY label.about.long "OptimizeGoogle-ի մասին">
+<!ENTITY web-remove-ads "Հեռացնել գովազդը">
+<!ENTITY web-add-search-links "Ավելացնել այլ որոնման կայքերի հղումներ">
+<!ENTITY web-add-news-links "Լուրերի որոնման արդյունքներում ավելացնել լուրերի որոնման այլ կայքերի հղումներ">
+<!ENTITY web-add-movie-links "Վիդեոների որոնման արդյունքներում ավելացնել վիդեոների որոնման այլ կայքերի հղումներ">
+<!ENTITY web-add-weather-links "Եղանակի տեսության որոնման արդյունքներում ավելացնել եղանակի տեսության որոնման այլ կայքերի հղումներ">
+<!ENTITY web-add-product-links "Ապրանքների որոնման արդյունքներում ավելացնել ապրանքների  որոնման այլ կայքերի հղումներ">
+<!ENTITY web-use-googlesuggest "Ոգտագործել Google Suggest (խորհուրդներ հարցման հավաքման ընթացքում)">
+<!ENTITY web-searchfocus "Որոնման տողը ֆոկուսի բերել">
+<!ENTITY web-add-counter "Ավելացնել արդյունքի հերթական համարը">
+<!ENTITY web-filter "Միացնել ֆիլտրումը (տես  «Ֆիլտր» բաժինը)">
+<!ENTITY web-history "Ավելացնել WayBackMachine-ի հղումներ (կայքերի պատմություն)">
+<!ENTITY web-save "Ավելացնել էջադրման հղումներ">
+<!ENTITY web-remove-url-click-track "Հեռացնել սեղման հսկումը">
+<!ENTITY images-add-image-links "Ավելացնել նկարների  որոնման այլ կայքերի հղումներ">
+<!ENTITY images-rewrite-links "Փոխել նկարների հղումները իրական նկարների հղումներով">
+<!ENTITY groups-remove-ads "Հեռացնել գովազդը">
+<!ENTITY news-add-news-links "Ավելացնել լուրերի այլ կայքերի հղումներ">
+<!ENTITY froogle-remove-ads "Հեռացնել գովազդը">
+<!ENTITY froogle-add-product-links "Ավելացնել ապրանքների  որոնման այլ կայքերի հղումներ">
+<!ENTITY answers-remove-ads "Հեռացնել գովազդը">
+<!ENTITY print-remove-ads "Հեռացնել գովազդը">
+<!ENTITY print-restore-menu "Միացնել մկնիկի աջ կոճակի մենյուն">
+<!ENTITY print-add-book-links "Ավելացնել գրականության ակնարկներով կայքերի հղումներ">
+<!ENTITY gmail-remove-ads "Հեռացնել գովազդը և հարակից էջերը">
+<!ENTITY gmail-hidespam "Թաքցնել սպամի հաշվիչը">
+<!ENTITY gmail-monospace "Օգտագործել ֆիքսված տառատեսակ նամակներում">
+<!ENTITY label.calendar "Օրացույց">
+<!ENTITY label.calendar.long "Google Օրացույց">
+<!ENTITY local-remove-ads "Հեռացնել գովազդը">
+<!ENTITY misc-analytics "Google Analytics-ին ոչ մի կուկի(cookie) չուղարկել">
+<!ENTITY misc-analytics.desc "Google Analytics (հայտնի է նաև Urchin անունով) — Google-ի ծառայություն է, որը թույլ է տալիս կայքերի տերերին ուսումնասիրել, թե ինչպես են իրենց այցելուները օգտագործում կայքը: Կուկիների օգնությամբ տեղեկատվությունը ձեր այցելած կայքերի մասին ինչպես նաև ձեր IP-ն կարող են փոխանցվել Google-ին:">
+<!ENTITY misc-anonymize " Google cookie UID-ն դարձնել անանուն">
+<!ENTITY misc-anonymize.desc "Արգելել Google-ին կառուցել ձեր անձնական պրոֆիլը: Այս նախընտրանքը չի արգելում ձեր օգտվելը Google-ի ծառայություններից, օրինակ` GMail: Կարող է ազդել միայն որոշ հնարավորությունների վրա: Օրինակ` Խմբերում վերջին հաղորդարությունների ցուցակը դատարկ է լինելու">
+<!ENTITY label.filter.desc "Ցուցակում ներմուծեք կայքերը, որոնք ցանկանում եք ֆիլտրել որոնման արդյունքներում:">
+<!ENTITY examples "Օրինակներ`">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "ֆիլտրել բոլոր ենթադոմենները">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "ֆիլտրել կոնկրետ թղթապանակ">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "ֆիլտրել կոնկրետ էջ">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "Մասնագետներին` ֆիլտրել regexp օգնությամբ">
+<!ENTITY options-import "Ներմուծում">
+<!ENTITY options-export "Արտածում">
+<!ENTITY about.desc "OptimizeGoogle` Firefox-ավելացում, որ կատարում է Google-ում որոնման արդյունքների հարմարեցում ձեր պահանջներին` ավելացնելով հնարավորություններ  (հղումներ դեպի Yahoo, Ask, MSN և այլն) և անցանկալի տեղեկատվության հեռացմամբ. Բոլոր հնարավորությունները ընտրովի են:">
+<!ENTITY donate.short "Օգնել OptimizeGoogle-ին">
+<!ENTITY donate.long "Օգնել PayPal-ով գումարի նվիրատվությամբ: Շնորհակալությո՛ւն:">
+<!ENTITY linktext.paypal "PayPal-ով նվիրատրություն անել">
+<!ENTITY about.links "Հարցե՞ր, Օգնությո՞ւն">
+<!ENTITY about.website "Վեբկայք">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Հայտնաբերված Սխալներ">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Մերժել">
+<!ENTITY label.video "Վիդեո">
+<!ENTITY label.video.long "Վիդեոների որոնում Google-ով">
+<!ENTITY web-add-video-links "Վիդեոների որոնման արդյունքներում ավելացնել վիդեոների որոնման այլ կայքերի հղումներ">
+<!ENTITY web-autopager "Որոնման արդյունքների ուսումնասիրում">
+<!ENTITY secure-text "Անվտանգ ռեժիմ (անցնել https-ի)">
+<!ENTITY images-autopager "Որոնման արդյունքների ուսումնասիրում">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "Պատմություն">
+<!ENTITY label.history.long "Google-ի Ցանցային պատմություն">
+<!ENTITY web-favicons "Ցույց տալ կայքերի favicon-ը (փոքր նկար, որը հայտնվում է անվան կողքին) ">
+<!ENTITY label.cache "Պահված (Քեշ)">
+<!ENTITY label.cache.long "Google-ի քեշ">
+<!ENTITY cache-continue "Փոխել հղումները, որ հղվեն Google-ի քեշին">
+<!ENTITY label.blogs "Բլոգեր">
+<!ENTITY label.blogs.long "Որոնում «Google Blog»-ում">
+<!ENTITY blogs-add-blog-links "Ավելացնել բլոգերի որոնման այլ կայքերի հղումներ">
+<!ENTITY blogs-remove-url-click-track "Հեռացնել կլիկի հսկումը">
+<!ENTITY prefs.suggest "Օգտվե խորհուրդներից">
+<!ENTITY prefs.suggest.desc "Որոնման տողում ցույց տալ խորհուրդները.">
+<!ENTITY youtube-remove-ads "Հեռացնել գովազդը և դադարեցնել հոլովակների ինքնամիացումը">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Բոլոր Ծառայությունները">
+<!ENTITY all-label-long "Google-ի Բոլոր Ծառայությունները">
+<!ENTITY all-always-ssl "Օգտագործել SSL երբ հնարավոր է">
+<!ENTITY all-never-ads "Առգելել գովազդը Google-ի բոլոր ծառայություններում">
+<!ENTITY all-always-links "Ցույց տալ այլ կայքերի հղումները երբ տեղին է">
+<!ENTITY all-always-rewrite "Միշտ հեռացնել կլիկերին հետևումը">
+<!ENTITY all-always-filters "Միշտ միացնել ֆիլտրերը">
+<!ENTITY all-enable-multi-accounts "Show the switch user accounts script">

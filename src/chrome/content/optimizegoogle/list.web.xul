@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.list.web" onload="cgprefs.onLoad('cg.list.web');" onunload="cgprefs.onOK('cg.list.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+    <script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+
+  
+      <vbox flex="1" class="scroll">
+      <groupbox flex="1">
+      <caption label="&label.web.long;"/>
+      <checkbox id="web-remove-ads" label="&web-remove-ads;" prefstring="extensions.optimizegoogle.web.remove-ads" prefdefval="true"/>
+	  <checkbox id="web-disable-searchwiki" label="&web-disable-searchwiki;" prefstring="extensions.optimizegoogle.web.searchwiki" prefdefval="false" />
+	  <checkbox id="web-add-search-links" label="&web-add-search-links;" prefstring="extensions.optimizegoogle.web.search-links" prefdefval="true"/>
+	  <checkbox id="web-use-googlesuggest" label="&web-use-googlesuggest;" prefstring="extensions.optimizegoogle.web.suggest" prefdefval="true"/>
+	  <checkbox id="web-searchfocus" label="&web-searchfocus;" prefstring="extensions.optimizegoogle.web.focus" prefdefval="false"/>
+	  <checkbox id="web-add-counter" label="&web-add-counter;" prefstring="extensions.optimizegoogle.web.counter" prefdefval="false"/>
+	  <checkbox id="web-filter" label="&web-filter;" prefstring="extensions.optimizegoogle.web.filter" prefdefval="true"/>
+	  <checkbox id="web-history" label="&web-history;" prefstring="extensions.optimizegoogle.web.history" prefdefval="false"/>
+	  <checkbox id="web-remove-url-click-track" label="&web-remove-url-click-track;" prefstring="extensions.optimizegoogle.web.removeclicktrack" prefdefval="true"/>
+	  <checkbox id="web-autopager" label="&web-autopager;" prefstring="extensions.optimizegoogle.web.auto-page" prefdefval="false"/>
+	  <checkbox id="web-favicons" label="&web-favicons;" prefstring="extensions.optimizegoogle.web.favicons" prefdefval="false"/>
+      <checkbox id="web-save" label="&web-save;" prefstring="extensions.optimizegoogle.web.save" oncommand="cgprefs.saveHandler();" prefdefval="false"/>
+      <checkbox id="web-secure" label="&secure-text;" prefstring="extensions.optimizegoogle.secure" prefdefval="true"/>
+	  <hbox style="padding-left:22px">
+	  <menulist id="web-save-handler" prefstring="extensions.optimizegoogle.web.save-handler" prefdefval="bookmark">
+		   <menupopup>
+			   <menuitem value="bookmark" label="Firefox"/>
+			   <menuitem value="blinklist" label="Blinklist.com"/>
+		       <menuitem value="del.icio.us" label="del.icio.us"/>
+		       <menuitem value="digg" label="Digg.com"/>
+		       <menuitem value="furl" label="Furl.net"/>
+			   <menuitem value="google" label="Google"/>
+			   <menuitem value="ma.gnolia" label="Ma.Gnolia.com"/>
+			   <menuitem value="reddit" label="Reddit"/>
+			   <menuitem value="simpy" label="Simpy.com"/>
+			   <menuitem value="spurl" label="Spurl.net"/>
+			   <menuitem value="yahoo-myweb" label="Yahoo My Web 2.0"/>
+		   </menupopup>
+	  </menulist>
+	  </hbox>
+    </groupbox>
+	</vbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('web-remove-ads','noAds');
+        cg_useAnyDisablePref('web-add-search-links','otherLinks');
+        cg_useAnyDisablePref('web-remove-url-click-track','rewrite');
+        cg_useAnyDisablePref('web-filter','filters');
+        cg_useAnyDisablePref('web-secure','sslWhenAble');
+    </script>
+</page>

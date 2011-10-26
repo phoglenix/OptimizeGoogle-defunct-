@@ -1,0 +1,119 @@
+<!ENTITY label.prefs "Preferences">
+<!ENTITY label.prefs.long "Sticky Google Preferences">
+<!ENTITY prefs.desc "Selected preferences will be set automatically when you access Google. Unselected preferences can still be altered using google.com/preferences. Setting preferences will not work if you have disabled cookies in your browser.">
+<!ENTITY prefs.interface "Interface Language">
+<!ENTITY prefs.interface.desc "Display Google tips and messages in:">
+<!ENTITY prefs.search "Search Language">
+<!ENTITY prefs.search.any "Search for pages written in any language">
+<!ENTITY prefs.search.selected "Search only for pages written in these language(s):">
+<!ENTITY prefs.safe "SafeSearch">
+<!ENTITY prefs.safe.strict "Use strict filtering (Filter both explicit text and explicit images)">
+<!ENTITY prefs.safe.moderate "Use moderate filtering (Filter explicit images only - default behavior)">
+<!ENTITY prefs.safe.off "Do not filter my search results.">
+<!ENTITY prefs.resultsperpage "Number of results per page">
+<!ENTITY prefs.resultswindow "Results Window">
+<!ENTITY prefs.resultswindow.desc "Open search results in a new browser window">
+<!ENTITY gmail-hidechat "Hide the Quick Contacts box">
+<!ENTITY gmail-hideinvite "Hide the invite box">
+<!ENTITY label.docs "Docs">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google Seçenekleri">
+<!ENTITY label.web "Web">
+<!ENTITY label.images "Grafikler">
+<!ENTITY label.groups "Gruplar">
+<!ENTITY label.news "Haberler">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Cevaplar">
+<!ENTITY label.print "Kitaplar">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Lokal">
+<!ENTITY label.privacy "Gizlilik">
+<!ENTITY label.filter "Süzgeç">
+<!ENTITY label.about "Hakkında">
+<!ENTITY label.web.long "Google Web Araması">
+<!ENTITY label.images.long "Google Grafik Araması">
+<!ENTITY label.groups.long "Google Grupları">
+<!ENTITY label.news.long "Google Haberleri">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Cevaplar">
+<!ENTITY label.print.long "Google Kitap Aramasý">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Lokal">
+<!ENTITY label.privacy.long "Gizlilik">
+<!ENTITY label.filter.long "Web sitelerini süzgeçle">
+<!ENTITY label.about.long "OptimizeGoogle Hakkında">
+<!ENTITY web-remove-ads "Reklamları Yoket">
+<!ENTITY web-add-search-links "Diğer arama sitelerine bağlantı ekle">
+<!ENTITY web-add-news-links "Haber sonuçlarında, diğer haber sitelerine bağlantı ekle">
+<!ENTITY web-add-movie-links "Film sonuçlarında, diğer film sitelerine bağlantı ekle">
+<!ENTITY web-add-weather-links "Hava durumu sonuçlarında, diğer hava durumu sitelerine bağlantı ekle">
+<!ENTITY web-add-product-links "Ürün sonuçlarında, diğer ürün sitelerine bağlantı ekle">
+<!ENTITY web-use-googlesuggest "Google önerilerini kullan (yazarken size öneride bulunur)">
+<!ENTITY web-searchfocus "Arama kutusuna odaklan">
+<!ENTITY web-add-counter "Konum sayacı ekle">
+<!ENTITY web-filter "Süzgeçleri etkinleştir. (&apos;Süzgeç&apos; sekmesine bakınız)">
+<!ENTITY web-history "Bağlantıları WayBackMachine moturuna ekle (web sayfalarını günlükler)">
+<!ENTITY web-save "Yerimi/Kayýt sayfasýna baðlantý ekle">
+<!ENTITY web-remove-url-click-track "Tıklama izlemesini iptal et">
+<!ENTITY images-add-image-links "Diğer resim/fotoğraf/sanat arama sitelerine bağlantı ekle">
+<!ENTITY images-rewrite-links "Bağlantıları doğrudan resim dosyasına götürecek şekilde yeniden yaz">
+<!ENTITY groups-remove-ads "Reklamları sil">
+<!ENTITY news-add-news-links "Diğer arama sitelerine bağlantı ekle">
+<!ENTITY froogle-remove-ads "Reklamları sil">
+<!ENTITY froogle-add-product-links "Diğer ürün sitelerine bağlantı ekle">
+<!ENTITY answers-remove-ads "Reklamları sil">
+<!ENTITY print-remove-ads "Reklamları sil">
+<!ENTITY print-restore-menu "Sağ tıklama içerik menüsünü etkinleştir">
+<!ENTITY print-add-book-links "Diğer kitap eleştiri sitelerine bağlantı ekle">
+<!ENTITY gmail-remove-ads "Reklamları ve ilgili sayfaları sil">
+<!ENTITY gmail-hidespam "Hide the spam-counter">
+<!ENTITY gmail-monospace "Use a fixed font for mail bodies">
+<!ENTITY label.calendar "Calendar">
+<!ENTITY label.calendar.long "Google Calendar">
+<!ENTITY local-remove-ads "Reklamları sil">
+<!ENTITY misc-analytics "Don&apos;t send any cookies to Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (also known as Urchin) is a service from Google that helps website owners analyze how users use their sites. Information about your use of a certain website (including your IP address) can automatically be transmitted to and stored by Google using cookies.">
+<!ENTITY misc-anonymize "Google çerez  UID&apos;sini (User ID - Kullanıcı Kimliği) anonüm yap">
+<!ENTITY misc-anonymize.desc "Google&apos;ın sizinle ilgili kimlik oluşturma ihtimalini engelleyin. Bu seçenek Google servislerine girişi engellemez (örn.: GMail gibi). Bazı servisler etkilenebilir. Örneğin, Google gruplarında &apos;Yakın geçmişteki gruplarım&apos; listesi boşalır.">
+<!ENTITY label.filter.desc "Arama sonuçlarından süzgeçlenmesiniz istediğiniz tüm siteleri yazın:">
+<!ENTITY examples "Örnekler">
+<!ENTITY examples.1.filter "http://*.ornek.com/*">
+<!ENTITY examples.1.desc "tüm alt alan adlarını engelle">
+<!ENTITY examples.2.filter "http://sports.ornek.com/widgets/*">
+<!ENTITY examples.2.desc "özel bir dizini engelle">
+<!ENTITY examples.3.filter "http://sports.ornek.com/index.html">
+<!ENTITY examples.3.desc "özel bir sayfayı engelle">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.ornek\.(com|org)\//i">
+<!ENTITY examples.4.desc "uzmanlar için: regexp kullanarak engelle">
+<!ENTITY options-import "İçe aktar">
+<!ENTITY options-export "Dışa aktar">
+<!ENTITY about.desc "OptimizeGoogle, Google arama sonuçlarını özel bilgi ekleyerek (Yahoo, Ask, MSN vs. bağlantıları) ve istenmeyen bilgileri silerek (reklamlar ve spam) geliştiren Firefox eklentisidir. Tüm seçenekler isteğe bağlıdır. Shaman tarafından Türkçeleştirilmiştir.">
+<!ENTITY donate.short "OptimizeGoogle&apos;ı destekle">
+<!ENTITY donate.long "Katkıda bulunmak için PayPal vasıtasıyla bağış yap. Şimdiden teşekkür ederim!">
+<!ENTITY linktext.paypal "PayPal bağışı">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY okButtonlabel "TAMAM">
+<!ENTITY cancelButtonlabel "Vazgeç">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Video Search">
+<!ENTITY web-add-video-links "In video results, add links to other video search sites">
+<!ENTITY web-autopager "Stream search result pages">
+<!ENTITY secure-text "Güvenli (https bağlantısına geç)">
+<!ENTITY images-autopager "Stream search result pages">
+<!ENTITY label.reader "Reader">
+<!ENTITY label.reader.long "Google Reader">
+<!ENTITY label.history "History">
+<!ENTITY label.history.long "Google Web History">
+<!ENTITY web-favicons "Show favicons for web pages">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "Tıklama izlemesini iptal et">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">

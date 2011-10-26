@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.news.web" onload="cgprefs.onLoad('cg.news.web');" onunload="cgprefs.onOK('cg.news.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.news.long;"/>
+		<checkbox id="news-add-news-links" label="&news-add-news-links;" prefstring="extensions.optimizegoogle.news.news-links" prefdefval="true"/>
+		<checkbox id="news-filter" label="&web-filter;" prefstring="extensions.optimizegoogle.news.filter" prefdefval="false"/>
+		<checkbox id="news-remove-url-click-track" label="&web-remove-url-click-track;" prefstring="extensions.optimizegoogle.news.removeclicktrack" prefdefval="false"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('news-add-news-links','otherLinks');
+        cg_useAnyDisablePref('news-remove-url-click-track','rewrite');
+        cg_useAnyDisablePref('news-filter','filters');
+    </script>
+
+</page>

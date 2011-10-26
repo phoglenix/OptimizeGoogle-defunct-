@@ -1,0 +1,130 @@
+<!ENTITY label.prefs "Opsjes">
+<!ENTITY label.prefs.long "Sticky Google opsjes">
+<!ENTITY prefs.desc "Selektearre opsjes sille automatysk ynsteld wurde as jo nei Google gean. Deselektearre opsjes kinne hieltyd noch bewurke wurde troch google.com/preferences. Opsjes ynstelle wurket net as jo cookies net tastien hawwe yn jo browser.">
+<!ENTITY prefs.interface "Taalúterlik">
+<!ENTITY prefs.interface.desc "Toan Google tips en berjochten yn:">
+<!ENTITY prefs.search "Sykje taal">
+<!ENTITY prefs.search.any "Sykje nei siden skreaun yn elke taal">
+<!ENTITY prefs.search.selected "Sykje allinnich foar siden skreaun yn dizze talen:">
+<!ENTITY prefs.safe "FeilichSykje">
+<!ENTITY prefs.safe.strict "Brûk strange filtering (filter beide eksplisite tekst en ôfbyldings)">
+<!ENTITY prefs.safe.moderate "Brûk oanpaste filtering (Filter allinnich eksplisite ôfbyldings - standertgedrach)">
+<!ENTITY prefs.safe.off "Filterje myn resultaten net.">
+<!ENTITY prefs.resultsperpage "Oantal resultaten per side">
+<!ENTITY prefs.resultswindow "Resultatenfinster">
+<!ENTITY prefs.resultswindow.desc "Iepenje sykresultaten yn in nij browserfinster">
+<!ENTITY gmail-hidechat "Ferstopje it Quick Contacts-fek">
+<!ENTITY gmail-hideinvite "Ferstopje it útnoegingsfek">
+<!ENTITY label.docs "Dokuminten">
+<!ENTITY label.docs.long "Google Dokuminten &amp; Rekkenboerden">
+<!ENTITY dialog.cgtitle "Google opsjes">
+<!ENTITY label.web "Ynternet">
+<!ENTITY label.images "Ofbyldings">
+<!ENTITY label.groups "Diskusjegroepen">
+<!ENTITY label.news "Nijs">
+<!ENTITY label.froogle "Produkten">
+<!ENTITY label.answers "Antwurden">
+<!ENTITY label.print "Boeken">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "Mappen">
+<!ENTITY label.privacy "Privacy">
+<!ENTITY label.filter "Filter">
+<!ENTITY label.about "Oer">
+<!ENTITY label.web.long "Google Internet Sykje">
+<!ENTITY label.images.long "Google Ofbyldings Sykje">
+<!ENTITY label.groups.long "Google Diskusjegroepen">
+<!ENTITY label.news.long "Google Nijs">
+<!ENTITY label.froogle.long "Google Product Sykje">
+<!ENTITY label.answers.long "Google Antwurden">
+<!ENTITY label.print.long "Google Boeken Sykje">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google Mappen">
+<!ENTITY label.privacy.long "Privacy">
+<!ENTITY label.filter.long "Filter websteeën">
+<!ENTITY label.about.long "Oer OptimizeGoogle">
+<!ENTITY web-remove-ads "Reklame fuortsmite">
+<!ENTITY web-add-search-links "Keppelings nei oare ynternet syksides tafoegje">
+<!ENTITY web-add-news-links "Yn nijsresultaten, keppelings nei oare nijssyksiden tafoegje">
+<!ENTITY web-add-movie-links "Keppelings nei oare siden mei filmresinsjes tafoegje by filmresultaten">
+<!ENTITY web-add-weather-links "Keppelings nei oare waarsiden tafoegje by waarresultaten">
+<!ENTITY web-add-product-links "Keppelings nei oare sykkmasinen foar produkten tafoegje by produktresultaten.">
+<!ENTITY web-use-googlesuggest "Google Suggestie brûke (wurden foarstelle wylst it typen)">
+<!ENTITY web-searchfocus "Tekstfek foar syktekst aktyf meitsje">
+<!ENTITY web-add-counter "Teller mei posysje pleatse">
+<!ENTITY web-filter "Filters ynskeakelje (sjoch &apos;Filter&apos;)">
+<!ENTITY web-history "Keppelings tafoegje nei WayBackMachine (webstee-skiednis)">
+<!ENTITY web-save "Foech keppelings ta oan blêdwizer/bewarje in webstee">
+<!ENTITY web-remove-url-click-track "Besochte keppelings net ûnthâlde">
+<!ENTITY images-add-image-links "Keppelings nei oare ôfbyldings/foto&apos;s/kunst-siden tafoegje">
+<!ENTITY images-rewrite-links "Streekrjocht nei ôfbyldings keppelje">
+<!ENTITY groups-remove-ads "Reklame fuortsmite">
+<!ENTITY news-add-news-links "Keppelings nei oare nijs-sykmasinen tafoegje">
+<!ENTITY froogle-remove-ads "Reklame fuortsmite">
+<!ENTITY froogle-add-product-links "Keppelings nei oare sykmasinen foar produkten tafoegje">
+<!ENTITY answers-remove-ads "Reklame fuortsmite">
+<!ENTITY print-remove-ads "Reklame fuortsmite">
+<!ENTITY print-restore-menu "Rjochtermûsknop kontekstmenu werstelle">
+<!ENTITY print-add-book-links "Keppelings tafoegje nei siden foar literatuerresinsjes.">
+<!ENTITY gmail-remove-ads "Reklame en ferwante siden fuortsmite">
+<!ENTITY gmail-hidespam "Ferstopje de ûnrant-teller">
+<!ENTITY gmail-monospace "Brûk in fikseard font foar eamel bodies">
+<!ENTITY label.calendar "Kalinder">
+<!ENTITY label.calendar.long "Google Kalinder">
+<!ENTITY local-remove-ads "Reklame fuortsmite">
+<!ENTITY misc-analytics "Stjoer gjin cookies nei Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (ek bekend as Urchin) is in tsjinst fan Google dy&apos;t helpt webstee eigners mei de analyze hoe&apos;t brûkers hun siden brûke. Ynformaasje oer jo gebrûk fan in bepaalde webstee (inklusief jo IP adres) kin automatysk oerbrocht wurde nei en bewarre troch Google mei help fan cookies.">
+<!ENTITY misc-anonymize "Google cookie UID anonym meitsje">
+<!ENTITY misc-anonymize.desc "Foarkom dat Google in gearhingjend profyl makket oer jo. Dit blokkearet de tagong ta de Google Account tsjinsten, lykas GMail, net. Sommige tsjinsten kinne hinder ûnderfine. Sa wurdt bygelyks de list fan Lêst besochte groepen leech.">
+<!ENTITY label.filter.desc "List fan alle siden dy&apos;t filtere wurde moatte út de sykresultaten:">
+<!ENTITY examples "Foarbylden">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "blokkearje oer alle subdomeinen">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "in spesifieke map blokkearje">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "in spesifieke side blokkearje">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "ekspert: blokkearje mei in regexp">
+<!ENTITY options-import "Ymportearje">
+<!ENTITY options-export "Eksportearje">
+<!ENTITY about.desc "OptimizeGoogle is in FireFox útwreiding dy&apos;t de sykresultaten fan Google ferbettert troch ekstra ynformaasje ta te foegjen (lykas keppelings nei Yahoo, Ask, MSN ensfh.) en oertallige ynformaasje lykas reklame en ûnrant fuort te smiten. Alle mooglikheden binne opsjoneel.">
+<!ENTITY donate.short "Stipje OptimizeGoogle">
+<!ENTITY donate.long "Help fia donaasje by PayPal. Alfêst betanke!">
+<!ENTITY linktext.paypal "PayPal donaasje">
+<!ENTITY about.links "Fragen? Stipe?">
+<!ENTITY about.website "Webstee">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "Bugrapporten">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "Annulearje">
+<!ENTITY label.video "Video">
+<!ENTITY label.video.long "Google Fideo Sykje">
+<!ENTITY web-add-video-links "Yn fideorisseltaten, foech keppelings ta oan oare fideo syksiden">
+<!ENTITY web-autopager "Hieltyd de folgjende risseltaatsiden tafoegje [BETA]">
+<!ENTITY secure-text "Feilich (skeakel nei https)">
+<!ENTITY images-autopager "Folgje sykresultatensiden">
+<!ENTITY label.reader "Lêzer">
+<!ENTITY label.reader.long "Google Lêzer">
+<!ENTITY label.history "Skiednis">
+<!ENTITY label.history.long "Google Skiednis">
+<!ENTITY web-favicons "Toan ikoantsjes foar websteeën">
+<!ENTITY label.cache "Buffer">
+<!ENTITY label.cache.long "Google buffer">
+<!ENTITY cache-continue "Weromskriuw keppelings om te ferwizen nei Google syn buffer">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Sykje">
+<!ENTITY blogs-add-blog-links "Foegje keppelings ta oan oare blog syksiden">
+<!ENTITY blogs-remove-url-click-track "Smit klikfolgje fuort">
+<!ENTITY prefs.suggest "Sykfoarstellen">
+<!ENTITY prefs.suggest.desc "Jou sykfoarstellen yn it sykfak">
+<!ENTITY youtube-remove-ads "Reklame ferstopje en auto/spylje stoppe">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "Alle tsjinsten">
+<!ENTITY all-label-long "Alle Google tsjinsten">
+<!ENTITY all-always-ssl "Brûk SSL as it beskikber is">
+<!ENTITY all-never-ads "Blokkearje advertinsjes op alle google tsjinsten">
+<!ENTITY all-always-links "Toan keppelings nei oare sides as se der binne">
+<!ENTITY all-always-rewrite "Smyt klikfolgjen altyd fuort">
+<!ENTITY all-always-filters "Altyd filters ynskeakelje">
+<!ENTITY all-enable-multi-accounts "Toan it brûkersskeakelscript">

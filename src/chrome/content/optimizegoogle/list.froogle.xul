@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://optimizegoogle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://optimizegoogle/locale/prefs.dtd">
+
+<page id="cg.froogle.web" onload="cgprefs.onLoad('cg.froogle.web');" onunload="cgprefs.onOK('cg.froogle.web');"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/cgpref.js"/>
+  	<script type="application/x-javascript" src="chrome://optimizegoogle/content/global.js"/>
+  
+    <groupbox flex="1">
+		<caption label="&label.froogle.long;"/>
+		<checkbox id="froogle-remove-ads" label="&froogle-remove-ads;" prefstring="extensions.optimizegoogle.froogle.remove-ads" prefdefval="false"/>
+		<checkbox id="froogle-add-product-links" label="&froogle-add-product-links;" prefstring="extensions.optimizegoogle.froogle.products-links" prefdefval="true"/>
+    </groupbox>
+    <script type="application/x-javascript">
+        cg_useAnyDisablePref('froogle-remove-ads','noAds');
+        cg_useAnyDisablePref('froogle-add-product-links','otherLinks');
+    </script>
+
+</page>

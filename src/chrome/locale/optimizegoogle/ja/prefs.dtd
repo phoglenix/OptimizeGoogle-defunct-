@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "設定">
+<!ENTITY label.prefs.long "Google の設定">
+<!ENTITY prefs.desc "選択された設定はGoogleを表示すると自動的に適用されます。選択されていない設定でも google.co.jp(.com)/preferences で変更できます。設定はブラウザの Cookie が無効にされている時は利用できません。">
+<!ENTITY prefs.interface "表示言語">
+<!ENTITY prefs.interface.desc "Googleのメッセージを表示する言語:">
+<!ENTITY prefs.search "検索言語">
+<!ENTITY prefs.search.any "すべての言語のページから検索する">
+<!ENTITY prefs.search.selected "これらの言語のページだけから検索する">
+<!ENTITY prefs.safe "安全な検索">
+<!ENTITY prefs.safe.strict "厳密なフィルタリングを使用 (露骨な描写を用いた画像と文書にフィルタをかける)">
+<!ENTITY prefs.safe.moderate "適度なフィルタリングを使用 (露骨な描写を用いた画像にフィルタをかける - デフォルト)">
+<!ENTITY prefs.safe.off "フィルタリングを使用しない。">
+<!ENTITY prefs.resultsperpage "検索結果の表示件数">
+<!ENTITY prefs.resultswindow "結果ウィンドウ">
+<!ENTITY prefs.resultswindow.desc "検索結果を新しいウィンドウに開く">
+<!ENTITY gmail-hidechat "クイックコンタクトを非表示">
+<!ENTITY gmail-hideinvite "招待を非表示">
+<!ENTITY label.docs "文書とスプレッドシート">
+<!ENTITY label.docs.long "Google Docs &amp; Spreadsheets">
+<!ENTITY dialog.cgtitle "Google オプション">
+<!ENTITY label.web "ウェブ">
+<!ENTITY label.images "イメージ">
+<!ENTITY label.groups "グループ">
+<!ENTITY label.news "ニュース">
+<!ENTITY label.froogle "Products">
+<!ENTITY label.answers "Answers">
+<!ENTITY label.print "ブック検索">
+<!ENTITY label.gmail "GMail">
+<!ENTITY label.local "地図">
+<!ENTITY label.privacy "プライバシ">
+<!ENTITY label.filter "フィルタ">
+<!ENTITY label.about "About">
+<!ENTITY label.code "コード">
+<!ENTITY label.web.long "Google ウェブ検索">
+<!ENTITY label.images.long "Google 画像検索">
+<!ENTITY label.groups.long "Google グループ">
+<!ENTITY label.news.long "Google ニュース">
+<!ENTITY label.froogle.long "Google Product Search">
+<!ENTITY label.answers.long "Google Answers">
+<!ENTITY label.print.long "Google ブック検索">
+<!ENTITY label.gmail.long "GMail">
+<!ENTITY label.local.long "Google マップ">
+<!ENTITY label.privacy.long "プライバシ">
+<!ENTITY label.filter.long "ウェブサイトのフィルタ">
+<!ENTITY label.code.long "Google Code">
+<!ENTITY label.about.long "OptimizeGoogle について">
+<!ENTITY web-remove-ads "広告の削除">
+<!ENTITY web-add-search-links "他の検索サイトへのリンクを追加">
+<!ENTITY web-add-news-links "ニュースの検索結果に、他のニュース検索サイトへのリンクを追加">
+<!ENTITY web-add-movie-links "映画の検索結果に、他の映画批評サイトへのリンクを追加">
+<!ENTITY web-add-weather-links "天気予報の検索結果に、他の天気予報サイトへのリンクを追加">
+<!ENTITY web-add-product-links "製品の検索結果に、他の製品検索サイトへのリンクを追加">
+<!ENTITY web-use-googlesuggest "Google サジェストの使用 (入力中に検索ワードを提案)">
+<!ENTITY web-searchfocus "検索ボックスの入力待機状態">
+<!ENTITY web-add-counter "検索結果に番号を振る">
+<!ENTITY web-filter "フィルタを有効 (&apos;フィルタ&apos;タブをご覧下さい。)">
+<!ENTITY web-history "WayBackMachine へのリンクを追加 (ウェブページの歴史)">
+<!ENTITY web-save "リンク先をブックマーク/保存">
+<!ENTITY web-remove-url-click-track "クリック追跡の削除">
+<!ENTITY images-add-image-links "他の 画像/写真/芸術 検索サイトへのリンクを追加">
+<!ENTITY images-rewrite-links "画像を直接表示できるようリンクを上書き">
+<!ENTITY groups-remove-ads "広告の削除">
+<!ENTITY news-add-news-links "他のニュース検索サイトへのリンクを追加">
+<!ENTITY froogle-remove-ads "広告の削除">
+<!ENTITY froogle-add-product-links "他の製品検索サイトへのリンクを追加">
+<!ENTITY answers-remove-ads "広告の削除">
+<!ENTITY print-remove-ads "広告の削除">
+<!ENTITY print-restore-menu "右クリックでコンテキストメニューを使用">
+<!ENTITY print-add-book-links "書評サイトへのリンクを追加">
+<!ENTITY gmail-remove-ads "広告とそれに関連するページの削除">
+<!ENTITY gmail-hidespam "迷惑メールの数を隠す">
+<!ENTITY gmail-monospace "固定フォントを使用">
+<!ENTITY label.calendar "カレンダー">
+<!ENTITY label.calendar.long "Google カレンダー">
+<!ENTITY local-remove-ads "広告の削除">
+<!ENTITY misc-analytics "Google Analytics　へ Cookie を送信しない">
+<!ENTITY misc-analytics.desc "Google Analytics (Urchin とも呼ばれています) はユーザーがウェブサイトをどのように使用するのかを解析する、ウェブサイト所有者向けの Google のサービスです。このサービスを利用しているウェブサイトにあなたがアクセスすると、そのウェブサイトの使用に関する情報 (その中にはあなたの IP アドレスも含まれます) を Cookie を使用して自動的に保存しようとします。">
+<!ENTITY misc-anonymize "Google cookie UID を匿名で使用">
+<!ENTITY misc-anonymize.desc "この機能を有効にする事で Google があなたに関する詳細なプロフィールを構築する可能性を避ける事ができます。この機能を有効にしてもアカウントを利用する Gmail などのサービスには影響ありません。しかし Google グループで &apos;最近のアクセス&apos; リストが空になるなど幾つかのサービスでは影響があります。">
+<!ENTITY label.filter.desc "あなたが検索結果から除外したいサイトをリストに登録してください:">
+<!ENTITY examples "サンプル">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "サブドメインを含め指定されたドメインすべてをブロック">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "指定されたディレクトリのみブロック">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "指定されたページのみブロック">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "高度な使用方法: 正規表現を利用したブロック">
+<!ENTITY options-import "インポート">
+<!ENTITY options-export "エクスポート">
+<!ENTITY about.desc "OptimizeGoogle は Firefox の拡張機能です。この拡張機能は Google の検索結果に他の情報 (Yahoo, Ask, MSN 等のリンク) を追加し、余計な情報 (広告やスパム) を取り除くことが可能です。これらの機能はすべてあなたの任意で使用できます。">
+<!ENTITY donate.short "OptimizeGoogle のサポート">
+<!ENTITY donate.long "PayPal を通しての寄付で開発に貢献してください。よろしくお願いします!">
+<!ENTITY linktext.paypal "PayPal を利用した寄付">
+<!ENTITY about.links "質問がある? サポートが必要?">
+<!ENTITY about.website "ウェブサイト">
+<!ENTITY about.group "Discussion Group">
+<!ENTITY about.reportabug "バグ報告">
+<!ENTITY okButtonlabel "OK">
+<!ENTITY cancelButtonlabel "キャンセル">
+<!ENTITY label.video "動画">
+<!ENTITY label.video.long "Google 動画検索">
+<!ENTITY web-add-video-links "動画の検索結果に他の動画サイトへのリンクを表示します">
+<!ENTITY web-autopager "ページの切り替えをせずに検索結果を表示">
+<!ENTITY secure-text "セキュアな接続 (HTTPS を使用)">
+<!ENTITY images-autopager "ページの切り替えをせずに検索結果を表示">
+<!ENTITY label.reader "リーダー">
+<!ENTITY label.reader.long "Google リーダー">
+<!ENTITY label.history "検索履歴">
+<!ENTITY label.history.long "Google 検索履歴">
+<!ENTITY web-favicons "ウェブページのアイコンを表示">
+<!ENTITY label.cache "Cache">
+<!ENTITY label.cache.long "Google Cache">
+<!ENTITY cache-continue "Rewrite links to point to Google's cache">
+<!ENTITY label.blogs "Blogs">
+<!ENTITY label.blogs.long "Google Blog Search">
+<!ENTITY blogs-add-blog-links "Add links to other blog search sites">
+<!ENTITY blogs-remove-url-click-track "クリック追跡の削除">
+<!ENTITY prefs.suggest "Query Suggestions">
+<!ENTITY prefs.suggest.desc "Provide query suggestions in the search box.">
+<!ENTITY youtube-remove-ads "Remove ads and stop auto-play">
+<!ENTITY images-remove-ads "Remove ads">
+<!ENTITY web-disable-searchwiki "Disable SearchWiki">
+<!ENTITY label.all "すべてのサービス">
+<!ENTITY all-label-long "Google のすべてのサービス">
+<!ENTITY all-always-ssl "可能であれば SSL を使う">
+<!ENTITY all-never-ads "google のすべてのサービスで広告をブロック">
+<!ENTITY all-always-links "適切であれば他のサイトへのリンクを表示">
+<!ENTITY all-always-rewrite "クリック追跡を常に削除する">
+<!ENTITY all-always-filters "フィルタを常に有効にする">
+<!ENTITY all-enable-multi-accounts "ユーザ アカウントを切り替えるスクリプトを表示">

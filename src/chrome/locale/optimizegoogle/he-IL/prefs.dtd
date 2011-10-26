@@ -1,0 +1,132 @@
+<!ENTITY label.prefs "העדפות">
+<!ENTITY label.prefs.long "העדפות גוגל דביקות">
+<!ENTITY prefs.desc "ההעדפות הנבחרות יערכו אוטומטית בכניסתה לגוגל. העדפות שלא נבחרו יכולות להשתנות עדיין בעזרת google.com/preferences. העדפות שנקבעו לא יוכלו לפעול ללא עוגיות מאפשרות בדפדפן.">
+<!ENTITY prefs.interface "שפת הממשק">
+<!ENTITY prefs.interface.desc "הצגת טיפים והודעות של גוגל ב:">
+<!ENTITY prefs.search "חיפוש שפה">
+<!ENTITY prefs.search.any "חיפוש דפים הכתובים בכל שפה">
+<!ENTITY prefs.search.selected "חיפוש דפים הכתובים בשפהות אלו בלבד:">
+<!ENTITY prefs.safe "חיפוש בטוח">
+<!ENTITY prefs.safe.strict "שימוש בסינון נוקשה (מסנן גם טקסט ברור וגם תמונה ברורה)">
+<!ENTITY prefs.safe.moderate "שימוש בסינון מדוד (מסנן תמונות ברורות בלבד - התנהגות ברירת מחדל)">
+<!ENTITY prefs.safe.off "תוצאות חיפוש ללא סינון.">
+<!ENTITY prefs.resultsperpage "מספר תוצאות בכל עמוד">
+<!ENTITY prefs.resultswindow "חלון תוצאות">
+<!ENTITY prefs.resultswindow.desc "פתיחת תוצאות החיפוש בחלון דפדפן חדש">
+<!ENTITY gmail-hidechat "הסתרת תיבת אנשי הקשר המהירה">
+<!ENTITY gmail-hideinvite "הסתרת תיבת ההזמנות">
+<!ENTITY label.docs "מסמכים">
+<!ENTITY label.docs.long "גוגל מסמכים ומצגות">
+<!ENTITY dialog.cgtitle "אפשרויות גוגל">
+<!ENTITY label.web "רשת">
+<!ENTITY label.images "תמונות">
+<!ENTITY label.groups "קבוצות דיון">
+<!ENTITY label.news "חדשות">
+<!ENTITY label.froogle "מוצרים">
+<!ENTITY label.answers "תשובות">
+<!ENTITY label.print "ספרים">
+<!ENTITY label.gmail "ג'ימייל">
+<!ENTITY label.local "מפות">
+<!ENTITY label.privacy "פרטיות">
+<!ENTITY label.filter "סינון">
+<!ENTITY label.about "אודות">
+<!ENTITY label.code "קוד">
+<!ENTITY label.web.long "גוגל חיפוש ברשת">
+<!ENTITY label.images.long "גוגל חיפוש תמונות">
+<!ENTITY label.groups.long "גוגל קבוצות">
+<!ENTITY label.news.long "גוגל חדשות">
+<!ENTITY label.froogle.long "גוגל חיפוש מוצר">
+<!ENTITY label.answers.long "גוגל תשובות">
+<!ENTITY label.print.long "גוגל חיפוש ספרים">
+<!ENTITY label.gmail.long "ג'ימייל">
+<!ENTITY label.local.long "גוגל מפות">
+<!ENTITY label.privacy.long "פרטיות">
+<!ENTITY label.filter.long "סינון אתרים">
+<!ENTITY label.code.long "גוגל קוד">
+<!ENTITY label.about.long "אודות OptimizeGoogle">
+<!ENTITY web-remove-ads "הסרת מודעות">
+<!ENTITY web-add-search-links "הוספת קישורים לאתרי חיפוש אחרים">
+<!ENTITY web-add-news-links "הוספת קישורים לאתרי חיפוש חדשות אחרים, בתוצאות של חדשות">
+<!ENTITY web-add-movie-links "הוספת קישורים לאתרי חיפוש סרטים אחרים, בתוצאות סרטים">
+<!ENTITY web-add-weather-links "הוספת קישורים לאתרי חיפוש מזג אוויר אחרים, בתוצאות מזג אוויר">
+<!ENTITY web-add-product-links "הוספת קישורים לאתרי חיפוש מוצרים אחרים, בתוצאות מוצרים">
+<!ENTITY web-use-googlesuggest "שימוש ב- Google Suggest (הצעת מילים בזמן ההקלדה)">
+<!ENTITY web-searchfocus "העברת המיקוד לתיבת החיפוש">
+<!ENTITY web-add-counter "הוספת מונה מיקום">
+<!ENTITY web-filter "אפשור מסננים (ראה לשונית 'סינון')">
+<!ENTITY web-history "הוספת קישורים ל- WayBackMachine (היסטוריית אתרים)">
+<!ENTITY web-save "הוספת קישור לשמירת הדף">
+<!ENTITY web-remove-url-click-track "הסרת מעקב לחיצה">
+<!ENTITY images-add-image-links "הוספת קישורים לאתרי חיפוש תמונות אחרים">
+<!ENTITY images-rewrite-links "שכתוב קישורים כך שיצביעו ישירות אל התמונה">
+<!ENTITY groups-remove-ads "הסרת מודעות">
+<!ENTITY news-add-news-links "הוספת קישורים לאתרי חיפוש חדשות אחרים">
+<!ENTITY froogle-remove-ads "הסרת מודעות">
+<!ENTITY froogle-add-product-links "הוספת קישורים לאתרי חיפוש מוצרים אחרים">
+<!ENTITY answers-remove-ads "הסרת מודעות">
+<!ENTITY print-remove-ads "הסרת מודעות">
+<!ENTITY print-restore-menu "החזרת תפריט הלחצן הימני">
+<!ENTITY print-add-book-links "הוספת קישורים לאתרי ביקורות ספרים">
+<!ENTITY gmail-remove-ads "הסרת מודעות ודפים קשורים">
+<!ENTITY gmail-hidespam "הסתרת מונה דואר-הזבל">
+<!ENTITY gmail-monospace "שימוש בגופן ברוחב אחיד לתוכן ההודעה">
+<!ENTITY label.calendar "לוח שנה">
+<!ENTITY label.calendar.long "גוגל לוח שנה">
+<!ENTITY local-remove-ads "הסרת מודעות">
+<!ENTITY misc-analytics "לא לשלוח עוגיות ל- Google Analytics">
+<!ENTITY misc-analytics.desc "Google Analytics (הידוע גם בשם Urchin) היינו שירות של גוגל שעוזר לבעלי אתרים לנתח את השימוש של משתמשים באתר שלהם. מידע לגבי השימוש שלך באתר מסוים (כולל כתובת ה- IP שלך) עשוי להישלח או להישמר אוטומטית על-ידי גוגל, באמצעות עוגיות.">
+<!ENTITY misc-anonymize "הפוך את ה- cookie UID של Google לאנונימי">
+<!ENTITY misc-anonymize.desc "מניעת האפשרות של גוגל לבנות פרופיל מקיף שלך. תכונה זו אינה מונעת גישה לשירותי החשבון של גוגל, כגון Gmail. שירותים מסוימים עשויים להיות מושפעים, לדוגמה, בגוגל קבוצות, רשימת הקבוצות בשימוש לאחרונה מתרוקנת.">
+<!ENTITY label.filter.desc "רשימת כל האתרים לסינון מתוצאות החיפוש שלך:">
+<!ENTITY examples "דוגמאות">
+<!ENTITY examples.1.filter "http://*.example.com/*">
+<!ENTITY examples.1.desc "חסימת כל תתי המתחמים">
+<!ENTITY examples.2.filter "http://sports.example.com/widgets/*">
+<!ENTITY examples.2.desc "חסימת ספריה מסוימת">
+<!ENTITY examples.3.filter "http://sports.example.com/index.html">
+<!ENTITY examples.3.desc "חסימת דף מסוים">
+<!ENTITY examples.4.filter "/http:\/\/\w+\.example\.(com|org)\//i">
+<!ENTITY examples.4.desc "מומחים: חסימה באמצעות regexp">
+<!ENTITY options-import "ייבוא">
+<!ENTITY options-export "ייצוא">
+<!ENTITY about.desc "OptimizeGoogle  היינה הרחבת FireFox המשפרת את תוצאות החיפוש בגוגל על-ידי הוספת מידע (כמו קישורים ל- Yahoo, Ask, MSN  וכו') והסרת מידע מיותר (כמו מודעות ודואר זבל). כל התכונות ניתנות לבחירה.">
+<!ENTITY donate.short "תמוך ב- OptimizeGoogle">
+<!ENTITY donate.long "עזרה באמצעות תרומה דרך PayPal. תודה מראש!">
+<!ENTITY linktext.paypal "תרומה דרך PayPal">
+<!ENTITY about.links "שאלות? תמיכה?">
+<!ENTITY about.website "אתר אינטרנט">
+<!ENTITY about.group "קבוצת דיון">
+<!ENTITY about.reportabug "דיווחי באגים">
+<!ENTITY okButtonlabel "אישור">
+<!ENTITY cancelButtonlabel "ביטול">
+<!ENTITY label.video "וידאו">
+<!ENTITY label.video.long "גוגל חיפוש וידאו">
+<!ENTITY web-add-video-links "הוספת קישורים לאתרי חיפוש וידאו אחרים, בתוצאות וידאו">
+<!ENTITY web-autopager "הזרמת עמודי תוצאות החיפוש">
+<!ENTITY secure-text "מאובטח (החלפה לhttps)">
+<!ENTITY images-autopager "הזרמת עמודי תוצאות החיפוש">
+<!ENTITY label.reader "מקראה">
+<!ENTITY label.reader.long "גוגל מקראה">
+<!ENTITY label.history "היסטוריה">
+<!ENTITY label.history.long "גוגל היסטוריית רשת">
+<!ENTITY web-favicons "הצגת favicons (אייקון מועדפים) לאתרי אינטרנט">
+<!ENTITY label.cache "מטמון">
+<!ENTITY label.cache.long "מטמון גוגל">
+<!ENTITY cache-continue "שכתוב קישורים שיצביעו אל מטמון גוגל">
+<!ENTITY label.blogs "בלוגים">
+<!ENTITY label.blogs.long "גוגל חיפוש בלוג">
+<!ENTITY blogs-add-blog-links "הוספת קישורים לאתרי חיפוש בלוג אחרים">
+<!ENTITY blogs-remove-url-click-track "הסרת מעקב לחיצה">
+<!ENTITY prefs.suggest "הצעות חקר">
+<!ENTITY prefs.suggest.desc "הספקת הצעות חקר בתיבת החיפוש.">
+<!ENTITY youtube-remove-ads "הסרת מודעות">
+<!ENTITY images-remove-ads "הסרת מודעות">
+<!ENTITY web-disable-searchwiki "נטרול SearchWiki">
+<!ENTITY label.all "כל השירותים">
+<!ENTITY all-label-long "כל שירותי גוגל">
+<!ENTITY all-always-ssl "שימוש בSSL כאשר ניתן">
+<!ENTITY all-never-ads "חסימת מודעות בכל שירותי גוגל">
+<!ENTITY all-always-links "הצגת קישורים לאתרים אחרים כאשר ישים">
+<!ENTITY all-always-rewrite "תמיד להסיר מעקב לחיצה">
+<!ENTITY all-always-filters "תמיד לאפשר מסננים">
+<!ENTITY all-enable-multi-accounts "הצגת תסריט החלפת חשובות משתמש">
