@@ -30,7 +30,8 @@ Website: http://www.optimizegoogle.com/
 When sending bug reports, please provide the version of OptimizeGoogle, the version of
 Firefox and the name and version of the operating system you are using.
 
-Source:  https://sourceforge.net/projects/optimizegoogle
+Source:  https://sourceforge.net/projects/optimizegoogle/
+      or https://github.com/phoglenix/OptimizeGoogle/
 
 
 ABOUT OPTIMIZEGOOGLE
