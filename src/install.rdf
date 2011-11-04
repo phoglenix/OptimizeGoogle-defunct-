@@ -5,7 +5,7 @@
 	<Description about="urn:mozilla:install-manifest">
 	<em:name>OptimizeGoogle</em:name>
 	<em:id>optimizegoogle@optimizegoogle.com</em:id>
-	<em:version>0.79</em:version>
+	<em:version>0.79.1</em:version>
 	<em:description>Enhance Google search results and remove ads and spam</em:description>
 	<em:creator>info@optimizegoogle.com</em:creator>
 	<em:homepageURL>http://www.optimizegoogle.com/</em:homepageURL>

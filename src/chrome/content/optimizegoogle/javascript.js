@@ -880,7 +880,16 @@ var OptimizeGoogle = {
 	
 	secureGoogle: function() {
 		if (window.location.href.match(/^http:/)) {
-			window.location.href = window.location.href.replace(/^http:/, 'https:');
+			var secured = window.location.href.replace(/^http:/, 'https:');
+			// Must switch from country-specific TLDs to google.com for https
+			var index = secured.search(/\.google\./i);
+			if (index > 0){
+				index += '.google.'.length;
+				secured = secured.substr(0, index) + secured.substr(index).replace(/[^\/]+/, 'com');
+				// Remove &client=firefox-a as it causes an infinite redirect
+				// Unfortunately also means Mozilla doesn't get money for ads :(
+				window.location.href = secured.replace(/&client=firefox-a/, '');
+			}
 		}
 	 },
 	anonymizeGoogleUID: function() {
